@@ -1,20 +1,11 @@
 import "./home.css";
 import { Link } from "react-router-dom";
 import imageHome from "../../assets/imageHome.png";
+import Header from "../header/header.jsx";
 
 const Home = () => {
   return (
     <div className="home-container">
-      <header className="home-header">
-        <div className="header-content">
-          <h1 className="logo">Servily</h1>
-          <nav className="nav-links">
-            <Link to="/login">Log in</Link>
-            <Link to="/register">Register</Link>
-          </nav>
-        </div>
-      </header>
-
       <main className="home-main">
         <h2>Welcome to Servily</h2>
         <p>
