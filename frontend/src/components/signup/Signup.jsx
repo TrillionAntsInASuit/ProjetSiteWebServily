@@ -1,6 +1,6 @@
 import "./Signup.css";
 import { useContext, useState } from "react";
-import { supabase } from "../../../../backend/util/supabaseClient";
+import { supabase } from "../../../util/supabaseClient.js";
 import { AuthContext } from "../../context/auth-context.js";
 import { useNavigate } from "react-router-dom";
 

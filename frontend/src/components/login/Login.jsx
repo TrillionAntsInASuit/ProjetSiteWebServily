@@ -4,7 +4,7 @@ import "./Login.css";
 import { AuthContext } from "../../context/auth-context.js";
 import { useEffect } from "react";
 import { useHttpClient } from "../../hooks/http-hook.js";
-import { supabase } from "../../../../backend/util/supabaseClient.js";
+import { supabase } from "../../../util/supabaseClient.js";
 import USERS from "../../data/data.js";
 //import Spinner from "../UIElements/LoadingSpinner";
 import ModalMessageErreur from "../UIElements/ModalMessageErreur";
