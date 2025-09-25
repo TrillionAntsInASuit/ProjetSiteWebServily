@@ -25,19 +25,36 @@ export default function Signup() {
       return;
     }
     try {
-      const { data, error } = await supabase.from("users").insert([
+      const { data: authData, error: authError } = await supabase.auth.signUp({
+        email,
+        password,
+      });
+
+      if (authError) {
+        setError(authError.message);
+        return;
+      }
+
+      const userId = authData?.user?.id;
+
+      const { error: insertError } = await supabase.from("users").insert([
         {
+          id: userId,
           name,
           email,
-          password,
           status,
           estAbonne: false,
         },
       ]);
-      auth.login(data[0].id, "dummy-token", status);
+      if (insertError) {
+        setError("Could not save user profile.");
+        return;
+      }
+      auth.login(userId, "dummy-token", status);
       localStorage.setItem("userType", status);
       navigate("/");
     } catch (error) {
+      console.error("Signup error:", error);
       setError("Registration failed. Please try again later.");
     }
   }
