@@ -1,10 +1,7 @@
 import express from "express";
 import errorHandler from "./handler/error-handler.js";
-import { connectDB } from "./util/bd.js";
 import usersRoutes from "./routes/users-routes.js";
 import cors from "cors";
-
-await connectDB();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
