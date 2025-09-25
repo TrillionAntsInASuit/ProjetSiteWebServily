@@ -1,11 +1,16 @@
 import "./header.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../context/auth-context.js";
 
 const Header = () => {
   const { isLoggedIn, userType, logout } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    logout();
+    navigate("/", { replace: true });
+  };
   return (
     <header className="home-header">
       <div className="header-content">
@@ -17,7 +22,7 @@ const Header = () => {
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/help">Help</NavLink>
-              <button onClick={logout}>Disconnect</button>
+              <button onClick={handleLogout}>Disconnect</button>
             </>
           )}
 
@@ -29,7 +34,7 @@ const Header = () => {
               <NavLink to="/create">Create</NavLink>
               <NavLink to="/edit">Edit</NavLink>
               <NavLink to="/help">Help</NavLink>
-              <button onClick={logout}>Disconnect</button>
+              <button onClick={handleLogout}>Disconnect</button>
             </>
           )}
           {!isLoggedIn && (
