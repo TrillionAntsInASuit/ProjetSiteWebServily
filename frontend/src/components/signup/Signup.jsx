@@ -1,45 +1,45 @@
 import "./Signup.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 export default function Signup() {
   const [error, setError] = useState(null);
+  const auth = useContext(AuthContext);
   const [success, setSuccess] = useState(null);
+  const [passwordAreNotEqual, setPasswordAreNotEqual] = useState(false);
   async function handleSubmit(e) {
+    e.preventDefault();
+    setPasswordAreNotEqual(false);
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
     const confirmPassword = e.target.confirmPassword.value;
     const status = e.target.status.value;
     const estAbonne = false;
-
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      if (password !== confirmPassword) {
-        setError("Passwords do not match");
-        return;
-      }
-      try {
-        const response = await fetch(
-          "http://localhost:5000/api/users/register",
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ name, email, password, status, estAbonne }),
-          }
-        );
-        const data = await response.json();
-        if (response.ok) {
-          setSuccess(data.message);
-          setError(null);
-        } else {
-          setError(data.message);
-          setSuccess(null);
-        }
-      } catch (err) {
-        setError("An error occurred. Please try again.");
+    if (password !== confirmPassword) {
+      setPasswordAreNotEqual(true);
+      setError("Passwords do not match");
+      return;
+    } else {
+      auth.login();
+    }
+    /*try {
+      const response = await fetch("http://localhost:5000/api/users/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, password, status, estAbonne }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        setSuccess(data.message);
+        setError(null);
+      } else {
+        setError(data.message);
         setSuccess(null);
       }
-    };
+    } catch (err) {
+      setError("An error occurred. Please try again.");
+      setSuccess(null);
+    }*/
   }
   return (
     <div className="signup-container">
