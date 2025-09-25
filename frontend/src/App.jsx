@@ -6,6 +6,16 @@ import Signup from "./components/signup/Signup.jsx";
 import Login from "./components/login/Login.jsx";
 import { useCallback, useState } from "react";
 import { AuthContext } from "./context/auth-context.js";
+import Help from "./components/User/help/Help.jsx";
+import Join from "./components/User/join/Join.jsx";
+import DashboardClient from "./components/User/dashboard/Dashboard.jsx";
+import SubscribeClient from "./components/User/subscribe/Subscribe.jsx";
+import ProfileClient from "./components/User/profile/Profile.jsx";
+import DashboardEmployeur from "./components/Employeur/dashboard/Dashboard.jsx";
+import SubscribeEmployeur from "./components/Employeur/subscribe/Subscribe.jsx";
+import ProfileEmployeur from "./components/Employeur/profile/Profile.jsx";
+import Create from "./components/Employeur/create/Create.jsx";
+import Edit from "./components/Employeur/edit/Edit.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +34,11 @@ const routerLoginClient = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/subscribe" },
-      { path: "/profile" },
-      { path: "/dashboard" },
-      { path: "/help" },
-      { path: "/join/:serviceId" },
+      { path: "/", element: <DashboardClient /> },
+      { path: "/subscribe", element: <SubscribeClient /> },
+      { path: "/profile", element: <ProfileClient /> },
+      { path: "/help", element: <Help /> },
+      { path: "/join/:serviceId", element: <Join /> },
     ],
   },
 ]);
@@ -38,13 +47,12 @@ const routerLoginEmployeur = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "/" },
-      { path: "/subscribe" },
-      { path: "/profile" },
-      { path: "/dashboard" },
-      { path: "/help" },
-      { path: "/create" },
-      { path: "/edit" },
+      { path: "/", element: <DashboardEmployeur /> },
+      { path: "/subscribe", element: <SubscribeEmployeur /> },
+      { path: "/profile", element: <ProfileEmployeur /> },
+      { path: "/help", element: <Help /> },
+      { path: "/create", element: <Create /> },
+      { path: "/edit", element: <Edit /> },
     ],
   },
 ]);
