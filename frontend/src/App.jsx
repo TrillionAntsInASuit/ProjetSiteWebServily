@@ -99,7 +99,7 @@ function App() {
     } else {
       return (
         <AuthContext.Provider
-          value={{ isLoggedIn, userId, token, login, logout }}
+          value={{ isLoggedIn, userId, token, userType, login, logout }}
         >
           <RouterProvider router={routerLoginEmployeur} />
         </AuthContext.Provider>

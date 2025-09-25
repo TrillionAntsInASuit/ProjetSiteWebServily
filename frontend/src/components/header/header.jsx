@@ -18,7 +18,7 @@ const Header = () => {
         <nav className="nav-links">
           {isLoggedIn && userType === "client" && (
             <>
-              <NavLink to="/dashboard">Dashboard</NavLink>
+              <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/help">Help</NavLink>
@@ -28,7 +28,7 @@ const Header = () => {
 
           {isLoggedIn && userType === "employeur" && (
             <>
-              <NavLink to="/dashboard">Dashboard</NavLink>
+              <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/create">Create</NavLink>

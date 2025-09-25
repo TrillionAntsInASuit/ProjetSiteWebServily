@@ -62,13 +62,12 @@ export default function Login() {
         {isLoading /*&& <Spinner />*/}
         <ModalMessageErreur message={error} onClose={() => clearError()} />
       </div>
-      <form onSubmit={authSubmitHandler}>
+      <form onSubmit={authSubmitHandler} className="login-form">
         <h1>Manage Life</h1>
         <h2>Login</h2>
         <hr />
         <div className="form-group__container">
           <div className="form-group">
-            <h3>Login</h3>
             <input
               type="email"
               id="email"
