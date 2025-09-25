@@ -4,6 +4,7 @@ import "./Login.css";
 import { AuthContext } from "../../context/auth-context.js";
 import { useEffect } from "react";
 import { useHttpClient } from "../../hooks/http-hook.js";
+import { supabase } from "../../../../backend/util/supabaseClient.js";
 import USERS from "../../data/data.js";
 //import Spinner from "../UIElements/LoadingSpinner";
 import ModalMessageErreur from "../UIElements/ModalMessageErreur";
@@ -17,9 +18,9 @@ export default function Login() {
     email: "",
     password: "",
   });
+  const navigate = useNavigate();
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
 
-  const navigate = useNavigate();
   const handleInputChange = (identifier, value) => {
     setEntredValues((prevValue) => ({
       ...prevValue,
@@ -35,32 +36,25 @@ export default function Login() {
 
   const authSubmitHandler = async (event) => {
     event.preventDefault();
-    const foundUser = USERS.find(
-      (user) =>
-        user.email === entredValues.email &&
-        user.password === entredValues.password
-    );
-    if (foundUser) {
-      auth.login();
-      localStorage.setItem("userType", foundUser.status);
+    try {
+      const { data, error } = await supabase
+        .from("users")
+        .select("*")
+        .eq("email", entredValues.email)
+        .eq("password", entredValues.password);
+      if (error || !data || data.length === 0) {
+        alert("Invalid email or password");
+        return;
+      }
+      const loggedInUser = data[0];
+      auth.login(loggedInUser.id, "dummy-token", loggedInUser.status);
+      localStorage.setItem("userId", loggedInUser.id);
+      localStorage.setItem("token", "dummy-token");
+      localStorage.setItem("userType", loggedInUser.status);
       navigate("/");
-    } else {
-      alert("Invalid email or password");
+    } catch (error) {
+      console.error("Login failed:", error);
     }
-
-    /*try {
-      const response = await sendRequest(
-        import.meta.env.VITE_BACKEND_URL + "users/",
-        "POST",
-        JSON.stringify(entredValues),
-        {
-          "Content-Type": "application/json", //pour que le bodyParser sache comment faire le parse
-        }
-      );
-      auth.login(response.userId, response.token);
-    } catch (err) {
-      console.error(err);
-    }*/
   };
   return (
     <>

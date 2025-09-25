@@ -1,11 +1,15 @@
 import "./Signup.css";
 import { useContext, useState } from "react";
+import { supabase } from "../../../../backend/util/supabaseClient";
+import { AuthContext } from "../../context/auth-context.js";
+import { useNavigate } from "react-router-dom";
 
 export default function Signup() {
   const [error, setError] = useState(null);
   const auth = useContext(AuthContext);
   const [success, setSuccess] = useState(null);
   const [passwordAreNotEqual, setPasswordAreNotEqual] = useState(false);
+  const navigate = useNavigate();
   async function handleSubmit(e) {
     e.preventDefault();
     setPasswordAreNotEqual(false);
@@ -19,27 +23,23 @@ export default function Signup() {
       setPasswordAreNotEqual(true);
       setError("Passwords do not match");
       return;
-    } else {
-      auth.login();
     }
-    /*try {
-      const response = await fetch("http://localhost:5000/api/users/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, password, status, estAbonne }),
-      });
-      const data = await response.json();
-      if (response.ok) {
-        setSuccess(data.message);
-        setError(null);
-      } else {
-        setError(data.message);
-        setSuccess(null);
-      }
-    } catch (err) {
-      setError("An error occurred. Please try again.");
-      setSuccess(null);
-    }*/
+    try {
+      const { data, error } = await supabase.from("users").insert([
+        {
+          name,
+          email,
+          password,
+          status,
+          estAbonne: false,
+        },
+      ]);
+      auth.login(data[0].id, "dummy-token", status);
+      localStorage.setItem("userType", status);
+      navigate("/");
+    } catch (error) {
+      setError("Registration failed. Please try again later.");
+    }
   }
   return (
     <div className="signup-container">

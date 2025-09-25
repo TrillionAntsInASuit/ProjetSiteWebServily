@@ -36,12 +36,45 @@
   position: relative;
   top: 4rem;
 }
+.nav-links button {
+  background: none;
+  border: none;
+  color: #681c58;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.nav-links button::after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #6a5acd;
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-links button:hover::after,
+.nav-links button:active::after {
+  width: 100%;
+  left: 50%;
+}
+
+.nav-links button:hover {
+  color: #bd2a2a;
+}
 
 .nav-links {
   display: flex;
   gap: 24px;
 }
-
 .nav-links a {
   position: relative;
   border: 1px solid transparent;
@@ -54,6 +87,7 @@
   transition: color 0.2s ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links button:hover {
   color: #bd2a2a;
 }
