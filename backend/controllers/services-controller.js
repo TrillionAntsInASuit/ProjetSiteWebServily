@@ -3,9 +3,9 @@ import HttpError from "../util/http-error.js";
 
 const createService = async (req, res, next) => {
   try {
-    const { name, nbMembres, maxMembres, creatorId, type } = req.body;
+    const { name, nbMembres, maxMembres, description, creatorId, type } = req.body;
 
-    if (!name || !nbMembres || !maxMembres || !creatorId || !type) {
+    if (!name || !nbMembres || !maxMembres || description || !creatorId || !type) {
       return next(new HttpError("Données manquantes.", 422));
     }
 
@@ -31,6 +31,7 @@ const createService = async (req, res, next) => {
           name,
           nbMembres: 0,
           maxMembres,
+          description,
           creatorId,
           type,
         },
@@ -53,9 +54,9 @@ const createService = async (req, res, next) => {
 
 const updateService = async (req, res, next) => {
   try {
-    const { name, nbMembres, maxMembres, creatorId, type } = req.body;
+    const { name, nbMembres, maxMembres, description, creatorId, type } = req.body;
 
-    if (!name || !nbMembres || !maxMembres || !creatorId || !type) {
+    if (!name || !nbMembres || !maxMembres || description || !creatorId || !type) {
       return next(new HttpError("Données manquantes.", 422));
     }
 
@@ -80,6 +81,7 @@ const updateService = async (req, res, next) => {
         name,
         nbMembres,
         maxMembres,
+        description,
         creatorId,
         type,
       })
