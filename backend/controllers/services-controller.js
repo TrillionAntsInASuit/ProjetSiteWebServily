@@ -1,11 +1,34 @@
 import { supabase } from "../util/supabaseClient";
 import HttpError from "../util/http-error.js";
 
+const getServices = async (req, res, next) => {
+  try {
+    const { data, error } = await supabase.from("services").select("*");
+
+    if (error) {
+      console.error("Supabase select error:", error);
+      return next(new HttpError("Erreur de base de données.", 500));
+    }
+
+    res.json(data);
+  } catch (err) {
+    return next(new HttpError("Get service failed.", 500));
+  }
+};
+
 const createService = async (req, res, next) => {
   try {
-    const { name, nbMembres, maxMembres, description, creatorId, type } = req.body;
+    const { name, nbMembres, maxMembres, description, creatorId, type } =
+      req.body;
 
-    if (!name || !nbMembres || !maxMembres || description || !creatorId || !type) {
+    if (
+      !name ||
+      !nbMembres ||
+      !maxMembres ||
+      !description ||
+      !creatorId ||
+      !type
+    ) {
       return next(new HttpError("Données manquantes.", 422));
     }
 
@@ -54,9 +77,17 @@ const createService = async (req, res, next) => {
 
 const updateService = async (req, res, next) => {
   try {
-    const { name, nbMembres, maxMembres, description, creatorId, type } = req.body;
+    const { name, nbMembres, maxMembres, description, creatorId, type } =
+      req.body;
 
-    if (!name || !nbMembres || !maxMembres || description || !creatorId || !type) {
+    if (
+      !name ||
+      !nbMembres ||
+      !maxMembres ||
+      !description ||
+      !creatorId ||
+      !type
+    ) {
       return next(new HttpError("Données manquantes.", 422));
     }
 
@@ -129,6 +160,7 @@ const deleteService = async (req, res, next) => {
 };
 
 export default {
+  getServices,
   createService,
   updateService,
   deleteService,
