@@ -62,43 +62,44 @@ export default function Login() {
         {isLoading /*&& <Spinner />*/}
         <ModalMessageErreur message={error} onClose={() => clearError()} />
       </div>
-      <form onSubmit={authSubmitHandler} className="login-form">
-        <h1>Manage Life</h1>
+      <div className="signup-container">
         <h2>Login</h2>
         <hr />
-        <div className="form-group__container">
-          <div className="form-group">
-            <input
-              type="email"
-              id="email"
-              required
-              placeholder="Email..."
-              onChange={(event) =>
-                handleInputChange("email", event.target.value)
-              }
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="password"
-              id="password"
-              required
-              placeholder="Password..."
-              onChange={(event) =>
-                handleInputChange("password", event.target.value)
-              }
-            />
-          </div>
+        <form onSubmit={authSubmitHandler} className="login-form">
+          <div className="form-group__container">
+            <div className="form-group">
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="Email..."
+                onChange={(event) =>
+                  handleInputChange("email", event.target.value)
+                }
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="password"
+                id="password"
+                required
+                placeholder="Password..."
+                onChange={(event) =>
+                  handleInputChange("password", event.target.value)
+                }
+              />
+            </div>
 
-          <button type="submit" className="button-login">
-            Login
-          </button>
-        </div>
-        <p>
-          No account? <Link to="/register">Register</Link>
-        </p>
-        {/* <LanguageSwitcher /> */}
-      </form>
+            <button type="submit" className="button-login">
+              Login
+            </button>
+          </div>
+          <p>
+            No account? <Link to="/register">Register</Link>
+          </p>
+          {/* <LanguageSwitcher /> */}
+        </form>
+      </div>
     </>
   );
 }
