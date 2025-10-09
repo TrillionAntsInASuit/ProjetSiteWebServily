@@ -63,8 +63,8 @@ export default function Login() {
         <ModalMessageErreur message={error} onClose={() => clearError()} />
       </div>
       <form onSubmit={authSubmitHandler} className="login-form">
-        <h1>Manage Life</h1>
-        <h2>Login</h2>
+        <h1>Login</h1>
+        <h2>Welcome back!</h2>
         <hr />
         <div className="form-group__container">
           <div className="form-group">

@@ -14,10 +14,11 @@ const Header = () => {
   return (
     <header className="home-header">
       <div className="header-content">
-        <h1 className="logo">Servily</h1>
+        <NavLink to="/"><h1 className="logo">Servily</h1></NavLink>
         <nav className="nav-links">
           {isLoggedIn && userType === "client" && (
             <>
+              <NavLink to="/services">Services</NavLink>
               <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
@@ -28,6 +29,7 @@ const Header = () => {
 
           {isLoggedIn && userType === "employeur" && (
             <>
+              <NavLink to="/services">Services</NavLink>
               <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
@@ -39,9 +41,10 @@ const Header = () => {
           )}
           {!isLoggedIn && (
             <>
-              <NavLink to="/">Home</NavLink>
               <NavLink to="/login">Login</NavLink>
               <NavLink to="/register">Register</NavLink>
+              <NavLink to="/help">Help</NavLink>
+
             </>
           )}
         </nav>

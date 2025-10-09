@@ -25,9 +25,22 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+
+  animation: backgroundColorShift 5s infinite alternate;
+  animation-timing-function: ease-in-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f0f1e;
+  color: #e0e0e0;
+
 }
 
 h1 {
@@ -63,5 +76,17 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@keyframes backgroundColorShift {
+  0% {
+    background-color: #582c56;
+  }
+  50% {
+    background-color: #4b1442;
+  }
+  100% {
+    background-color: #3b0332;
   }
 }
