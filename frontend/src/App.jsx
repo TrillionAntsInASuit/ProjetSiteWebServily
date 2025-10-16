@@ -40,7 +40,7 @@ const routerLoginClient = createBrowserRouter([
       { path: "/profile", element: <ProfileClient /> },
       { path: "/help", element: <Help /> },
       {path: "/services", element: <Services /> },
-      { path: "/join/:serviceId", element: <Join /> },
+      {path: "/:serviceId" },
     ],
   },
 ]);

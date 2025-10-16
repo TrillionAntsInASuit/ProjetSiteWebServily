@@ -54,8 +54,8 @@ export default function Services() {
             } else {
               alert("Successfully joined the service!");
               getServices();
+            }
           }
-        }
 
           return (
             <div key={service.id} className="service-card">
