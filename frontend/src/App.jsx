@@ -16,6 +16,7 @@ import SubscribeEmployeur from "./components/Employeur/subscribe/Subscribe.jsx";
 import ProfileEmployeur from "./components/Employeur/profile/Profile.jsx";
 import Create from "./components/Employeur/create/Create.jsx";
 import Edit from "./components/Employeur/edit/Edit.jsx";
+import Services from "./components/Services/Services.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,7 @@ const routerLoginClient = createBrowserRouter([
       { path: "/subscribe", element: <SubscribeClient /> },
       { path: "/profile", element: <ProfileClient /> },
       { path: "/help", element: <Help /> },
+      {path: "/services", element: <Services /> },
       { path: "/join/:serviceId", element: <Join /> },
     ],
   },
@@ -52,6 +54,7 @@ const routerLoginEmployeur = createBrowserRouter([
       { path: "/profile", element: <ProfileEmployeur /> },
       { path: "/help", element: <Help /> },
       { path: "/create", element: <Create /> },
+      {path: "/services", element: <Services /> },
       { path: "/edit", element: <Edit /> },
     ],
   },
