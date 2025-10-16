@@ -55,7 +55,7 @@ const routerLoginEmployeur = createBrowserRouter([
       { path: "/help", element: <Help /> },
       { path: "/create", element: <Create /> },
       {path: "/services", element: <Services /> },
-      { path: "/edit", element: <Edit /> },
+      { path: "/edit/:serviceId", element: <Edit /> },
     ],
   },
 ]);

@@ -34,7 +34,6 @@ const Header = () => {
               <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/create">Create</NavLink>
-              <NavLink to="/edit">Edit</NavLink>
               <NavLink to="/help">Help</NavLink>
               <button onClick={handleLogout}>Disconnect</button>
             </>
