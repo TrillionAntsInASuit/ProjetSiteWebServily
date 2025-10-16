@@ -33,8 +33,29 @@ export default function Services() {
       <h1>Available Services</h1>
       <div className="services-list">
         {services.map((service) => {
-          const percentage = (service.nbMembres / service.maxMembres) * 100;
-          const isFull = service.nbMembres >= service.maxMembres;
+          const percentage = (service.nb_membres / service.maxMembres) * 100;
+          const isFull = service.nb_membres >= service.maxMembres;
+          const handleJoin = async () => {
+            const userId = localStorage.getItem("userId");
+
+            const { error } = await supabase
+              .from("serviceMembres")
+              .insert([
+                {
+                  userId: userId,
+                  service_id: service.id
+                }
+              ]);
+            
+            if (error) {
+              console.error("Error joining service:", error.message);
+              alert("Failed to join the service. Please try again.");
+              console.error("Service object:", service);
+            } else {
+              alert("Successfully joined the service!");
+              getServices();
+          }
+        }
 
           return (
             <div key={service.id} className="service-card">
@@ -43,7 +64,7 @@ export default function Services() {
               
               <div className="members-info">
                 <span className="members-count">
-                  <strong>{service.nbMembres}</strong> / {service.maxMembres}
+                  <strong>{service.nb_membres}</strong> / {service.maxMembres}
                 </span>
               </div>
 
@@ -55,6 +76,11 @@ export default function Services() {
               </div>
 
               {isFull && <span className="full-badge">Full</span>}
+            {localStorage.getItem("userRole") === "employeur" ? (
+              <button className="joinBtn" disabled>Join</button>
+            ) : (
+              <button className="joinBtn" disabled={isFull} onClick={handleJoin}>Join</button>
+            )}
             </div>
           );
         })}
