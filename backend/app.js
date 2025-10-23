@@ -2,20 +2,23 @@ import express from "express";
 import errorHandler from "./handler/error-handler.js";
 import usersRoutes from "./routes/users-routes.js";
 import cors from "cors";
-
+import dotenv from "dotenv";
+import { createCheckoutSession } from "./routes/stripe.js";
 const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   "projet-site-web-servily-h30x4ui6x-trillionantsinasuits-projects.vercel.app",
+  "http://localhost:5173",
 ];
 app.use(express.json());
-
+dotenv.config();
 app.use(
   cors({
     origin: allowedOrigins,
     credentials: true,
   })
 );
+app.post('/create-checkout-session', createCheckoutSession);
 
 app.use("/api/users", usersRoutes);
 
