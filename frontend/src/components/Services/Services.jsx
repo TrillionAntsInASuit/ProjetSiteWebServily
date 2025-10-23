@@ -77,7 +77,7 @@ export default function Services() {
 
               {isFull && <span className="full-badge">Full</span>}
             {localStorage.getItem("userType") === "client" ? (
-              <button className="joinBtn">Join</button>
+              <button className="joinBtn" onClick={handleJoin}>Join</button>
             ) : (
               <button className="joinBtn" disabled={isFull} >siuuu</button>
             )}
