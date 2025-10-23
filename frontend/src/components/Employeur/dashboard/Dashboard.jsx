@@ -34,8 +34,8 @@ const DashboardEmployeur = () => {
           <h1>Available Services</h1>
           <div className="services-list">
             {services.map((service) => {
-              const percentage = (service.nbMembres / service.maxMembres) * 100;
-              const isFull = service.nbMembres >= service.maxMembres;
+              const percentage = (service.nb_membres / service.maxMembres) * 100;
+              const isFull = service.nb_membres >= service.maxMembres;
 
               const handleDelete = async () => {
                 const confirmDelete = window.confirm("Es-tu sûr de vouloir effacer ce service?");
@@ -62,7 +62,7 @@ const DashboardEmployeur = () => {
                   
                   <div className="members-info">
                     <span className="members-count">
-                      <strong>{service.nbMembres}</strong> / {service.maxMembres}
+                      <strong>{service.nb_membres}</strong> / {service.maxMembres}
                     </span>
                   </div>
     

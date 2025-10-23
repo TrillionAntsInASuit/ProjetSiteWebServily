@@ -76,10 +76,10 @@ export default function Services() {
               </div>
 
               {isFull && <span className="full-badge">Full</span>}
-            {localStorage.getItem("userRole") === "employeur" ? (
-              <button className="joinBtn" disabled>Join</button>
+            {localStorage.getItem("userType") === "client" ? (
+              <button className="joinBtn">Join</button>
             ) : (
-              <button className="joinBtn" disabled={isFull} onClick={handleJoin}>Join</button>
+              <button className="joinBtn" disabled={isFull} >siuuu</button>
             )}
             </div>
           );
