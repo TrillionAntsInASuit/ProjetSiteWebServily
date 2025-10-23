@@ -74,7 +74,7 @@ const DashboardEmployeur = () => {
                   </div>
     
                   {isFull && <span className="full-badge">Full</span>}
-                  <Link to={`/edit/${service.id}`}><button class="editBtn">Edit</button></Link>
+                  <Link to={`/edit/${service.id}`}><button className="editBtn">Edit</button></Link>
                   <button className="deleteBtn" onClick={handleDelete}>Delete</button>
                 </div>
               );
