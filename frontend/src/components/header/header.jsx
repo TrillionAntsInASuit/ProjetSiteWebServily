@@ -20,7 +20,6 @@ const Header = () => {
             <>
               <NavLink to="/services">Services</NavLink>
               <NavLink to="/">Dashboard</NavLink>
-              <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/help">Help</NavLink>
               <button onClick={handleLogout}>Disconnect</button>
@@ -31,7 +30,6 @@ const Header = () => {
             <>
               <NavLink to="/services">Services</NavLink>
               <NavLink to="/">Dashboard</NavLink>
-              <NavLink to="/profile">Profile</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/create">Create</NavLink>
               <NavLink to="/help">Help</NavLink>

@@ -37,7 +37,6 @@ const routerLoginClient = createBrowserRouter([
     children: [
       { path: "/", element: <DashboardClient /> },
       { path: "/subscribe", element: <SubscribeClient /> },
-      { path: "/profile", element: <ProfileClient /> },
       { path: "/help", element: <Help /> },
       {path: "/services", element: <Services /> },
       {path: "/:serviceId" },
@@ -51,7 +50,6 @@ const routerLoginEmployeur = createBrowserRouter([
     children: [
       { path: "/", element: <DashboardEmployeur /> },
       { path: "/subscribe", element: <SubscribeEmployeur /> },
-      { path: "/profile", element: <ProfileEmployeur /> },
       { path: "/help", element: <Help /> },
       { path: "/create", element: <Create /> },
       {path: "/services", element: <Services /> },
