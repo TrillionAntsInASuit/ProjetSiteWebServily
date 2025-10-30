@@ -9,35 +9,38 @@ const SubscribeClient = () => {
       name: "Membership",
       price: "$9.99",
       priceId: "price_1SLTFyE9u0y3XuLvracqlHZ6",
-      features: [
-        "Join unlimited jobs",
-        "Priority customer support",
-      ],
+      features: ["Join unlimited jobs", "Priority customer support"],
     },
   ];
-  
+
   useEffect(() => {
     const getUser = async () => {
-      const { data } = await supabase.from("users").select("*").eq("id", localStorage.getItem("userId")).single();
+      const { data } = await supabase
+        .from("users")
+        .select("*")
+        .eq("id", localStorage.getItem("userId"))
+        .single();
       setUser(data);
     };
     getUser();
   }, []);
-  
+
   const handleSubscribe = async (priceId) => {
     console.log("1. Starting subscribe with priceId:", priceId);
     try {
-      const response = await fetch("https://backend-9bwv0ub5w-trillionantsinasuits-projects.vercel.app/create-checkout-session", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          priceId,
-        userId: localStorage.getItem("userId"),
-
-        }),
-      });
+      const response = await fetch(
+        "https://backend-97sou220s-trillionantsinasuits-projects.vercel.app/create-checkout-session",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            priceId,
+            userId: localStorage.getItem("userId"),
+          }),
+        }
+      );
       console.log("2. Response received:", response);
       console.log("3. Response status:", response.status);
       if (!response.ok) {
@@ -57,7 +60,7 @@ const SubscribeClient = () => {
       alert("Error: " + error.message);
     }
   };
-  
+
   return (
     <div className="subscribe">
       <h1>Subscribe</h1>
@@ -65,7 +68,9 @@ const SubscribeClient = () => {
         <h2>{plans[0].name}</h2>
         <p className="price">{plans[0].price}</p>
         <p className="price-period">per month</p>
-        <button onClick={() => handleSubscribe(plans[0].priceId)}>Subscribe Now</button>
+        <button onClick={() => handleSubscribe(plans[0].priceId)}>
+          Subscribe Now
+        </button>
       </div>
     </div>
   );

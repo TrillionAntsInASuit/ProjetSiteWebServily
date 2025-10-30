@@ -12,26 +12,25 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "https://projet-site-web-servily.vercel.app",
+  "https://backend-nine-flame-59.vercel.app",
   "http://localhost:5173",
 ];
-
-// CORS first for all routes EXCEPT webhook
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true,
-}));
-
-// Webhook with raw body
-app.post('/webhook', 
-  express.raw({ type: 'application/json' }), 
+app.post(
+  "/webhook",
+  express.raw({ type: "application/json" }),
   handleStripeWebhook
 );
 
 // JSON parsing for other routes
 app.use(express.json());
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
 
-// Routes
-app.post('/create-checkout-session', createCheckoutSession);
+app.post("/create-checkout-session", createCheckoutSession);
 
 app.use("/api/users", usersRoutes);
 
