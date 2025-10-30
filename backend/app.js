@@ -16,16 +16,10 @@ const allowedOrigins = [
 ];
 
 // CORS first for all routes EXCEPT webhook
-app.use((req, res, next) => {
-  if (req.path === '/webhook') {
-    next();
-  } else {
-    cors({
-      origin: allowedOrigins,
-      credentials: true,
-    })(req, res, next);
-  }
-});
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
 
 // Webhook with raw body
 app.post('/webhook', 
