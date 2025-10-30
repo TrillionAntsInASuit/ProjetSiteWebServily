@@ -10,10 +10,12 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   "https://projet-site-web-servily.vercel.app",
+  "https://backend-nine-flame-59.vercel.app",
   "http://localhost:5173",
 ];
-app.post('/webhook', 
-  express.raw({ type: 'application/json' }), 
+app.post(
+  "/webhook",
+  express.raw({ type: "application/json" }),
   handleStripeWebhook
 );
 app.use(express.json());
@@ -24,7 +26,7 @@ app.use(
   })
 );
 
-app.post('/create-checkout-session', createCheckoutSession);
+app.post("/create-checkout-session", createCheckoutSession);
 
 app.use("/api/users", usersRoutes);
 
