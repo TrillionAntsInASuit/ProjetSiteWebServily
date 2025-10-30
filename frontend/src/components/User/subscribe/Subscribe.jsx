@@ -27,7 +27,7 @@ const SubscribeClient = () => {
   const handleSubscribe = async (priceId) => {
     console.log("1. Starting subscribe with priceId:", priceId);
     try {
-      const response = await fetch("https://backend-97sou220s-trillionantsinasuits-projects.vercel.app/create-checkout-session", {
+      const response = await fetch("https://backend-djqmoo7y5-trillionantsinasuits-projects.vercel.app/create-checkout-session", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
