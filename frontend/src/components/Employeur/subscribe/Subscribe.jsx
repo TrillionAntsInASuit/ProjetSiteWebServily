@@ -29,7 +29,7 @@ const SubscribeEmployeur = () => {
   console.log("1. Starting subscribe with priceId:", priceId);
   
   try {
-    const response = await fetch("http://localhost:5000/create-checkout-session", {
+    const response = await fetch("https://jqzikfdhreitzpzfofsj.supabase.co/create-checkout-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
