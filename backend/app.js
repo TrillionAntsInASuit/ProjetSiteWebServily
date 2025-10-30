@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
-  "projet-site-web-servily-h30x4ui6x-trillionantsinasuits-projects.vercel.app",
+  "https://projet-site-web-servily.vercel.app",
   "http://localhost:5173",
 ];
 app.post('/webhook', 
