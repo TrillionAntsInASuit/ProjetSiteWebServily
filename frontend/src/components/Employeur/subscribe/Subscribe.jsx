@@ -70,6 +70,31 @@ const SubscribeEmployeur = () => {
     }
   };
 
+
+const testBackend = async () => {
+  try {
+    const response = await fetch(
+      "https://backend-3hpxq63ak-trillionantsinasuits-projects.vercel.app/create-checkout-session",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          priceId: "test_price_id",
+          userId: "test_user_id",
+        }),
+      }
+    );
+
+    const text = await response.text();
+    console.log("✅ Backend response:", text);
+    alert("Response status: " + response.status);
+  } catch (error) {
+    console.error("❌ Fetch error:", error);
+    alert("Error: " + error.message);
+  }
+};
   return (
     <div className="subscribe">
       <h1>Subscribe</h1>
@@ -80,6 +105,7 @@ const SubscribeEmployeur = () => {
         <button onClick={() => handleSubscribe(plans[0].priceId)}>
           Subscribe Now
         </button>
+        <button onClick={testBackend}>Test Backend</button>
       </div>
     </div>
   );

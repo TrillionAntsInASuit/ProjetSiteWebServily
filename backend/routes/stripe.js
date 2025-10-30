@@ -5,7 +5,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export const createCheckoutSession = async (req, res, next) => {
   try {
-    const { priceId, userId } = req.body;
+    const { priceId, userId } = req.body; 
     
     console.log("Received priceId:", priceId); // Debug log
     console.log("Stripe key exists:", !!process.env.STRIPE_SECRET_KEY); // Debug log
