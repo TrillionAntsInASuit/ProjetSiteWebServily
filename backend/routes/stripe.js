@@ -5,6 +5,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export const createCheckoutSession = async (req, res, next) => {
   try {
+    console.log("Received priceId:", req.body.priceId);
     const { priceId, userId } = req.body; 
     
     console.log("Received priceId:", priceId); // Debug log
@@ -19,8 +20,8 @@ export const createCheckoutSession = async (req, res, next) => {
           quantity: 1,
         },
       ],
-      success_url: 'https://projetwebservily-hicq.vercel.app/',
-      cancel_url: 'https://projetwebservily-hicq.vercel.app//subscribe',
+      success_url: 'https://projetwebservily-hicq.vercel.app',
+      cancel_url: 'https://projetwebservily-hicq.vercel.app/subscribe',
       metadata: {
     userId: userId
   }
@@ -34,6 +35,7 @@ export const createCheckoutSession = async (req, res, next) => {
   }
 };
 export const handleStripeWebhook = async (req, res) => {
+  console.log("Webhook received with signature:", req.headers["stripe-signature"]);
   const sig = req.headers['stripe-signature'];
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
   

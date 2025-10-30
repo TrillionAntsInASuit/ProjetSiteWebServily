@@ -6,13 +6,14 @@ import dotenv from "dotenv";
 import { createCheckoutSession, handleStripeWebhook } from "./routes/stripe.js";
 
 dotenv.config();
-
+console.log("✅ App starting...");
+console.log("Stripe key:", process.env.STRIPE_SECRET_KEY);
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "https://projetwebservily-hicq.vercel.app",
-  "https://backend-nine-flame-59.vercel.app",
+  "https://projetwebservily-jm56.vercel.app",
   "http://localhost:5173",
 ];
 

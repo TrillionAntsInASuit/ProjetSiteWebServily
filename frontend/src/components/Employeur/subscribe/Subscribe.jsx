@@ -33,7 +33,7 @@ const SubscribeEmployeur = () => {
 
     try {
       const response = await fetch(
-        "https://backend-nine-flame-59.vercel.app/create-checkout-session",
+        "https://projetwebservily-jm56.vercel.app/create-checkout-session",
         {
           method: "POST",
           headers: {
