@@ -36,7 +36,7 @@ const ServiceTypeList = ({ onSelect }) => {
         <select
             value={selected}
             onChange={handleChange}
-            style={{ border: '1px solid #ccc', maxWidth: 300, padding: 8 }}
+            style={{ border: '1px solid #ccc', maxWidth: 1000, padding: 8 }}
             aria-label="Service Types"
         >
             <option value="" disabled>Choisissez un type de service</option>

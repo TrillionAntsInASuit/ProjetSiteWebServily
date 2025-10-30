@@ -39,31 +39,31 @@ const Create = () => {
     }
   }
   return (
-    <div>
-      <h1>Create Listing</h1>
-      <form onSubmit={handleSubmit} className="addService-form">
-        <div className="form-group">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div className="form-group">
-          <label htmlFor="maxMembres">Number of members allowed:</label>
-          <input type="text" id="maxMembres" name="maxMembres" required />
-        </div>
-        <div className="form-group">
-          <label htmlFor="type">Type of service:</label>
-          <ServiceTypeList onSelect={(value) => setServiceType(value)} />
-        </div>
-        <div className="form-group">
-          <label htmlFor="description">Description:</label>
-          <textarea id="description" name="description" required />
-        </div>
-        <div className="form-group">
-          <button type="submit">Register</button>
-          {error && <p className="error-message">{error}</p>}
-        </div>
-      </form>
+
+    <div className="form-container">
+  <h1>Create Listing</h1>
+  <form onSubmit={handleSubmit} className="addService-form">
+    <div className="form-field">
+      <label htmlFor="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
     </div>
+    <div className="form-field">
+      <label htmlFor="maxMembres">Number of members allowed:</label>
+      <input type="text" id="maxMembres" name="maxMembres" required />
+    </div>
+    <div className="form-field">
+      <label htmlFor="type">Type of service:</label>
+      <ServiceTypeList onSelect={(value) => setServiceType(value)}/>
+    </div>
+    <div className="form-field">
+      <label htmlFor="description">Description:</label>
+      <textarea id="description" name="description" required />
+    </div>
+    <button type="submit">Register</button>
+    {error && <p className="error-message">{error}</p>}
+  </form>
+</div>
   );
 };
 
