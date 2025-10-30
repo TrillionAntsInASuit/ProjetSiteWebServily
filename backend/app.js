@@ -15,20 +15,22 @@ const allowedOrigins = [
   "https://backend-nine-flame-59.vercel.app",
   "http://localhost:5173",
 ];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 app.post(
   "/webhook",
   express.raw({ type: "application/json" }),
   handleStripeWebhook
 );
-
 // JSON parsing for other routes
 app.use(express.json());
-app.use(
-  cors({
-    origin: allowedOrigins,
-    credentials: true,
-  })
-);
 
 app.post("/create-checkout-session", createCheckoutSession);
 
