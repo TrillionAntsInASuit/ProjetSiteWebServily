@@ -16,13 +16,14 @@ app.post('/webhook',
   express.raw({ type: 'application/json' }), 
   handleStripeWebhook
 );
-app.use(express.json());
 app.use(
   cors({
     origin: allowedOrigins,
     credentials: true,
   })
 );
+app.use(express.json());
+
 
 app.post('/create-checkout-session', createCheckoutSession);
 
