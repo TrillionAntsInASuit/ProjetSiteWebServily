@@ -69,9 +69,11 @@ const SubscribeEmployeur = () => {
       <h1>Subscribe</h1>
       <div className="subscribe-box">
         <h2>{plans[0].name}</h2>
-        <p className="price">{plans[0].price} / month</p>
-        
-        <button onClick={()=>handleSubscribe(plans[0].priceId)}>Subscribe Now</button>
+        <p className="price">{plans[0].price}</p>
+        <p className="price-period">per month</p>
+        <button onClick={() => handleSubscribe(plans[0].priceId)}>
+          Subscribe Now
+        </button>
       </div>
     </div>
   );
