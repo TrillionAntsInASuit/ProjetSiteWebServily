@@ -9,8 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": ".",
   "dependencies": {
     "@stripe/stripe-js": "^8.1.0",
+
     "@supabase/supabase-js": "^2.77.0",
     "lucide-react": "^0.546.0",
     "react": "^19.1.1",
