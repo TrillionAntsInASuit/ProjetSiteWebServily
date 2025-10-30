@@ -19,8 +19,8 @@ export const createCheckoutSession = async (req, res, next) => {
           quantity: 1,
         },
       ],
-      success_url: 'https://projet-site-web-servily.vercel.app/',
-      cancel_url: 'https://projet-site-web-servily.vercel.app/subscribe',
+      success_url: 'https://projetwebservily-hicq.vercel.app/',
+      cancel_url: 'https://projetwebservily-hicq.vercel.app//subscribe',
       metadata: {
     userId: userId
   }

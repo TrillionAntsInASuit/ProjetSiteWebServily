@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
-  "https://projet-site-web-servily.vercel.app",
+  "https://projetwebservily-hicq.vercel.app",
   "https://backend-nine-flame-59.vercel.app",
   "http://localhost:5173",
 ];
