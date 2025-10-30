@@ -29,6 +29,25 @@ app.post(
   express.raw({ type: "application/json" }),
   handleStripeWebhook
 );
+
+app.options("*", (req, res) => {
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://projet-site-web-servily.vercel.app"
+  );
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.status(200).end();
+});
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 // JSON parsing for other routes
 app.use(express.json());
 
