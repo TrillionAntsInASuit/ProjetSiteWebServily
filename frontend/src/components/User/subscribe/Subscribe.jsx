@@ -33,7 +33,9 @@ const SubscribeClient = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          priceId
+          priceId,
+        userId: localStorage.getItem("userId"),
+
         }),
       });
       console.log("2. Response received:", response);
@@ -54,7 +56,7 @@ const SubscribeClient = () => {
       console.error("Error creating checkout session:", error);
       alert("Error: " + error.message);
     }
-  }; // Close handleSubscribe here
+  };
   
   return (
     <div className="subscribe">

@@ -18,7 +18,6 @@ const DashboardEmployeur = () => {
         }
         setServices(data || []);
         setLoading(false);
-        console.log(data);
       };
     
       if (loading) {

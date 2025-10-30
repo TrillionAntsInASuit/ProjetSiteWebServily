@@ -35,7 +35,8 @@ const SubscribeEmployeur = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        priceId
+        priceId,
+        userId: localStorage.getItem("userId"),
       }),
     });
     
