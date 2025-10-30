@@ -38,30 +38,43 @@ export default function Services() {
           const handleJoin = async () => {
             const userId = localStorage.getItem("userId");
 
-            const { error } = await supabase
+            const { data: auMoinsUnService } = await supabase
               .from("serviceMembres")
-              .insert([
+              .select("*")
+              .eq("userId", userId);
+
+            const { data: estAbonne } = await supabase
+              .from("users")
+              .select("estAbonne")
+              .eq("id", userId)
+              .single();
+
+            if (auMoinsUnService.length === 0 || estAbonne.estAbonne) {
+              const { error } = await supabase.from("serviceMembres").insert([
                 {
                   userId: userId,
-                  service_id: service.id
-                }
+                  service_id: service.id,
+                },
               ]);
-            
-            if (error) {
-              console.error("Error joining service:", error.message);
-              alert("Failed to join the service. Please try again.");
-              console.error("Service object:", service);
+
+              if (error) {
+                console.error("Error joining service:", error.message);
+                alert("Failed to join the service. Please try again.");
+                console.error("Service object:", service);
+              } else {
+                alert("Successfully joined the service!");
+                getServices();
+              }
             } else {
-              alert("Successfully joined the service!");
-              getServices();
+              alert("Tu dois être abonné pour rejoindre à plus qu'un service.");
             }
-          }
+          };
 
           return (
             <div key={service.id} className="service-card">
               <h2>{service.name}</h2>
               <p className="service-type">Type: {service.type}</p>
-              
+
               <div className="members-info">
                 <span className="members-count">
                   <strong>{service.nb_membres}</strong> / {service.maxMembres}
@@ -70,17 +83,21 @@ export default function Services() {
 
               <div className="progress-bar-container">
                 <div
-                  className={`progress-bar ${isFull ? 'full' : ''}`}
+                  className={`progress-bar ${isFull ? "full" : ""}`}
                   style={{ width: `${percentage}%` }}
                 />
               </div>
 
               {isFull && <span className="full-badge">Full</span>}
-            {localStorage.getItem("userType") === "client" ? (
-              <button className="joinBtn" onClick={handleJoin}>Join</button>
-            ) : (
-              <button className="joinBtn" disabled={isFull} >siuuu</button>
-            )}
+              {localStorage.getItem("userType") === "client" ? (
+                <button className="joinBtn" onClick={handleJoin}>
+                  Join
+                </button>
+              ) : (
+                <button className="joinBtn" disabled={isFull}>
+                  siuuu
+                </button>
+              )}
             </div>
           );
         })}
