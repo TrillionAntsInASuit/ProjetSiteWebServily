@@ -29,7 +29,7 @@ const SubscribeClient = () => {
     console.log("1. Starting subscribe with priceId:", priceId);
     try {
       const response = await fetch(
-                "https://projetwebservily-jm56.vercel.app/create-checkout-session",
+                "https://prjetwebbackend.vercel.app/create-checkout-session",
         {
           method: "POST",
           headers: {
