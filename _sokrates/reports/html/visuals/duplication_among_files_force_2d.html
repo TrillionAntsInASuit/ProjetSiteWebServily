@@ -1,0 +1,161 @@
+<head>
+    <style> body {
+        margin: 0;
+    } </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/force-graph"></script>
+</head>
+
+<body>
+<div id="graph"></div>
+
+<script>
+    const gData = {
+  "nodes" : [ {
+    "id" : "[frontend/src/components/User/subscribe/Subscribe.jsx]",
+    "size" : 1
+  }, {
+    "id" : "[frontend/src/components/User/help/Help.jsx]",
+    "size" : 1
+  }, {
+    "id" : "[frontend/src/components/signup/Signup.css]",
+    "size" : 1
+  }, {
+    "id" : "[backend/controllers/services-controller.js]",
+    "size" : 3
+  }, {
+    "id" : "[frontend/src/components/Employeur/dashboard/Dashboard.jsx]",
+    "size" : 2
+  }, {
+    "id" : "[frontend/src/components/Services/Services.jsx]",
+    "size" : 2
+  }, {
+    "id" : "[frontend/src/components/Employeur/help/Help.jsx]",
+    "size" : 1
+  }, {
+    "id" : "[frontend/src/components/Employeur/profile/Profile.jsx]",
+    "size" : 1
+  }, {
+    "id" : "[backend/controllers/users-controller.js]",
+    "size" : 1
+  }, {
+    "id" : "[frontend/src/components/login/Login.css]",
+    "size" : 1
+  }, {
+    "id" : "[frontend/src/components/User/dashboard/Dashboard.jsx]",
+    "size" : 2
+  }, {
+    "id" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "size" : 3
+  }, {
+    "id" : "[frontend/src/components/User/profile/Profile.jsx]",
+    "size" : 1
+  } ],
+  "links" : [ {
+    "source" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "target" : "[frontend/src/components/User/subscribe/Subscribe.jsx]",
+    "count" : 144
+  }, {
+    "source" : "[frontend/src/components/User/subscribe/Subscribe.jsx]",
+    "target" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "count" : 144
+  }, {
+    "source" : "[backend/controllers/services-controller.js]",
+    "target" : "[backend/controllers/services-controller.js]",
+    "count" : 76
+  }, {
+    "source" : "[backend/controllers/services-controller.js]",
+    "target" : "[backend/controllers/services-controller.js]",
+    "count" : 76
+  }, {
+    "source" : "[frontend/src/components/Employeur/dashboard/Dashboard.jsx]",
+    "target" : "[frontend/src/components/User/dashboard/Dashboard.jsx]",
+    "count" : 44
+  }, {
+    "source" : "[frontend/src/components/User/dashboard/Dashboard.jsx]",
+    "target" : "[frontend/src/components/Employeur/dashboard/Dashboard.jsx]",
+    "count" : 44
+  }, {
+    "source" : "[frontend/src/components/Employeur/dashboard/Dashboard.jsx]",
+    "target" : "[frontend/src/components/Services/Services.jsx]",
+    "count" : 58
+  }, {
+    "source" : "[frontend/src/components/Services/Services.jsx]",
+    "target" : "[frontend/src/components/Employeur/dashboard/Dashboard.jsx]",
+    "count" : 58
+  }, {
+    "source" : "[backend/controllers/services-controller.js]",
+    "target" : "[backend/controllers/users-controller.js]",
+    "count" : 18
+  }, {
+    "source" : "[backend/controllers/users-controller.js]",
+    "target" : "[backend/controllers/services-controller.js]",
+    "count" : 18
+  }, {
+    "source" : "[frontend/src/components/Services/Services.jsx]",
+    "target" : "[frontend/src/components/User/dashboard/Dashboard.jsx]",
+    "count" : 46
+  }, {
+    "source" : "[frontend/src/components/User/dashboard/Dashboard.jsx]",
+    "target" : "[frontend/src/components/Services/Services.jsx]",
+    "count" : 46
+  }, {
+    "source" : "[frontend/src/components/login/Login.css]",
+    "target" : "[frontend/src/components/signup/Signup.css]",
+    "count" : 18
+  }, {
+    "source" : "[frontend/src/components/signup/Signup.css]",
+    "target" : "[frontend/src/components/login/Login.css]",
+    "count" : 18
+  }, {
+    "source" : "[frontend/src/components/Employeur/help/Help.jsx]",
+    "target" : "[frontend/src/components/User/help/Help.jsx]",
+    "count" : 16
+  }, {
+    "source" : "[frontend/src/components/User/help/Help.jsx]",
+    "target" : "[frontend/src/components/Employeur/help/Help.jsx]",
+    "count" : 16
+  }, {
+    "source" : "[frontend/src/components/Employeur/profile/Profile.jsx]",
+    "target" : "[frontend/src/components/User/profile/Profile.jsx]",
+    "count" : 12
+  }, {
+    "source" : "[frontend/src/components/User/profile/Profile.jsx]",
+    "target" : "[frontend/src/components/Employeur/profile/Profile.jsx]",
+    "count" : 12
+  }, {
+    "source" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "target" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "count" : 12
+  }, {
+    "source" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "target" : "[frontend/src/components/Employeur/subscribe/Subscribe.jsx]",
+    "count" : 12
+  } ]
+}
+
+    const maxNodeSize = gData.nodes.map(n => n.size).reduce((a, b) => Math.max(a, b));
+    const maxCount = gData.links.map(l => l.count).reduce((a, b) => Math.max(a, b));
+
+    gData.links = gData.links.map(l => {
+        return {source: l.target, target: l.source, count: l.count}
+    });
+    const colorOf = (node) => {
+        if (!node.id.startsWith("[")) return "rgba(135, 206, 235, 0.6)";
+        return "rgba(100,100,100,0.6)";
+    }
+
+    const elem = document.getElementById('graph');
+    const Graph = ForceGraph()(elem)
+        .graphData(gData)
+        .nodeRelSize(4)
+        .nodeVal(n => Math.max(20 * n.size / maxNodeSize, 0.001))
+        .nodeLabel(n => n.id + " (" + n.size + ")")
+        .nodeColor(n => colorOf(n))
+        .linkDirectionalParticles(1)
+        .linkDirectionalParticleSpeed(d => d.count / maxCount * 0.01)
+        .linkOpacity(0.1)
+        .linkWidth(d => 3 * d.count / maxCount + 0.1);
+
+</script>
+</body>

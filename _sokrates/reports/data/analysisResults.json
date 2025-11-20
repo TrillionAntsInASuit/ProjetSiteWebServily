@@ -1,0 +1,3286 @@
+{
+  "metadata" : {
+    "name" : "Projetsitewebservily",
+    "description" : "",
+    "tooltip" : "",
+    "logoLink" : "",
+    "links" : [ ]
+  },
+  "metricsList" : {
+    "metrics" : [ {
+      "id" : "TOTAL_NUMBER_OF_FILES",
+      "value" : 27750,
+      "description" : "Total number of files in the source folder"
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN",
+      "value" : 51,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN",
+      "value" : 2574,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JSX",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JSX",
+      "value" : 1105,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_CSS",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_CSS",
+      "value" : 961,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JS",
+      "value" : 15,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JS",
+      "value" : 495,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_TEST",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_TEST",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "TEST_VS_MAIN_LINES_OF_CODE_PERCENTAGE",
+      "value" : 0.0,
+      "description" : "Test / main code ratio"
+    }, {
+      "id" : "NUMBER_OF_FILES_GENERATED",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_GENERATED",
+      "value" : 3425,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_GENERATED_EXT_JSON",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_GENERATED_EXT_JSON",
+      "value" : 3425,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_BUILD_AND_DEPLOYMENT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_BUILD_AND_DEPLOYMENT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER",
+      "value" : 9,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER",
+      "value" : 3513,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER_EXT_JSON",
+      "value" : 7,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER_EXT_JSON",
+      "value" : 3505,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER_EXT_MD",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER_EXT_MD",
+      "value" : 8,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_BACKEND",
+      "value" : 9,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_BACKEND",
+      "value" : 391,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_BACKEND_EXT_JS",
+      "value" : 9,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_BACKEND_EXT_JS",
+      "value" : 391,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND",
+      "value" : 42,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND",
+      "value" : 2183,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JSX",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JSX",
+      "value" : 1105,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_CSS",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_CSS",
+      "value" : 961,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JS",
+      "value" : 6,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JS",
+      "value" : 104,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_DEPENDENCY_LINKS_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : "Number of anchor dependencies"
+    }, {
+      "id" : "NUMBER_OF_DEPENDENCIES_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_PLACES_WITH_CYCLIC_DEPENDENCIES_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_TODOS",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_TODOS",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED",
+      "value" : 51,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED",
+      "value" : 2574,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 1105,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 961,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 15,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 495,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NEGLIGIBLE_RISK_FILE_SIZE_COUNT",
+      "value" : 45,
+      "description" : "Number of  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_COUNT",
+      "value" : 5,
+      "description" : "Number of  files with 100 to 200 lines of code"
+    }, {
+      "id" : "MEDIUM_RISK_FILE_SIZE_COUNT",
+      "value" : 1,
+      "description" : "Number of  files with 200 to 500 lines of code"
+    }, {
+      "id" : "HIGH_RISK_FILE_SIZE_COUNT",
+      "value" : 0,
+      "description" : "Number of  files with 500 to 1000 lines of code"
+    }, {
+      "id" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+      "value" : 0,
+      "description" : "Number of  files with more than 1000 lines of code"
+    }, {
+      "id" : "NEGLIGIBLE_RISK_FILE_SIZE_LOC",
+      "value" : 1693,
+      "description" : "Lines of code in  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_LOC",
+      "value" : 651,
+      "description" : "Lines of code in  files with 100 to 200 lines of code"
+    }, {
+      "id" : "MEDIUM_RISK_FILE_SIZE_LOC",
+      "value" : 230,
+      "description" : "Lines of code in  files with 200 to 500 lines of code"
+    }, {
+      "id" : "HIGH_RISK_FILE_SIZE_LOC",
+      "value" : 0,
+      "description" : "Lines of code in  files with 500 to 1000 lines of code"
+    }, {
+      "id" : "VERY_HIGH_RISK_FILE_SIZE_LOC",
+      "value" : 0,
+      "description" : "Lines of code in  files with more than 1000 lines of code"
+    }, {
+      "id" : "NUMBER_OF_UNITS",
+      "value" : 4,
+      "description" : "Number of units"
+    }, {
+      "id" : "LINES_OF_CODE_IN_UNITS",
+      "value" : 41,
+      "description" : "Lines of code in units"
+    }, {
+      "id" : "LINES_OF_CODE_OUTSIDE_UNITS",
+      "value" : 2533,
+      "description" : "Lines of code in units"
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_LOC",
+      "value" : 19,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 46.34146341463415,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_COUNT",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_LOC",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_PERCENTAGE",
+      "value" : 53.65853658536585,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_NEGLIGIBLE_RISK_LOC",
+      "value" : 11,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_NEGLIGIBLE_RISK_COUNT",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_BACKEND_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_LOC",
+      "value" : 8,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 26.666666666666668,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_MEDIUM_RISK_LOC",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_MEDIUM_RISK_PERCENTAGE",
+      "value" : 73.33333333333333,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_MEDIUM_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_FRONTEND_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_LOC",
+      "value" : 19,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 46.34146341463415,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_COUNT",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_LOC",
+      "value" : 22,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_PERCENTAGE",
+      "value" : 53.65853658536585,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_LOC",
+      "value" : 41,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_COUNT",
+      "value" : 4,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_PLUS_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_PLUS_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_NEGLIGIBLE_RISK_LOC",
+      "value" : 11,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_NEGLIGIBLE_RISK_COUNT",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_BACKEND_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_LOC",
+      "value" : 30,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_NEGLIGIBLE_RISK_COUNT",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_FRONTEND_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_LOC",
+      "value" : 41,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_COUNT",
+      "value" : 4,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATES",
+      "value" : 20,
+      "description" : "Number of duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_FILES_WITH_DUPLICATES",
+      "value" : 13,
+      "description" : "Number of files with duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES",
+      "value" : 350,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES",
+      "value" : 2416,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE",
+      "value" : 14.486754966887418,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "UNIT_DUPLICATES_COUNT",
+      "value" : 0,
+      "description" : "Unit duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_PRIMARY_FRONTEND",
+      "value" : 280,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_FRONTEND",
+      "value" : 280,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_PRIMARY_FRONTEND",
+      "value" : 100.0,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_PRIMARY_BACKEND",
+      "value" : 70,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_BACKEND",
+      "value" : 70,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_PRIMARY_BACKEND",
+      "value" : 100.0,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_JSX",
+      "value" : 262,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_JSX",
+      "value" : 1022,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_JSX",
+      "value" : 25.63600782778865,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_CSS",
+      "value" : 18,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_CSS",
+      "value" : 961,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_CSS",
+      "value" : 1.8730489073881373,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_JS",
+      "value" : 70,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_JS",
+      "value" : 423,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_JS",
+      "value" : 16.548463356973997,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "TOTAL_ANALYSIS_TIME_IN_MILLIS",
+      "value" : 6116,
+      "description" : "Total analysis time in milliseconds"
+    } ]
+  },
+  "controlResults" : {
+    "goalsAnalysisResults" : [ {
+      "metricsWithGoal" : {
+        "goal" : "Keep the system simple and easy to change",
+        "description" : "Aim at keeping the system size modest (less than 200,000 LOC is good), duplication low (less than 5% is good), files small (no files longer than 1000 LOC is good), and units simple (no units with more than 25 decision points is good).",
+        "controls" : [ {
+          "metric" : "LINES_OF_CODE_MAIN",
+          "description" : "Total number of lines of main code",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "200000",
+            "tolerance" : "20000"
+          }
+        }, {
+          "metric" : "DUPLICATION_PERCENTAGE",
+          "description" : "System duplication",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "5",
+            "tolerance" : "1"
+          }
+        }, {
+          "metric" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "description" : "The number of very large files",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        }, {
+          "metric" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "description" : "Number of very complex units",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        } ]
+      },
+      "controlStatuses" : [ {
+        "control" : {
+          "metric" : "LINES_OF_CODE_MAIN",
+          "description" : "Total number of lines of main code",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "200000",
+            "tolerance" : "20000"
+          }
+        },
+        "metric" : {
+          "id" : "LINES_OF_CODE_MAIN",
+          "value" : 2574,
+          "description" : null
+        },
+        "status" : "OK"
+      }, {
+        "control" : {
+          "metric" : "DUPLICATION_PERCENTAGE",
+          "description" : "System duplication",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "5",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "DUPLICATION_PERCENTAGE",
+          "value" : 14.486754966887418,
+          "description" : "Duplication percentage"
+        },
+        "status" : "FAILED"
+      }, {
+        "control" : {
+          "metric" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "description" : "The number of very large files",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "value" : 0,
+          "description" : "Number of  files with more than 1000 lines of code"
+        },
+        "status" : "OK"
+      }, {
+        "control" : {
+          "metric" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "description" : "Number of very complex units",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "value" : 0,
+          "description" : null
+        },
+        "status" : "OK"
+      } ]
+    } ]
+  },
+  "totalNumberOfFilesInScope" : 27750,
+  "mainAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 51,
+    "linesOfCode" : 2574,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.jsx",
+      "value" : 22,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 13,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 15,
+      "description" : [ ]
+    }, {
+      "name" : "  *.html",
+      "value" : 1,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.jsx",
+      "value" : 1105,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 961,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 495,
+      "description" : [ ]
+    }, {
+      "name" : "  *.html",
+      "value" : 13,
+      "description" : [ ]
+    } ]
+  },
+  "testAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 0,
+    "linesOfCode" : 0,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ ],
+    "linesOfCodePerExtension" : [ ]
+  },
+  "generatedAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 2,
+    "linesOfCode" : 3425,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 2,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 3425,
+      "description" : [ ]
+    } ]
+  },
+  "buildAndDeployAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 0,
+    "linesOfCode" : 0,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ ],
+    "linesOfCodePerExtension" : [ ]
+  },
+  "otherAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 9,
+    "linesOfCode" : 3513,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 7,
+      "description" : [ ]
+    }, {
+      "name" : "  *.md",
+      "value" : 2,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 3505,
+      "description" : [ ]
+    }, {
+      "name" : "  *.md",
+      "value" : 8,
+      "description" : [ ]
+    } ]
+  },
+  "logicalDecompositionsAnalysisResults" : [ {
+    "key" : "primary",
+    "components" : [ {
+      "name" : "backend",
+      "filesCount" : 9,
+      "linesOfCode" : 391,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.js",
+        "value" : 9,
+        "description" : [ ]
+      } ],
+      "linesOfCodePerExtension" : [ {
+        "name" : "  *.js",
+        "value" : 391,
+        "description" : [ ]
+      } ]
+    }, {
+      "name" : "frontend",
+      "filesCount" : 42,
+      "linesOfCode" : 2183,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 22,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 13,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 6,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 1,
+        "description" : [ ]
+      } ],
+      "linesOfCodePerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 1105,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 961,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 104,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 13,
+        "description" : [ ]
+      } ]
+    } ],
+    "componentDependencies" : [ ],
+    "componentDependenciesErrors" : [ ],
+    "logicalDecomposition" : {
+      "name" : "primary",
+      "scope" : "main",
+      "filters" : [ ],
+      "componentsFolderDepth" : 1,
+      "minComponentsCount" : 0,
+      "components" : [ {
+        "name" : "backend",
+        "sourceFileFilters" : [ {
+          "pathPattern" : "./backend/.*",
+          "contentPattern" : "",
+          "exception" : false,
+          "note" : ""
+        } ],
+        "files" : [ ]
+      }, {
+        "name" : "frontend",
+        "sourceFileFilters" : [ {
+          "pathPattern" : "./frontend/.*",
+          "contentPattern" : "",
+          "exception" : false,
+          "note" : ""
+        } ],
+        "files" : [ ]
+      } ],
+      "metaComponents" : [ ],
+      "groups" : [ ],
+      "includeRemainingFiles" : true,
+      "dependenciesFinder" : {
+        "useBuiltInDependencyFinders" : true,
+        "rules" : [ ],
+        "metaRules" : [ ]
+      },
+      "renderingOptions" : {
+        "orientation" : "TB",
+        "maxNumberOfDependencies" : 100,
+        "renderComponentsWithoutDependencies" : true,
+        "renderIndirectDependencies" : false,
+        "renderInternalIndirectDependencies" : false,
+        "reverseDirection" : false
+      },
+      "includeExternalComponents" : true,
+      "dependencyLinkThreshold" : 1,
+      "duplicationLinkThreshold" : 50,
+      "temporalLinkThreshold" : 1,
+      "maxSearchDepthLines" : 200
+    },
+    "fileCountPerComponent" : [ {
+      "name" : "backend",
+      "value" : 9,
+      "description" : [ ]
+    }, {
+      "name" : "frontend",
+      "value" : 42,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerComponent" : [ {
+      "name" : "backend",
+      "value" : 391,
+      "description" : [ ]
+    }, {
+      "name" : "frontend",
+      "value" : 2183,
+      "description" : [ ]
+    } ]
+  } ],
+  "concernsAnalysisResults" : [ {
+    "key" : "general",
+    "concerns" : [ {
+      "name" : "TODOs",
+      "filesCount" : 0,
+      "linesOfCode" : 0,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ ],
+      "linesOfCodePerExtension" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "filesCount" : 51,
+      "linesOfCode" : 2574,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 22,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 13,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 15,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 1,
+        "description" : [ ]
+      } ],
+      "linesOfCodePerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 1105,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 961,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 495,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 13,
+        "description" : [ ]
+      } ]
+    } ],
+    "concernsGroup" : null,
+    "fileCountPerConcern" : [ {
+      "name" : "TODOs",
+      "value" : 0,
+      "description" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "value" : 51,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerConcern" : [ {
+      "name" : "TODOs",
+      "value" : 0,
+      "description" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "value" : 2574,
+      "description" : [ ]
+    } ]
+  } ],
+  "foundTags" : [ {
+    "tagRule" : {
+      "tag" : "travis",
+      "color" : "#7CB9E8",
+      "pathPatterns" : [ "(|.*/)[.]travis[.]ya?ml" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/@remix-run/dev/node_modules/debug/.travis.yml\nbackend/node_modules/bl/.travis.yml\nbackend/node_modules/browserify-zlib/.travis.yml\nbackend/node_modules/buffer-equal-constant-time/.travis.yml\nbackend/node_modules/cacheable-request/node_modules/pump/.travis.yml\nbackend/node_modules/cli-width/.travis.yml\nbackend/node_modules/concat-map/.travis.yml\nbackend/node_modules/deasync/.travis.yml\nbackend/node_modules/deep-is/.travis.yml\nbackend/node_modules/duplexify/.travis.yml\nbackend/node_modules/duplexify/node_modules/readable-stream/.travis.yml\nbackend/node_modules/duplexify/node_modules/string_decoder/.travis.yml\nbackend/node_modules/extend/.travis.yml\nbackend/node_modules/fast-json-stable-stringify/.travis.yml\nbackend/node_modules/file-uri-to-path/.travis.yml\nbackend/node_modules/glob-to-regexp/.travis.yml\nbackend/node_modules/gunzip-maybe/.travis.yml\nbackend/node_modules/is-deflate/.travis.yml\nbackend/node_modules/isarray/.travis.yml\nbackend/node_modules/json-buffer/.travis.yml\n...\n(found 27 more files)"
+  }, {
+    "tagRule" : {
+      "tag" : "github actions",
+      "color" : "#7CB9E8",
+      "pathPatterns" : [ "(|.*/)[.]github[/]workflows[/].*" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/@mapbox/node-pre-gyp/.github/workflows/codeql.yml\nbackend/node_modules/@vercel/static-config/node_modules/json-schema-traverse/.github/workflows/build.yml\nbackend/node_modules/@vercel/static-config/node_modules/json-schema-traverse/.github/workflows/publish.yml\nbackend/node_modules/ast-types/.github/workflows/main.yml\nbackend/node_modules/deasync/.github/workflows/npm_test.yml\nbackend/node_modules/fastq/.github/workflows/ci.yml\nbackend/node_modules/proxy-agent/.github/workflows/test.yml\nbackend/node_modules/recast/.github/workflows/main.yml\nbackend/node_modules/recast/node_modules/ast-types/.github/workflows/main.yml\nbackend/node_modules/reusify/.github/workflows/ci.yml\nbackend/node_modules/stream-shift/.github/workflows/test.yml\nbackend/node_modules/undefsafe/.github/workflows/release.yml"
+  }, {
+    "tagRule" : {
+      "tag" : "npm",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)package[.]json" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/@babel/code-frame/package.json\nbackend/node_modules/@babel/compat-data/package.json\nbackend/node_modules/@babel/core/node_modules/semver/package.json\nbackend/node_modules/@babel/core/package.json\nbackend/node_modules/@babel/generator/package.json\nbackend/node_modules/@babel/helper-annotate-as-pure/package.json\nbackend/node_modules/@babel/helper-compilation-targets/node_modules/lru-cache/package.json\nbackend/node_modules/@babel/helper-compilation-targets/node_modules/semver/package.json\nbackend/node_modules/@babel/helper-compilation-targets/node_modules/yallist/package.json\nbackend/node_modules/@babel/helper-compilation-targets/package.json\nbackend/node_modules/@babel/helper-create-class-features-plugin/node_modules/semver/package.json\nbackend/node_modules/@babel/helper-create-class-features-plugin/package.json\nbackend/node_modules/@babel/helper-create-regexp-features-plugin/node_modules/semver/package.json\nbackend/node_modules/@babel/helper-create-regexp-features-plugin/package.json\nbackend/node_modules/@babel/helper-define-polyfill-provider/package.json\nbackend/node_modules/@babel/helper-globals/package.json\nbackend/node_modules/@babel/helper-member-expression-to-functions/package.json\nbackend/node_modules/@babel/helper-module-imports/package.json\nbackend/node_modules/@babel/helper-module-transforms/package.json\nbackend/node_modules/@babel/helper-optimise-call-expression/package.json\n...\n(found 1109 more files)"
+  }, {
+    "tagRule" : {
+      "tag" : "yarn",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)[.]yarnrc", "(|.*/)yarn[.]lock" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/uri-js/yarn.lock\nfrontend/node_modules/uri-js/yarn.lock"
+  }, {
+    "tagRule" : {
+      "tag" : "dependabot",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)dependabot[.]ya?ml" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/ast-types/.github/dependabot.yml\nbackend/node_modules/fastq/.github/dependabot.yml\nbackend/node_modules/iconv-lite/.github/dependabot.yml\nbackend/node_modules/recast/.github/dependabot.yml\nbackend/node_modules/recast/node_modules/ast-types/.github/dependabot.yml\nbackend/node_modules/reusify/.github/dependabot.yml"
+  }, {
+    "tagRule" : {
+      "tag" : "make",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)Makefile" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/@remix-run/dev/node_modules/debug/Makefile\nbackend/node_modules/delegates/Makefile\nbackend/node_modules/format/Makefile\nbackend/node_modules/isarray/Makefile\nbackend/node_modules/require-like/Makefile"
+  }, {
+    "tagRule" : {
+      "tag" : "docker",
+      "color" : "#A3C1AD",
+      "pathPatterns" : [ "(|.*/)Dockerfile" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "backend/node_modules/recast/.devcontainer/Dockerfile"
+  } ],
+  "filesAnalysisResults" : {
+    "overallFileSizeDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 1693,
+      "lowRiskValue" : 651,
+      "mediumRiskValue" : 230,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 5,
+      "negligibleRiskCount" : 45,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 25.291375291375292,
+      "mediumRiskPercentage" : 8.935508935508935,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 65.77311577311578,
+      "totalCount" : 51,
+      "totalValue" : 2574
+    },
+    "fileSizeDistributionPerExtension" : [ {
+      "key" : "js",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 350,
+      "lowRiskValue" : 145,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 1,
+      "negligibleRiskCount" : 14,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 29.292929292929294,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 70.70707070707071,
+      "totalCount" : 15,
+      "totalValue" : 495
+    }, {
+      "key" : "html",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 13,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 1,
+      "totalValue" : 13
+    }, {
+      "key" : "css",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 439,
+      "lowRiskValue" : 292,
+      "mediumRiskValue" : 230,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 2,
+      "negligibleRiskCount" : 10,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 30.385015608740893,
+      "mediumRiskPercentage" : 23.93340270551509,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 45.681581685744014,
+      "totalCount" : 13,
+      "totalValue" : 961
+    }, {
+      "key" : "jsx",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 891,
+      "lowRiskValue" : 214,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 2,
+      "negligibleRiskCount" : 20,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 19.36651583710407,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 80.63348416289593,
+      "totalCount" : 22,
+      "totalValue" : 1105
+    } ],
+    "fileSizeDistributionPerLogicalDecomposition" : [ {
+      "name" : "primary",
+      "fileSizeDistributionPerComponent" : [ {
+        "key" : "backend",
+        "lowRiskThreshold" : 100,
+        "mediumRiskThreshold" : 200,
+        "highRiskThreshold" : 500,
+        "veryHighRiskThreshold" : 1000,
+        "negligibleRiskValue" : 246,
+        "lowRiskValue" : 145,
+        "mediumRiskValue" : 0,
+        "highRiskValue" : 0,
+        "veryHighRiskValue" : 0,
+        "lowRiskCount" : 1,
+        "negligibleRiskCount" : 8,
+        "mediumRiskCount" : 0,
+        "highRiskCount" : 0,
+        "veryHighRiskCount" : 0,
+        "negligibleRiskLabel" : "1-100",
+        "lowRiskLabel" : "101-200",
+        "mediumRiskLabel" : "201-500",
+        "highRiskLabel" : "501-1000",
+        "veryHighRiskLabel" : "1001+",
+        "veryHighRiskPercentage" : 0.0,
+        "lowRiskPercentage" : 37.084398976982094,
+        "mediumRiskPercentage" : 0.0,
+        "highRiskPercentage" : 0.0,
+        "negligibleRiskPercentage" : 62.915601023017906,
+        "totalCount" : 9,
+        "totalValue" : 391
+      }, {
+        "key" : "frontend",
+        "lowRiskThreshold" : 100,
+        "mediumRiskThreshold" : 200,
+        "highRiskThreshold" : 500,
+        "veryHighRiskThreshold" : 1000,
+        "negligibleRiskValue" : 1447,
+        "lowRiskValue" : 506,
+        "mediumRiskValue" : 230,
+        "highRiskValue" : 0,
+        "veryHighRiskValue" : 0,
+        "lowRiskCount" : 4,
+        "negligibleRiskCount" : 37,
+        "mediumRiskCount" : 1,
+        "highRiskCount" : 0,
+        "veryHighRiskCount" : 0,
+        "negligibleRiskLabel" : "1-100",
+        "lowRiskLabel" : "101-200",
+        "mediumRiskLabel" : "201-500",
+        "highRiskLabel" : "501-1000",
+        "veryHighRiskLabel" : "1001+",
+        "veryHighRiskPercentage" : 0.0,
+        "lowRiskPercentage" : 23.179111314704535,
+        "mediumRiskPercentage" : 10.53595968850206,
+        "highRiskPercentage" : 0.0,
+        "negligibleRiskPercentage" : 66.2849289967934,
+        "totalCount" : 42,
+        "totalValue" : 2183
+      } ]
+    } ],
+    "longestFiles" : [ {
+      "relativePath" : "frontend/src/components/login/Login.css",
+      "extension" : "css",
+      "linesOfCode" : 230,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/header/header.css",
+      "extension" : "css",
+      "linesOfCode" : 169,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/controllers/services-controller.js",
+      "extension" : "js",
+      "linesOfCode" : 145,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/home/home.css",
+      "extension" : "css",
+      "linesOfCode" : 123,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/App.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 111,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 103,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/controllers/users-controller.js",
+      "extension" : "js",
+      "linesOfCode" : 100,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/login/Login.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 99,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Services/Services.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 94,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/signup/Signup.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 94,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Services/Services.css",
+      "extension" : "css",
+      "linesOfCode" : 92,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 85,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/index.css",
+      "extension" : "css",
+      "linesOfCode" : 79,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/create/Create.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 77,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/create/Create.css",
+      "extension" : "css",
+      "linesOfCode" : 74,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 74,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 73,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/edit/Edit.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 64,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/routes/stripe.js",
+      "extension" : "js",
+      "linesOfCode" : 63,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.css",
+      "extension" : "css",
+      "linesOfCode" : 59,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/app.js",
+      "extension" : "js",
+      "linesOfCode" : 50,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/header/header.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 49,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/edit/Edit.css",
+      "extension" : "css",
+      "linesOfCode" : 47,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/containers/ServiceTypeList.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 47,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/App.css",
+      "extension" : "css",
+      "linesOfCode" : 37,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/hooks/http-hook.js",
+      "extension" : "js",
+      "linesOfCode" : 36,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/eslint.config.js",
+      "extension" : "js",
+      "linesOfCode" : 28,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 22
+    }, {
+      "relativePath" : "frontend/src/components/signup/Signup.css",
+      "extension" : "css",
+      "linesOfCode" : 27,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/home/home.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 26,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/UIElements/ModalMessageErreur.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 22,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/data/data.js",
+      "extension" : "js",
+      "linesOfCode" : 17,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/join/Join.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 16,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/subscribe/Subscribe.css",
+      "extension" : "css",
+      "linesOfCode" : 15,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/navigation/MainNavigation.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 14,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/index.html",
+      "extension" : "html",
+      "linesOfCode" : 13,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/containers/Roots.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 12,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/vite.config.js",
+      "extension" : "js",
+      "linesOfCode" : 10,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 8
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/help/Help.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/profile/Profile.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/help/Help.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/components/User/profile/Profile.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/main.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/handler/error-handler.js",
+      "extension" : "js",
+      "linesOfCode" : 8,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 4,
+      "linesOfCodeInUnits" : 7
+    }, {
+      "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.css",
+      "extension" : "css",
+      "linesOfCode" : 8,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/src/context/auth-context.js",
+      "extension" : "js",
+      "linesOfCode" : 8,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/routes/services-routes.js",
+      "extension" : "js",
+      "linesOfCode" : 7,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/util/http-error.js",
+      "extension" : "js",
+      "linesOfCode" : 7,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 4
+    }, {
+      "relativePath" : "backend/routes/users-routes.js",
+      "extension" : "js",
+      "linesOfCode" : 6,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "backend/util/supabaseClient.js",
+      "extension" : "js",
+      "linesOfCode" : 5,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "frontend/util/supabaseClient.js",
+      "extension" : "js",
+      "linesOfCode" : 5,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    } ],
+    "filesWithMostUnits" : [ {
+      "relativePath" : "backend/handler/error-handler.js",
+      "extension" : "js",
+      "linesOfCode" : 8,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 4,
+      "linesOfCodeInUnits" : 7
+    }, {
+      "relativePath" : "backend/util/http-error.js",
+      "extension" : "js",
+      "linesOfCode" : 7,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 4
+    }, {
+      "relativePath" : "frontend/eslint.config.js",
+      "extension" : "js",
+      "linesOfCode" : 28,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 22
+    }, {
+      "relativePath" : "frontend/vite.config.js",
+      "extension" : "js",
+      "linesOfCode" : 10,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 8
+    } ]
+  },
+  "filesHistoryAnalysisResults" : {
+    "overallFileLastModifiedDistribution" : null,
+    "overallFileFirstModifiedDistribution" : null,
+    "overallFileChangeDistribution" : null,
+    "overallContributorsCountDistribution" : null,
+    "filesWithoutCommitHistoryCount" : 0,
+    "filesWithoutCommitHistoryLinesOfCode" : 0,
+    "changeDistributionPerExtension" : [ ],
+    "lastModifiedDistributionPerExtension" : [ ],
+    "firstModifiedDistributionPerExtension" : [ ],
+    "changeDistributionPerLogicalDecomposition" : [ ],
+    "firstModifiedDistributionPerLogicalDecomposition" : [ ],
+    "lastModifiedDistributionPerLogicalDecomposition" : [ ],
+    "oldestFiles" : [ ],
+    "youngestFiles" : [ ],
+    "mostRecentlyChangedFiles" : [ ],
+    "mostPreviouslyChangedFiles" : [ ],
+    "mostChangedFiles" : [ ],
+    "filesWithMostContributors" : [ ],
+    "filesWithLeastContributors" : [ ],
+    "firstDate" : "",
+    "latestDate" : "",
+    "daysBetweenFirstAndLastDate" : 0,
+    "weeks" : 0,
+    "estimatedWorkindDays" : 0,
+    "activeDays" : 0,
+    "ageInDays" : 0,
+    "historyPerExtensionPerYear" : [ ]
+  },
+  "unitsAnalysisResults" : {
+    "totalNumberOfUnits" : 4,
+    "linesOfCodeInUnits" : 41,
+    "unitSizeRiskDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 19,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 22,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 3,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 53.65853658536585,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 46.34146341463415,
+      "totalCount" : 4,
+      "totalValue" : 41
+    },
+    "conditionalComplexityRiskDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 41,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 4,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 4,
+      "totalValue" : 41
+    },
+    "unitSizeRiskDistributionPerExtension" : [ {
+      "key" : "js",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 19,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 22,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 3,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 53.65853658536585,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 46.34146341463415,
+      "totalCount" : 4,
+      "totalValue" : 41
+    } ],
+    "unitSizeRiskDistributionPerComponent" : [ [ {
+      "key" : "backend",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 11,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 2,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 2,
+      "totalValue" : 11
+    }, {
+      "key" : "frontend",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 8,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 22,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 73.33333333333333,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 26.666666666666668,
+      "totalCount" : 2,
+      "totalValue" : 30
+    } ] ],
+    "longestUnits" : [ {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "frontend/eslint.config.js",
+        "extension" : "js",
+        "linesOfCode" : 28,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 22
+      },
+      "startLine" : 7,
+      "endLine" : 28,
+      "linesOfCode" : 22,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "frontend/vite.config.js",
+        "extension" : "js",
+        "linesOfCode" : 10,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 8
+      },
+      "startLine" : 5,
+      "endLine" : 12,
+      "linesOfCode" : 8,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "function errorHandler()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "backend/handler/error-handler.js",
+        "extension" : "js",
+        "linesOfCode" : 8,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 4,
+        "linesOfCodeInUnits" : 7
+      },
+      "startLine" : 1,
+      "endLine" : 7,
+      "linesOfCode" : 7,
+      "mcCabeIndex" : 4,
+      "numberOfParameters" : 4,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "constructor()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "backend/util/http-error.js",
+        "extension" : "js",
+        "linesOfCode" : 7,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 4
+      },
+      "startLine" : 2,
+      "endLine" : 5,
+      "linesOfCode" : 4,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 2,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    } ],
+    "conditionalComplexityRiskDistributionPerExtension" : [ {
+      "key" : "js",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 41,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 4,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 4,
+      "totalValue" : 41
+    } ],
+    "conditionalComplexityRiskDistributionPerComponent" : [ [ {
+      "key" : "backend",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 11,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 2,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 2,
+      "totalValue" : 11
+    }, {
+      "key" : "frontend",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 30,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 2,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "veryHighRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 2,
+      "totalValue" : 30
+    } ] ],
+    "mostComplexUnits" : [ {
+      "shortName" : "function errorHandler()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "backend/handler/error-handler.js",
+        "extension" : "js",
+        "linesOfCode" : 8,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 4,
+        "linesOfCodeInUnits" : 7
+      },
+      "startLine" : 1,
+      "endLine" : 7,
+      "linesOfCode" : 7,
+      "mcCabeIndex" : 4,
+      "numberOfParameters" : 4,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "constructor()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "backend/util/http-error.js",
+        "extension" : "js",
+        "linesOfCode" : 7,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 4
+      },
+      "startLine" : 2,
+      "endLine" : 5,
+      "linesOfCode" : 4,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 2,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "frontend/eslint.config.js",
+        "extension" : "js",
+        "linesOfCode" : 28,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 22
+      },
+      "startLine" : 7,
+      "endLine" : 28,
+      "linesOfCode" : 22,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    }, {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "frontend/vite.config.js",
+        "extension" : "js",
+        "linesOfCode" : 10,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 8
+      },
+      "startLine" : 5,
+      "endLine" : 12,
+      "linesOfCode" : 8,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    } ]
+  },
+  "duplicationAnalysisResults" : {
+    "overallDuplication" : {
+      "key" : "system",
+      "numberOfDuplicates" : 20,
+      "cleanedLinesOfCode" : 2416,
+      "duplicatedLinesOfCode" : 350,
+      "numberOfFilesWithDuplicates" : 13,
+      "duplicationPercentage" : 14.486754966887418
+    },
+    "duplicationPerComponent" : [ [ {
+      "key" : "frontend",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 2082,
+      "duplicatedLinesOfCode" : 280,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 13.448607108549472
+    }, {
+      "key" : "backend",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 334,
+      "duplicatedLinesOfCode" : 70,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 20.95808383233533
+    } ] ],
+    "duplicationPerConcern" : [ ],
+    "duplicationPerExtension" : [ {
+      "key" : "jsx",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 1022,
+      "duplicatedLinesOfCode" : 262,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 25.63600782778865
+    }, {
+      "key" : "css",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 961,
+      "duplicatedLinesOfCode" : 18,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 1.8730489073881373
+    }, {
+      "key" : "js",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 423,
+      "duplicatedLinesOfCode" : 70,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 16.548463356973997
+    } ],
+    "longestDuplicates" : [ {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 18,
+        "endLine" : 71,
+        "cleanedStartLine" : 17,
+        "cleanedEndLine" : 64,
+        "percentage" : 48.0,
+        "blockSize" : 48
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 74,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 71,
+        "startLine" : 13,
+        "endLine" : 62,
+        "cleanedStartLine" : 12,
+        "cleanedEndLine" : 59,
+        "percentage" : 67.6056338028169,
+        "blockSize" : 48
+      } ],
+      "blockSize" : 48
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 20,
+        "endLine" : 43,
+        "cleanedStartLine" : 12,
+        "cleanedEndLine" : 31,
+        "percentage" : 15.873015873015873,
+        "blockSize" : 20
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 79,
+        "endLine" : 102,
+        "cleanedStartLine" : 58,
+        "cleanedEndLine" : 77,
+        "percentage" : 15.873015873015873,
+        "blockSize" : 20
+      } ],
+      "blockSize" : 20
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 54,
+        "endLine" : 75,
+        "cleanedStartLine" : 45,
+        "cleanedEndLine" : 59,
+        "percentage" : 22.727272727272727,
+        "blockSize" : 15
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 72,
+        "endLine" : 93,
+        "cleanedStartLine" : 59,
+        "cleanedEndLine" : 73,
+        "percentage" : 18.9873417721519,
+        "blockSize" : 15
+      } ],
+      "blockSize" : 15
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 21,
+        "endLine" : 37,
+        "cleanedStartLine" : 18,
+        "cleanedEndLine" : 31,
+        "percentage" : 21.21212121212121,
+        "blockSize" : 14
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 21,
+        "endLine" : 37,
+        "cleanedStartLine" : 18,
+        "cleanedEndLine" : 31,
+        "percentage" : 16.470588235294116,
+        "blockSize" : 14
+      } ],
+      "blockSize" : 14
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 95,
+        "endLine" : 106,
+        "cleanedStartLine" : 85,
+        "cleanedEndLine" : 96,
+        "percentage" : 12.0,
+        "blockSize" : 12
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 74,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 71,
+        "startLine" : 60,
+        "endLine" : 72,
+        "cleanedStartLine" : 57,
+        "cleanedEndLine" : 68,
+        "percentage" : 16.901408450704224,
+        "blockSize" : 12
+      } ],
+      "blockSize" : 12
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 94,
+        "endLine" : 106,
+        "cleanedStartLine" : 70,
+        "cleanedEndLine" : 79,
+        "percentage" : 7.936507936507937,
+        "blockSize" : 10
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 135,
+        "endLine" : 147,
+        "cleanedStartLine" : 102,
+        "cleanedEndLine" : 111,
+        "percentage" : 7.936507936507937,
+        "blockSize" : 10
+      } ],
+      "blockSize" : 10
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 62,
+        "endLine" : 71,
+        "cleanedStartLine" : 45,
+        "cleanedEndLine" : 53,
+        "percentage" : 7.142857142857143,
+        "blockSize" : 9
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/users-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 100,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 87,
+        "startLine" : 41,
+        "endLine" : 50,
+        "cleanedStartLine" : 29,
+        "cleanedEndLine" : 37,
+        "percentage" : 10.344827586206897,
+        "blockSize" : 9
+      } ],
+      "blockSize" : 9
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 73,
+        "endLine" : 85,
+        "cleanedStartLine" : 62,
+        "cleanedEndLine" : 70,
+        "percentage" : 10.588235294117647,
+        "blockSize" : 9
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 75,
+        "endLine" : 87,
+        "cleanedStartLine" : 61,
+        "cleanedEndLine" : 69,
+        "percentage" : 11.39240506329114,
+        "blockSize" : 9
+      } ],
+      "blockSize" : 9
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/login/Login.css",
+          "extension" : "css",
+          "linesOfCode" : 230,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 230,
+        "startLine" : 2,
+        "endLine" : 11,
+        "cleanedStartLine" : 2,
+        "cleanedEndLine" : 10,
+        "percentage" : 3.9130434782608696,
+        "blockSize" : 9
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/signup/Signup.css",
+          "extension" : "css",
+          "linesOfCode" : 27,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 27,
+        "startLine" : 2,
+        "endLine" : 11,
+        "cleanedStartLine" : 2,
+        "cleanedEndLine" : 10,
+        "percentage" : 33.333333333333336,
+        "blockSize" : 9
+      } ],
+      "blockSize" : 9
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 57,
+        "endLine" : 69,
+        "cleanedStartLine" : 47,
+        "cleanedEndLine" : 55,
+        "percentage" : 13.636363636363637,
+        "blockSize" : 9
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 73,
+        "endLine" : 85,
+        "cleanedStartLine" : 62,
+        "cleanedEndLine" : 70,
+        "percentage" : 10.588235294117647,
+        "blockSize" : 9
+      } ],
+      "blockSize" : 9
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 35,
+        "endLine" : 43,
+        "cleanedStartLine" : 24,
+        "cleanedEndLine" : 31,
+        "percentage" : 6.349206349206349,
+        "blockSize" : 8
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 135,
+        "endLine" : 143,
+        "cleanedStartLine" : 102,
+        "cleanedEndLine" : 109,
+        "percentage" : 6.349206349206349,
+        "blockSize" : 8
+      } ],
+      "blockSize" : 8
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/help/Help.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 9,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 8,
+        "startLine" : 1,
+        "endLine" : 10,
+        "cleanedStartLine" : 1,
+        "cleanedEndLine" : 8,
+        "percentage" : 100.0,
+        "blockSize" : 8
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/help/Help.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 9,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 8,
+        "startLine" : 1,
+        "endLine" : 10,
+        "cleanedStartLine" : 1,
+        "cleanedEndLine" : 8,
+        "percentage" : 100.0,
+        "blockSize" : 8
+      } ],
+      "blockSize" : 8
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 31,
+        "endLine" : 37,
+        "cleanedStartLine" : 25,
+        "cleanedEndLine" : 31,
+        "percentage" : 8.235294117647058,
+        "blockSize" : 7
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 50,
+        "endLine" : 56,
+        "cleanedStartLine" : 39,
+        "cleanedEndLine" : 45,
+        "percentage" : 8.860759493670885,
+        "blockSize" : 7
+      } ],
+      "blockSize" : 7
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 15,
+        "endLine" : 21,
+        "cleanedStartLine" : 12,
+        "cleanedEndLine" : 18,
+        "percentage" : 8.235294117647058,
+        "blockSize" : 7
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 41,
+        "endLine" : 48,
+        "cleanedStartLine" : 32,
+        "cleanedEndLine" : 38,
+        "percentage" : 8.860759493670885,
+        "blockSize" : 7
+      } ],
+      "blockSize" : 7
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 31,
+        "endLine" : 37,
+        "cleanedStartLine" : 25,
+        "cleanedEndLine" : 31,
+        "percentage" : 10.606060606060606,
+        "blockSize" : 7
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 50,
+        "endLine" : 56,
+        "cleanedStartLine" : 39,
+        "cleanedEndLine" : 45,
+        "percentage" : 8.860759493670885,
+        "blockSize" : 7
+      } ],
+      "blockSize" : 7
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 6,
+        "endLine" : 11,
+        "cleanedStartLine" : 5,
+        "cleanedEndLine" : 10,
+        "percentage" : 6.0,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 74,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 71,
+        "startLine" : 6,
+        "endLine" : 11,
+        "cleanedStartLine" : 5,
+        "cleanedEndLine" : 10,
+        "percentage" : 8.450704225352112,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 7,
+        "endLine" : 14,
+        "cleanedStartLine" : 6,
+        "cleanedEndLine" : 11,
+        "percentage" : 9.090909090909092,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 6,
+        "endLine" : 13,
+        "cleanedStartLine" : 5,
+        "cleanedEndLine" : 10,
+        "percentage" : 7.0588235294117645,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 78,
+        "endLine" : 83,
+        "cleanedStartLine" : 69,
+        "cleanedEndLine" : 74,
+        "percentage" : 6.0,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 74,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 71,
+        "startLine" : 33,
+        "endLine" : 38,
+        "cleanedStartLine" : 30,
+        "cleanedEndLine" : 35,
+        "percentage" : 8.450704225352112,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/profile/Profile.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 9,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 8,
+        "startLine" : 2,
+        "endLine" : 8,
+        "cleanedStartLine" : 2,
+        "cleanedEndLine" : 7,
+        "percentage" : 75.0,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/profile/Profile.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 9,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 8,
+        "startLine" : 2,
+        "endLine" : 8,
+        "cleanedStartLine" : 2,
+        "cleanedEndLine" : 7,
+        "percentage" : 75.0,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 37,
+        "endLine" : 42,
+        "cleanedStartLine" : 35,
+        "cleanedEndLine" : 40,
+        "percentage" : 6.0,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 103,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 100,
+        "startLine" : 78,
+        "endLine" : 83,
+        "cleanedStartLine" : 69,
+        "cleanedEndLine" : 74,
+        "percentage" : 6.0,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    } ],
+    "mostFrequentDuplicates" : [ {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 73,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 66,
+        "startLine" : 59,
+        "endLine" : 68,
+        "cleanedStartLine" : 49,
+        "cleanedEndLine" : 54,
+        "percentage" : 9.090909090909092,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/Services/Services.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 94,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 85,
+        "startLine" : 75,
+        "endLine" : 84,
+        "cleanedStartLine" : 64,
+        "cleanedEndLine" : 69,
+        "percentage" : 7.0588235294117645,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 85,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 79,
+        "startLine" : 77,
+        "endLine" : 86,
+        "cleanedStartLine" : 63,
+        "cleanedEndLine" : 68,
+        "percentage" : 7.594936708860759,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 37,
+        "endLine" : 43,
+        "cleanedStartLine" : 26,
+        "cleanedEndLine" : 31,
+        "percentage" : 4.761904761904762,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 96,
+        "endLine" : 102,
+        "cleanedStartLine" : 72,
+        "cleanedEndLine" : 77,
+        "percentage" : 4.761904761904762,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "backend/controllers/services-controller.js",
+          "extension" : "js",
+          "linesOfCode" : 145,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 126,
+        "startLine" : 137,
+        "endLine" : 143,
+        "cleanedStartLine" : 104,
+        "cleanedEndLine" : 109,
+        "percentage" : 4.761904761904762,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    } ]
+  },
+  "contributorsAnalysisResults" : {
+    "latestCommitDate" : "",
+    "contributors" : [ ],
+    "contributorsPerYear" : [ ],
+    "contributorsPerMonth" : [ ],
+    "contributorsPerDay" : [ ],
+    "contributorsPerWeek" : [ ],
+    "commitsPerExtensions" : [ ]
+  },
+  "numberOfExcludedFiles" : 27690,
+  "excludedExtensions" : {
+    "" : 1022,
+    "code-workspace" : 1,
+    "pegjs" : 1,
+    "css" : 7,
+    "npmignore" : 25,
+    "eslintcache" : 1,
+    "def" : 10,
+    "un~" : 2,
+    "py" : 3,
+    "jscsrc" : 1,
+    "ps1" : 86,
+    "patch" : 1,
+    "exe" : 6,
+    "wasm" : 1,
+    "xml" : 19,
+    "md" : 1393,
+    "editorconfig" : 11,
+    "lock" : 4,
+    "pem" : 1,
+    "html" : 10,
+    "jar" : 1,
+    "bnf" : 11,
+    "nix" : 1,
+    "jshintrc" : 5,
+    "flow" : 6,
+    "yaml" : 112,
+    "cts" : 77,
+    "tar" : 1,
+    "babelrc" : 3,
+    "eslintrc" : 28,
+    "png" : 3,
+    "mts" : 220,
+    "rb" : 1,
+    "node" : 95,
+    "1" : 4,
+    "bsd" : 7,
+    "gitkeep" : 5,
+    "cmd" : 87,
+    "gyp" : 2,
+    "apache2" : 1,
+    "md~" : 1,
+    "js" : 13091,
+    "iml" : 4,
+    "jst" : 50,
+    "gitattributes" : 1,
+    "jsx" : 2,
+    "lcl" : 78,
+    "applescript" : 1,
+    "tsx" : 25,
+    "markdown" : 9,
+    "json" : 1363,
+    "ignore" : 1,
+    "mit" : 1,
+    "tsbuildinfo" : 20,
+    "map" : 5075,
+    "key" : 1,
+    "jpg" : 1,
+    "cc" : 3,
+    "c" : 1,
+    "svg" : 3,
+    "gitignore" : 3,
+    "dockerfile" : 1,
+    "go" : 4,
+    "h" : 9,
+    "env" : 1,
+    "toml" : 10,
+    "cjs" : 79,
+    "nycrc" : 19,
+    "txt" : 59,
+    "mjs" : 163,
+    "coffee" : 6,
+    "php" : 1,
+    "ts" : 4328,
+    "prettierignore" : 1
+  },
+  "analysisStartTimeMs" : 1763665228946,
+  "maxFileCount" : 51,
+  "maxLinesOfCode" : 3513
+}

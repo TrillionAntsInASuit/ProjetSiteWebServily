@@ -1,0 +1,10 @@
+Path	Lines of Code
+backend/app.js	50
+backend/controllers/services-controller.js	145
+backend/controllers/users-controller.js	100
+backend/handler/error-handler.js	8
+backend/routes/services-routes.js	7
+backend/routes/stripe.js	63
+backend/routes/users-routes.js	6
+backend/util/http-error.js	7
+backend/util/supabaseClient.js	5

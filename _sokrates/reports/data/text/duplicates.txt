@@ -1,0 +1,120 @@
+duplicated block id: 1
+size: 48 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (18:71)
+ - frontend/src/components/User/subscribe/Subscribe.jsx (13:62)
+
+duplicated block id: 2
+size: 20 cleaned lines of code
+in 2 files:
+ - backend/controllers/services-controller.js (20:43)
+ - backend/controllers/services-controller.js (79:102)
+
+duplicated block id: 3
+size: 15 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (54:75)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (72:93)
+
+duplicated block id: 4
+size: 14 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (21:37)
+ - frontend/src/components/Services/Services.jsx (21:37)
+
+duplicated block id: 5
+size: 12 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (95:106)
+ - frontend/src/components/User/subscribe/Subscribe.jsx (60:72)
+
+duplicated block id: 6
+size: 10 cleaned lines of code
+in 2 files:
+ - backend/controllers/services-controller.js (94:106)
+ - backend/controllers/services-controller.js (135:147)
+
+duplicated block id: 7
+size: 9 cleaned lines of code
+in 2 files:
+ - backend/controllers/services-controller.js (62:71)
+ - backend/controllers/users-controller.js (41:50)
+
+duplicated block id: 8
+size: 9 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Services/Services.jsx (73:85)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (75:87)
+
+duplicated block id: 9
+size: 9 cleaned lines of code
+in 2 files:
+ - frontend/src/components/login/Login.css (2:11)
+ - frontend/src/components/signup/Signup.css (2:11)
+
+duplicated block id: 10
+size: 9 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (57:69)
+ - frontend/src/components/Services/Services.jsx (73:85)
+
+duplicated block id: 11
+size: 8 cleaned lines of code
+in 2 files:
+ - backend/controllers/services-controller.js (35:43)
+ - backend/controllers/services-controller.js (135:143)
+
+duplicated block id: 12
+size: 8 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/help/Help.jsx (1:10)
+ - frontend/src/components/User/help/Help.jsx (1:10)
+
+duplicated block id: 13
+size: 7 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Services/Services.jsx (31:37)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (50:56)
+
+duplicated block id: 14
+size: 7 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Services/Services.jsx (15:21)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (41:48)
+
+duplicated block id: 15
+size: 7 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (31:37)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (50:56)
+
+duplicated block id: 16
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (6:11)
+ - frontend/src/components/User/subscribe/Subscribe.jsx (6:11)
+
+duplicated block id: 17
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (7:14)
+ - frontend/src/components/Services/Services.jsx (6:13)
+
+duplicated block id: 18
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (78:83)
+ - frontend/src/components/User/subscribe/Subscribe.jsx (33:38)
+
+duplicated block id: 19
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/profile/Profile.jsx (2:8)
+ - frontend/src/components/User/profile/Profile.jsx (2:8)
+
+duplicated block id: 20
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (37:42)
+ - frontend/src/components/Employeur/subscribe/Subscribe.jsx (78:83)
+
