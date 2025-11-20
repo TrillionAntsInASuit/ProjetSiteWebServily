@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>backend/routes/stripe.js</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">backend/routes/stripe.js (<b>63</b> lines of code) (<a href="stripe.js">raw</a>):</h3>
+<div id="editor">import Stripe from 'stripe';
+import dotenv from &quot;dotenv&quot;;
+dotenv.config();
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
+export const createCheckoutSession = async (req, res, next) =&gt; {
+  try {
+    console.log(&quot;Received priceId:&quot;, req.body.priceId);
+    const { priceId, userId } = req.body; 
+    
+    console.log(&quot;Received priceId:&quot;, priceId); // Debug log
+    console.log(&quot;Stripe key exists:&quot;, !!process.env.STRIPE_SECRET_KEY); // Debug log
+    
+    const session = await stripe.checkout.sessions.create({
+      mode: 'subscription',
+      payment_method_types: ['card'],
+      line_items: [
+        {
+          price: priceId,
+          quantity: 1,
+        },
+      ],
+      success_url: '&quot;http://localhost:5000',
+      cancel_url: '&quot;http://localhost:5000/subscribe',
+      metadata: {
+    userId: userId
+  }
+    });
+    
+    res.json({ url: session.url });
+
+  } catch (err) {
+    console.error(&quot;Stripe error:&quot;, err); // More detailed error log
+    res.status(500).json({ error: err.message }); // Return error to frontend
+  }
+};
+export const handleStripeWebhook = async (req, res) =&gt; {
+  console.log(&quot;Webhook received with signature:&quot;, req.headers[&quot;stripe-signature&quot;]);
+  const sig = req.headers['stripe-signature'];
+  const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+  
+  let event;
+  
+  try {
+    event = stripe.webhooks.constructEvent(req.body, sig, webhookSecret);
+  } catch (err) {
+    console.error('Webhook error:', err.message);
+    return res.status(400).send(`Webhook Error: ${err.message}`);
+  }
+  
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+    const userId = session.metadata.userId;
+    
+    console.log('Payment successful for user:', userId);
+    
+    try {
+      const { createClient } = await import('@supabase/supabase-js');
+      const supabase = createClient(
+        process.env.SUPABASE_URL,
+        process.env.SUPABASE_SERVICE_KEY
+      );
+      
+      await supabase
+        .from('users')
+        .update({ estAbonne: true })
+        .eq('id', userId);
+      
+      console.log('User subscription updated');
+    } catch (dbError) {
+      console.error('Database error:', dbError);
+    }
+  }
+  
+  res.json({ received: true });
+};</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/javascript");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

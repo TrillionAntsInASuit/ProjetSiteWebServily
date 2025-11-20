@@ -1,0 +1,24 @@
+duplicated block id: 1
+size: 12 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (20:34)
+ - frontend/src/components/Services/Services.jsx (21:37)
+
+duplicated block id: 2
+size: 7 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Services/Services.jsx (15:21)
+ - frontend/src/components/User/dashboard/Dashboard.jsx (41:48)
+
+duplicated block id: 3
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (6:13)
+ - frontend/src/components/Services/Services.jsx (6:13)
+
+duplicated block id: 4
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/User/dashboard/Dashboard.jsx (77:86)
+ - frontend/src/containers/ServiceCard.jsx (10:19)
+

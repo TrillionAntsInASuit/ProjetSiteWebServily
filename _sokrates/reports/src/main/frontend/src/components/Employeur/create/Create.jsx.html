@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>frontend/src/components/Employeur/create/Create.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">frontend/src/components/Employeur/create/Create.jsx (<b>77</b> lines of code) (<a href="Create.jsx">raw</a>):</h3>
+<div id="editor">import { useState } from &quot;react&quot;;
+import &quot;./Create.css&quot;;
+import { supabase } from &quot;../../../../util/supabaseClient.js&quot;;
+import { useNavigate } from &quot;react-router-dom&quot;;
+import ServiceTypeList from &quot;../../../containers/ServiceTypeList.jsx&quot;;
+
+const Create = () =&gt; {
+  const [error, setError] = useState(null);
+  const [serviceType, setServiceType] = useState(&quot;&quot;);
+  const navigate = useNavigate();
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const nb_membres = 0;
+    const maxMembres = e.target.maxMembres.value;
+    const description = e.target.description.value;
+    const type = serviceType;
+
+    const creatorId = localStorage.getItem(&quot;userId&quot;);
+
+    const { data: auMoinsUnCreate } = await supabase
+      .from(&quot;services&quot;)
+      .select(&quot;*&quot;)
+      .eq(&quot;creatorId&quot;, creatorId);
+
+    const { data: estAbonne } = await supabase
+      .from(&quot;users&quot;)
+      .select(&quot;estAbonne&quot;)
+      .eq(&quot;id&quot;, creatorId)
+      .single();
+
+    try {
+      if (auMoinsUnCreate.length === 0 || estAbonne.estAbonne) {
+        const { data, error } = await supabase.from(&quot;services&quot;).insert([
+          {
+            name,
+            maxMembres,
+            creatorId,
+            type,
+            description,
+            nb_membres,
+          },
+        ]);
+        if (error) {
+          setError(&quot;Adding service failed. Please try again later.&quot;);
+          return;
+        }
+        navigate(&quot;/&quot;);
+      } else {
+        setError(&quot;Tu dois &ecirc;tre abonn&eacute; pour cr&eacute;er plus qu'un service.&quot;);
+      }
+    } catch (error) {
+      setError(&quot;Service failed. Please try again later.&quot;);
+    }
+  }
+  return (
+    &lt;div className=&quot;form-container&quot;&gt;
+      &lt;h1&gt;Create Listing&lt;/h1&gt;
+      &lt;form onSubmit={handleSubmit} className=&quot;addService-form&quot;&gt;
+        &lt;div className=&quot;form-field&quot;&gt;
+          &lt;label htmlFor=&quot;name&quot;&gt;Name:&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;form-field&quot;&gt;
+          &lt;label htmlFor=&quot;maxMembres&quot;&gt;Number of members allowed:&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;maxMembres&quot; name=&quot;maxMembres&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;form-field&quot;&gt;
+          &lt;label htmlFor=&quot;type&quot;&gt;Type of service:&lt;/label&gt;
+          &lt;ServiceTypeList onSelect={(value) =&gt; setServiceType(value)} /&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;form-field&quot;&gt;
+          &lt;label htmlFor=&quot;description&quot;&gt;Description:&lt;/label&gt;
+          &lt;textarea id=&quot;description&quot; name=&quot;description&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;button type=&quot;submit&quot;&gt;Register&lt;/button&gt;
+        {error &amp;&amp; &lt;p className=&quot;error-message&quot;&gt;{error}&lt;/p&gt;}
+      &lt;/form&gt;
+    &lt;/div&gt;
+  );
+};
+
+export default Create;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>
