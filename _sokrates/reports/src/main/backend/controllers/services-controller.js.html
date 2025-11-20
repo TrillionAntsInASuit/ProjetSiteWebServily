@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>backend/controllers/services-controller.js</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">backend/controllers/services-controller.js (<b>79</b> lines of code) (<a href="services-controller.js">raw</a>):</h3>
+<div id="editor">import { supabase } from &quot;../util/supabaseClient&quot;;
+import HttpError from &quot;../util/http-error.js&quot;;
+import { validateServicePayload, checkServiceExists } from &quot;../util/service-utils.js&quot;;
+
+const getServices = async (req, res, next) =&gt; {
+  try {
+    const { data, error } = await supabase.from(&quot;services&quot;).select(&quot;*&quot;);
+
+    if (error) {
+      console.error(&quot;Supabase select error:&quot;, error);
+      return next(new HttpError(&quot;Erreur de base de donn&eacute;es.&quot;, 500));
+    }
+
+    res.json(data);
+  } catch (err) {
+    return next(new HttpError(&quot;Get service failed.&quot;, 500));
+  }
+};
+
+const createService = async (req, res, next) =&gt; {
+  try {
+    const payload = validateServicePayload(req.body);
+    const existing = await checkServiceExists(payload.name);
+    if (existing) throw new HttpError(&quot;Un service avec ce nom existe d&eacute;j&agrave;.&quot;, 422);
+
+    const { error } = await supabase.from(&quot;services&quot;).insert([{ ...payload, nbMembres: 0 }]).single();
+    if (error) throw new HttpError(&quot;Enregistrement &eacute;chou&eacute;, veuillez r&eacute;essayer plus tard&quot;, 500);
+
+    res.status(201).json({ message: &quot;Service created successfully.&quot; });
+  } catch (err) {
+    next(err);
+  }
+};
+
+
+const updateService = async (req, res, next) =&gt; {
+  try {
+    const payload = validateServicePayload(req.body);
+    const existing = await checkServiceExists(payload.name);
+
+    if (!existing) {
+      throw new HttpError(&quot;Un service avec ce nom n'existe pas.&quot;, 422);
+    }
+
+    const { error } = await supabase
+      .from(&quot;services&quot;)
+      .update(payload)
+      .eq(&quot;name&quot;, payload.name);
+
+    if (error) {
+      console.error(&quot;Supabase update error:&quot;, error);
+      throw new HttpError(&quot;Mise &agrave; jour &eacute;chou&eacute;e, veuillez r&eacute;essayer plus tard&quot;, 500);
+    }
+
+    res.status(200).json({ message: &quot;Service updated successfully.&quot; });
+  } catch (err) {
+    next(err);
+  }
+};
+
+const deleteService = async (req, res, next) =&gt; {
+  try {
+    const { name } = req.body;
+
+    const { data: serviceExiste, error: serviceErreur } = await supabase
+      .from(&quot;services&quot;)
+      .select(&quot;*&quot;)
+      .eq(&quot;name&quot;, name)
+      .maybeSingle();
+
+    if (serviceErreur) {
+      console.error(&quot;Supabase select error:&quot;, serviceErreur);
+      return next(new HttpError(&quot;Erreur de base de donn&eacute;es.&quot;, 500));
+    }
+
+    if (!serviceExiste) {
+      return next(new HttpError(&quot;Un service avec ce nom n'existe pas.&quot;, 422));
+    }
+
+    const { error } = await supabase.from(&quot;services&quot;).delete().eq(&quot;name&quot;, name);
+    if (error) {
+      console.error(&quot;Supabase delete error:&quot;, error);
+      return next(
+        new HttpError(&quot;Suppression &eacute;chou&eacute;e, veuillez r&eacute;essayer plus tard&quot;, 500)
+      );
+    }
+  } catch (err) {
+    return next(new HttpError(&quot;Deleting service failed.&quot;, 500));
+  }
+};
+
+export default {
+  getServices,
+  createService,
+  updateService,
+  deleteService,
+};
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/javascript");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

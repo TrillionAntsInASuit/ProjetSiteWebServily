@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>frontend/src/App.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">frontend/src/App.jsx (<b>105</b> lines of code) (<a href="App.jsx">raw</a>):</h3>
+<div id="editor">import &quot;./App.css&quot;;
+import { createBrowserRouter, RouterProvider } from &quot;react-router-dom&quot;;
+import Home from &quot;./components/home/home.jsx&quot;;
+import RootLayout from &quot;./containers/Roots.jsx&quot;;
+import Signup from &quot;./components/signup/Signup.jsx&quot;;
+import Login from &quot;./components/login/Login.jsx&quot;;
+import { useCallback, useState } from &quot;react&quot;;
+import { AuthContext } from &quot;./context/auth-context.js&quot;;
+import DashboardClient from &quot;./components/User/dashboard/Dashboard.jsx&quot;;
+import SubscribeClient from &quot;./components/User/subscribe/Subscribe.jsx&quot;;
+import DashboardEmployeur from &quot;./components/Employeur/dashboard/Dashboard.jsx&quot;;
+import SubscribeEmployeur from &quot;./components/Employeur/subscribe/Subscribe.jsx&quot;;
+import Create from &quot;./components/Employeur/create/Create.jsx&quot;;
+import Edit from &quot;./components/Employeur/edit/Edit.jsx&quot;;
+import Services from &quot;./components/Services/Services.jsx&quot;;
+
+const router = createBrowserRouter([
+  {
+    path: &quot;/&quot;,
+    element: &lt;RootLayout /&gt;,
+    children: [
+      { path: &quot;/&quot;, element: &lt;Home /&gt; },
+      { path: &quot;/register&quot;, element: &lt;Signup /&gt; },
+      { path: &quot;/login&quot;, element: &lt;Login /&gt; },
+    ],
+  },
+]);
+
+const routerLoginClient = createBrowserRouter([
+  {
+    path: &quot;/&quot;,
+    element: &lt;RootLayout /&gt;,
+    children: [
+      { path: &quot;/&quot;, element: &lt;DashboardClient /&gt; },
+      { path: &quot;/subscribe&quot;, element: &lt;SubscribeClient /&gt; },
+      {path: &quot;/services&quot;, element: &lt;Services /&gt; },
+      {path: &quot;/:serviceId&quot; },
+    ],
+  },
+]);
+const routerLoginEmployeur = createBrowserRouter([
+  {
+    path: &quot;/&quot;,
+    element: &lt;RootLayout /&gt;,
+    children: [
+      { path: &quot;/&quot;, element: &lt;DashboardEmployeur /&gt; },
+      { path: &quot;/subscribe&quot;, element: &lt;SubscribeEmployeur /&gt; },
+      { path: &quot;/create&quot;, element: &lt;Create /&gt; },
+      {path: &quot;/services&quot;, element: &lt;Services /&gt; },
+      { path: &quot;/edit/:serviceId&quot;, element: &lt;Edit /&gt; },
+    ],
+  },
+]);
+function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(() =&gt; {
+    const token = localStorage.getItem(&quot;token&quot;);
+    const userType = localStorage.getItem(&quot;userType&quot;);
+    return !!token &amp;&amp; !!userType;
+  });
+
+  const [userId, setUserId] = useState(() =&gt; localStorage.getItem(&quot;userId&quot;));
+  const [token, setToken] = useState(() =&gt; localStorage.getItem(&quot;token&quot;));
+  const [userType, setUserType] = useState(() =&gt;
+    localStorage.getItem(&quot;userType&quot;)
+  );
+
+  const login = useCallback((uid, token, type) =&gt; {
+    setIsLoggedIn(true);
+    setUserId(uid);
+    setToken(token);
+    setUserType(type);
+    localStorage.setItem(&quot;token&quot;, token);
+    localStorage.setItem(&quot;userId&quot;, uid);
+    localStorage.setItem(&quot;userType&quot;, type);
+  }, []);
+
+  const logout = useCallback(() =&gt; {
+    setIsLoggedIn(false);
+    setUserId(null);
+    setToken(null);
+    localStorage.removeItem(&quot;token&quot;);
+    localStorage.removeItem(&quot;userId&quot;);
+    localStorage.removeItem(&quot;userType&quot;);
+  }, []);
+  if (isLoggedIn) {
+    if (localStorage.getItem(&quot;userType&quot;) === &quot;client&quot;) {
+      return (
+        &lt;AuthContext.Provider
+          value={{ isLoggedIn, userId, token, userType, login, logout }}
+        &gt;
+          &lt;RouterProvider router={routerLoginClient} /&gt;
+        &lt;/AuthContext.Provider&gt;
+      );
+    } else {
+      return (
+        &lt;AuthContext.Provider
+          value={{ isLoggedIn, userId, token, userType, login, logout }}
+        &gt;
+          &lt;RouterProvider router={routerLoginEmployeur} /&gt;
+        &lt;/AuthContext.Provider&gt;
+      );
+    }
+  }
+  return (
+    &lt;AuthContext.Provider value={{ isLoggedIn, userId, token, login, logout }}&gt;
+      &lt;RouterProvider router={router} /&gt;
+    &lt;/AuthContext.Provider&gt;
+  );
+}
+
+export default App;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

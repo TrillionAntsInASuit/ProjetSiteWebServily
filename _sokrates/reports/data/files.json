@@ -1,0 +1,289 @@
+[ {
+  "relativePath" : "backend/app.js",
+  "extension" : "js",
+  "linesOfCode" : 50,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/controllers/services-controller.js",
+  "extension" : "js",
+  "linesOfCode" : 79,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/controllers/users-controller.js",
+  "extension" : "js",
+  "linesOfCode" : 100,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/handler/error-handler.js",
+  "extension" : "js",
+  "linesOfCode" : 8,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/routes/services-routes.js",
+  "extension" : "js",
+  "linesOfCode" : 7,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/routes/stripe.js",
+  "extension" : "js",
+  "linesOfCode" : 63,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/routes/users-routes.js",
+  "extension" : "js",
+  "linesOfCode" : 6,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/util/http-error.js",
+  "extension" : "js",
+  "linesOfCode" : 7,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/util/service-utils.js",
+  "extension" : "js",
+  "linesOfCode" : 21,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "backend/util/supabaseClient.js",
+  "extension" : "js",
+  "linesOfCode" : 5,
+  "components" : [ "primary::backend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/eslint.config.js",
+  "extension" : "js",
+  "linesOfCode" : 28,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/index.html",
+  "extension" : "html",
+  "linesOfCode" : 13,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/App.css",
+  "extension" : "css",
+  "linesOfCode" : 37,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/App.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 105,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/create/Create.css",
+  "extension" : "css",
+  "linesOfCode" : 74,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/create/Create.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 77,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 48,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/edit/Edit.css",
+  "extension" : "css",
+  "linesOfCode" : 47,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/edit/Edit.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 64,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/header/header.css",
+  "extension" : "css",
+  "linesOfCode" : 169,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/header/header.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 46,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/home/home.css",
+  "extension" : "css",
+  "linesOfCode" : 123,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/home/home.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 26,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/login/Login.css",
+  "extension" : "css",
+  "linesOfCode" : 220,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/login/Login.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 99,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/navigation/MainNavigation.css",
+  "extension" : "css",
+  "linesOfCode" : 1,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/navigation/MainNavigation.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/Services/Services.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 46,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/signup/Signup.css",
+  "extension" : "css",
+  "linesOfCode" : 27,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/signup/Signup.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 94,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/UIElements/ModalMessageErreur.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 22,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 85,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/User/join/Join.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/Roots.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 12,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/ServiceCard.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 29,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/Services.css",
+  "extension" : "css",
+  "linesOfCode" : 100,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/ServiceTypeList.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 47,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/Subscribe.css",
+  "extension" : "css",
+  "linesOfCode" : 74,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/containers/SubscribeCard.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 61,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/context/auth-context.js",
+  "extension" : "js",
+  "linesOfCode" : 8,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/data/data.js",
+  "extension" : "js",
+  "linesOfCode" : 17,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/hooks/http-hook.js",
+  "extension" : "js",
+  "linesOfCode" : 36,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/index.css",
+  "extension" : "css",
+  "linesOfCode" : 79,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/src/main.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/util/supabaseClient.js",
+  "extension" : "js",
+  "linesOfCode" : 5,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "frontend/vite.config.js",
+  "extension" : "js",
+  "linesOfCode" : 10,
+  "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+} ]

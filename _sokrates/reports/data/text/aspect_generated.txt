@@ -1,0 +1,3 @@
+Path	Lines of Code
+frontend/package-lock.json	3281
+package-lock.json	144

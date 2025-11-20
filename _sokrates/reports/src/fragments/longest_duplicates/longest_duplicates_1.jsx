@@ -1,0 +1,44 @@
+frontend/src/components/Employeur/dashboard/Dashboard.jsx [20:34]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      };
+    
+      if (loading) {
+        return (
+          <div className="services-container">
+            <p className="loading">Loading services...</p>
+          </div>
+        );
+      }
+    
+  return (
+        <div className="services-container">
+          <h1>Available Services</h1>
+          <div className="services-list">
+            {services.map((service) => {
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+frontend/src/components/Services/Services.jsx [21:37]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  };
+
+  if (loading) {
+    return (
+      <div className="services-container">
+        <p className="loading">Loading services...</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="services-container">
+      <h1>Available Services</h1>
+      <div className="services-list">
+
+
+{services.map((service) => {
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
