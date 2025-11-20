@@ -32,7 +32,10 @@ export default function Services() {
     <div className="services-container">
       <h1>Available Services</h1>
       <div className="services-list">
+<<<<<<< HEAD
         import ServiceCard from "./ServiceCard";
+=======
+>>>>>>> fix/sokrates
 
 {services.map((service) => {
   const handleJoin = async () => {

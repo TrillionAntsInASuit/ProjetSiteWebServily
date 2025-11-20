@@ -1,5 +1,8 @@
 import SubscribeCard from "../../../containers/SubscribeCard";
+<<<<<<< HEAD
 
+=======
+>>>>>>> fix/sokrates
 const plan = {
   name: "Membership",
   price: "$9.99",
