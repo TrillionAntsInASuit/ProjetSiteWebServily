@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-.signup-container {
-=======
 .signup-container, .login-form {
->>>>>>> Stashed changes
   display: flex;
   flex-direction: column;
   justify-content: center;

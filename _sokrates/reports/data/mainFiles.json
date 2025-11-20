@@ -8,11 +8,7 @@
 }, {
   "relativePath" : "backend/controllers/services-controller.js",
   "extension" : "js",
-<<<<<<< Updated upstream
-  "linesOfCode" : 145,
-=======
   "linesOfCode" : 79,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -59,8 +55,6 @@
   "unitsMcCabeIndexSum" : 1,
   "linesOfCodeInUnits" : 4
 }, {
-<<<<<<< Updated upstream
-=======
   "relativePath" : "backend/util/service-utils.js",
   "extension" : "js",
   "linesOfCode" : 21,
@@ -68,7 +62,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
->>>>>>> Stashed changes
   "relativePath" : "backend/util/supabaseClient.js",
   "extension" : "js",
   "linesOfCode" : 5,
@@ -99,11 +92,7 @@
 }, {
   "relativePath" : "frontend/src/App.jsx",
   "extension" : "jsx",
-<<<<<<< Updated upstream
-  "linesOfCode" : 111,
-=======
-  "linesOfCode" : 107,
->>>>>>> Stashed changes
+  "linesOfCode" : 105,
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -122,22 +111,9 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-  "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.css",
-  "extension" : "css",
-  "linesOfCode" : 8,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 73,
-=======
   "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
   "extension" : "jsx",
   "linesOfCode" : 48,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -156,36 +132,9 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-  "relativePath" : "frontend/src/components/Employeur/help/Help.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 9,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/Employeur/profile/Profile.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 9,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.css",
-  "extension" : "css",
-  "linesOfCode" : 59,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 103,
-=======
   "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
   "extension" : "jsx",
   "linesOfCode" : 14,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -199,11 +148,7 @@
 }, {
   "relativePath" : "frontend/src/components/header/header.jsx",
   "extension" : "jsx",
-<<<<<<< Updated upstream
-  "linesOfCode" : 49,
-=======
   "linesOfCode" : 46,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -224,11 +169,7 @@
 }, {
   "relativePath" : "frontend/src/components/login/Login.css",
   "extension" : "css",
-<<<<<<< Updated upstream
-  "linesOfCode" : 230,
-=======
   "linesOfCode" : 220,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -254,22 +195,9 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-  "relativePath" : "frontend/src/components/Services/Services.css",
-  "extension" : "css",
-  "linesOfCode" : 92,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
   "relativePath" : "frontend/src/components/Services/Services.jsx",
   "extension" : "jsx",
-  "linesOfCode" : 94,
-=======
-  "relativePath" : "frontend/src/components/Services/Services.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 47,
->>>>>>> Stashed changes
+  "linesOfCode" : 46,
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -302,16 +230,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-  "relativePath" : "frontend/src/components/User/help/Help.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 9,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-=======
->>>>>>> Stashed changes
   "relativePath" : "frontend/src/components/User/join/Join.jsx",
   "extension" : "jsx",
   "linesOfCode" : 16,
@@ -319,29 +237,9 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-  "relativePath" : "frontend/src/components/User/profile/Profile.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 9,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/User/subscribe/Subscribe.css",
-  "extension" : "css",
-  "linesOfCode" : 15,
-  "unitsCount" : 0,
-  "unitsMcCabeIndexSum" : 0,
-  "linesOfCodeInUnits" : 0
-}, {
-  "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
-  "extension" : "jsx",
-  "linesOfCode" : 74,
-=======
   "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
   "extension" : "jsx",
   "linesOfCode" : 9,
->>>>>>> Stashed changes
   "unitsCount" : 0,
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
@@ -353,8 +251,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-=======
   "relativePath" : "frontend/src/containers/ServiceCard.jsx",
   "extension" : "jsx",
   "linesOfCode" : 29,
@@ -369,7 +265,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
->>>>>>> Stashed changes
   "relativePath" : "frontend/src/containers/ServiceTypeList.jsx",
   "extension" : "jsx",
   "linesOfCode" : 47,
@@ -377,8 +272,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
-<<<<<<< Updated upstream
-=======
   "relativePath" : "frontend/src/containers/Subscribe.css",
   "extension" : "css",
   "linesOfCode" : 74,
@@ -393,7 +286,6 @@
   "unitsMcCabeIndexSum" : 0,
   "linesOfCodeInUnits" : 0
 }, {
->>>>>>> Stashed changes
   "relativePath" : "frontend/src/context/auth-context.js",
   "extension" : "js",
   "linesOfCode" : 8,

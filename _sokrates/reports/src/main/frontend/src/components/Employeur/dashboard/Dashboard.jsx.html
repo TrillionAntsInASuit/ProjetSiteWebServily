@@ -12,20 +12,11 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
-<<<<<<< Updated upstream
-<h3 style="margin-bottom: 0">frontend/src/components/Employeur/dashboard/Dashboard.jsx (<b>73</b> lines of code) (<a href="Dashboard.jsx">raw</a>):</h3>
-<div id="editor">    import { supabase } from &quot;../../../../util/supabaseClient.js&quot;;
-    import { useState, useEffect } from &quot;react&quot;;
-    import &quot;./Dashboard.css&quot;;
-    import { Link } from &quot;react-router-dom&quot;;
-
-=======
 <h3 style="margin-bottom: 0">frontend/src/components/Employeur/dashboard/Dashboard.jsx (<b>48</b> lines of code) (<a href="Dashboard.jsx">raw</a>):</h3>
 <div id="editor">    import { supabase } from &quot;../../../../util/supabaseClient.js&quot;;
     import { useState, useEffect } from &quot;react&quot;;
     import { Link } from &quot;react-router-dom&quot;;
     import ServiceCard from &quot;../../../containers/ServiceCard.jsx&quot;;
->>>>>>> Stashed changes
 const DashboardEmployeur = () =&gt; {
   const [services, setServices] = useState([]);
       const [loading, setLoading] = useState(true);
@@ -56,53 +47,6 @@ const DashboardEmployeur = () =&gt; {
           &lt;h1&gt;Available Services&lt;/h1&gt;
           &lt;div className=&quot;services-list&quot;&gt;
             {services.map((service) =&gt; {
-<<<<<<< Updated upstream
-              const percentage = (service.nb_membres / service.maxMembres) * 100;
-              const isFull = service.nb_membres &gt;= service.maxMembres;
-
-              const handleDelete = async () =&gt; {
-                const confirmDelete = window.confirm(&quot;Es-tu s&ucirc;r de vouloir effacer ce service?&quot;);
-    
-                if (confirmDelete) {
-                  const { error } = await supabase
-                    .from('services')
-                    .delete()
-                    .eq('id', service.id);
-
-                  if (error) {
-                    console.error('Delete failed:', error.message);
-                  } else {
-                    console.log('Service deleted successfully');
-                    getServices();
-                  }
-                }
-              }
-    
-              return (
-                &lt;div key={service.id} className=&quot;service-card&quot;&gt;
-                  &lt;h2&gt;{service.name}&lt;/h2&gt;
-                  &lt;p className=&quot;service-type&quot;&gt;Type: {service.type}&lt;/p&gt;
-                  
-                  &lt;div className=&quot;members-info&quot;&gt;
-                    &lt;span className=&quot;members-count&quot;&gt;
-                      &lt;strong&gt;{service.nb_membres}&lt;/strong&gt; / {service.maxMembres}
-                    &lt;/span&gt;
-                  &lt;/div&gt;
-    
-                  &lt;div className=&quot;progress-bar-container&quot;&gt;
-                    &lt;div
-                      className={`progress-bar ${isFull ? 'full' : ''}`}
-                      style={{ width: `${percentage}%` }}
-                    /&gt;
-                  &lt;/div&gt;
-    
-                  {isFull &amp;&amp; &lt;span className=&quot;full-badge&quot;&gt;Full&lt;/span&gt;}
-                  &lt;Link to={`/edit/${service.id}`}&gt;&lt;button className=&quot;editBtn&quot;&gt;Edit&lt;/button&gt;&lt;/Link&gt;
-                  &lt;button className=&quot;deleteBtn&quot; onClick={handleDelete}&gt;Delete&lt;/button&gt;
-                &lt;/div&gt;
-              );
-            })}
-=======
   const handleDelete = async () =&gt; {
     // your existing delete logic
   };
@@ -118,7 +62,6 @@ const DashboardEmployeur = () =&gt; {
   );
 })}
 
->>>>>>> Stashed changes
           &lt;/div&gt;
         &lt;/div&gt;
       );

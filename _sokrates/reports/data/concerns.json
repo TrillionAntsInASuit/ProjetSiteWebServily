@@ -9,24 +9,8 @@
     "linesOfCodePerExtension" : [ ]
   }, {
     "name" : "Unclassified",
-<<<<<<< Updated upstream
-    "filesCount" : 51,
-    "linesOfCode" : 2574,
-    "numberOfRegexLineMatches" : 0,
-    "fileCountPerExtension" : [ {
-      "name" : "  *.jsx",
-      "value" : 22,
-      "description" : [ ]
-    }, {
-      "name" : "  *.css",
-      "value" : 13,
-      "description" : [ ]
-    }, {
-      "name" : "  *.js",
-      "value" : 15,
-=======
     "filesCount" : 48,
-    "linesOfCode" : 2340,
+    "linesOfCode" : 2337,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
       "name" : "  *.css",
@@ -39,7 +23,6 @@
     }, {
       "name" : "  *.js",
       "value" : 16,
->>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.html",
@@ -47,29 +30,16 @@
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
-<<<<<<< Updated upstream
-      "name" : "  *.jsx",
-      "value" : 1105,
-      "description" : [ ]
-    }, {
-      "name" : "  *.css",
-      "value" : 961,
-      "description" : [ ]
-    }, {
-      "name" : "  *.js",
-      "value" : 495,
-=======
       "name" : "  *.css",
       "value" : 951,
       "description" : [ ]
     }, {
       "name" : "  *.jsx",
-      "value" : 926,
+      "value" : 923,
       "description" : [ ]
     }, {
       "name" : "  *.js",
       "value" : 450,
->>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.html",
@@ -84,11 +54,7 @@
     "description" : [ ]
   }, {
     "name" : "Unclassified",
-<<<<<<< Updated upstream
-    "value" : 51,
-=======
     "value" : 48,
->>>>>>> Stashed changes
     "description" : [ ]
   } ],
   "linesOfCodePerConcern" : [ {
@@ -97,11 +63,7 @@
     "description" : [ ]
   }, {
     "name" : "Unclassified",
-<<<<<<< Updated upstream
-    "value" : 2574,
-=======
-    "value" : 2340,
->>>>>>> Stashed changes
+    "value" : 2337,
     "description" : [ ]
   } ]
 } ]

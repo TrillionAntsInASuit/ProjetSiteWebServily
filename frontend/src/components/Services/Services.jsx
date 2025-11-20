@@ -32,7 +32,6 @@ export default function Services() {
     <div className="services-container">
       <h1>Available Services</h1>
       <div className="services-list">
-        import ServiceCard from "./ServiceCard";
 
 {services.map((service) => {
   const handleJoin = async () => {

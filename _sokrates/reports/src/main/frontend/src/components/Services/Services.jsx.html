@@ -12,17 +12,10 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
-<<<<<<< Updated upstream
-<h3 style="margin-bottom: 0">frontend/src/components/Services/Services.jsx (<b>94</b> lines of code) (<a href="Services.jsx">raw</a>):</h3>
-<div id="editor">import { supabase } from &quot;../../../util/supabaseClient&quot;;
-import { useState, useEffect } from &quot;react&quot;;
-import &quot;./Services.css&quot;;
-=======
-<h3 style="margin-bottom: 0">frontend/src/components/Services/Services.jsx (<b>47</b> lines of code) (<a href="Services.jsx">raw</a>):</h3>
+<h3 style="margin-bottom: 0">frontend/src/components/Services/Services.jsx (<b>46</b> lines of code) (<a href="Services.jsx">raw</a>):</h3>
 <div id="editor">import { supabase } from &quot;../../../util/supabaseClient&quot;;
 import { useState, useEffect } from &quot;react&quot;;
 import ServiceCard from &quot;../../containers/ServiceCard&quot;;
->>>>>>> Stashed changes
 
 export default function Services() {
   const [services, setServices] = useState([]);
@@ -54,78 +47,6 @@ export default function Services() {
     &lt;div className=&quot;services-container&quot;&gt;
       &lt;h1&gt;Available Services&lt;/h1&gt;
       &lt;div className=&quot;services-list&quot;&gt;
-<<<<<<< Updated upstream
-        {services.map((service) =&gt; {
-          const percentage = (service.nb_membres / service.maxMembres) * 100;
-          const isFull = service.nb_membres &gt;= service.maxMembres;
-          const handleJoin = async () =&gt; {
-            const userId = localStorage.getItem(&quot;userId&quot;);
-
-            const { data: auMoinsUnService } = await supabase
-              .from(&quot;serviceMembres&quot;)
-              .select(&quot;*&quot;)
-              .eq(&quot;userId&quot;, userId);
-
-            const { data: estAbonne } = await supabase
-              .from(&quot;users&quot;)
-              .select(&quot;estAbonne&quot;)
-              .eq(&quot;id&quot;, userId)
-              .single();
-
-            if (auMoinsUnService.length === 0 || estAbonne.estAbonne) {
-              const { error } = await supabase.from(&quot;serviceMembres&quot;).insert([
-                {
-                  userId: userId,
-                  service_id: service.id,
-                },
-              ]);
-
-              if (error) {
-                console.error(&quot;Error joining service:&quot;, error.message);
-                alert(&quot;Failed to join the service. Please try again.&quot;);
-                console.error(&quot;Service object:&quot;, service);
-              } else {
-                alert(&quot;Successfully joined the service!&quot;);
-                getServices();
-              }
-            } else {
-              alert(&quot;Tu dois &ecirc;tre abonn&eacute; pour rejoindre &agrave; plus qu'un service.&quot;);
-            }
-          };
-
-          return (
-            &lt;div key={service.id} className=&quot;service-card&quot;&gt;
-              &lt;h2&gt;{service.name}&lt;/h2&gt;
-              &lt;p className=&quot;service-type&quot;&gt;Type: {service.type}&lt;/p&gt;
-
-              &lt;div className=&quot;members-info&quot;&gt;
-                &lt;span className=&quot;members-count&quot;&gt;
-                  &lt;strong&gt;{service.nb_membres}&lt;/strong&gt; / {service.maxMembres}
-                &lt;/span&gt;
-              &lt;/div&gt;
-
-              &lt;div className=&quot;progress-bar-container&quot;&gt;
-                &lt;div
-                  className={`progress-bar ${isFull ? &quot;full&quot; : &quot;&quot;}`}
-                  style={{ width: `${percentage}%` }}
-                /&gt;
-              &lt;/div&gt;
-
-              {isFull &amp;&amp; &lt;span className=&quot;full-badge&quot;&gt;Full&lt;/span&gt;}
-              {localStorage.getItem(&quot;userType&quot;) === &quot;client&quot; ? (
-                &lt;button className=&quot;joinBtn&quot; onClick={handleJoin}&gt;
-                  Join
-                &lt;/button&gt;
-              ) : (
-                &lt;button className=&quot;joinBtn&quot; disabled={isFull}&gt;
-                  siuuu
-                &lt;/button&gt;
-              )}
-            &lt;/div&gt;
-          );
-        })}
-=======
-        import ServiceCard from &quot;./ServiceCard&quot;;
 
 {services.map((service) =&gt; {
   const handleJoin = async () =&gt; {
@@ -141,7 +62,6 @@ export default function Services() {
     /&gt;
   );
 })}
->>>>>>> Stashed changes
       &lt;/div&gt;
     &lt;/div&gt;
   );

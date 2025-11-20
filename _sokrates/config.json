@@ -8,7 +8,7 @@
   },
   "summary" : [ ],
   "srcRoot" : "..",
-  "extensions" : [ "js", "ts", "md", "json", "mjs", "yaml", "cmd", "ps1", "cjs", "txt", "npmignore", "tsx", "jsx", "css", "xml", "editorconfig", "html", "toml", "markdown", "h", "coffee", "jshintrc", "go", "py", "babelrc", "cc", "svg", "gitignore", "gyp", "jscsrc", "patch", "nix", "rb", "gitattributes", "applescript", "dockerfile", "php", "prettierignore" ],
+  "extensions" : [ "js", "ts", "md", "json", "mjs", "yaml", "cmd", "ps1", "cjs", "txt", "npmignore", "tsx", "jsx", "xml", "css", "editorconfig", "html", "toml", "markdown", "h", "coffee", "jshintrc", "go", "py", "babelrc", "cc", "svg", "gitignore", "gyp", "jscsrc", "patch", "nix", "rb", "gitattributes", "applescript", "dockerfile", "php", "prettierignore" ],
   "ignore" : [ {
     "pathPattern" : ".*/[.][a-zA-Z0-9_]+.*",
     "contentPattern" : "",
