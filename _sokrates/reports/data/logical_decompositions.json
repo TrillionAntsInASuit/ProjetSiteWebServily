@@ -2,31 +2,31 @@
   "key" : "primary",
   "components" : [ {
     "name" : "backend",
-    "filesCount" : 9,
-    "linesOfCode" : 391,
+    "filesCount" : 10,
+    "linesOfCode" : 346,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
       "name" : "  *.js",
-      "value" : 9,
+      "value" : 10,
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
       "name" : "  *.js",
-      "value" : 391,
+      "value" : 346,
       "description" : [ ]
     } ]
   }, {
     "name" : "frontend",
-    "filesCount" : 42,
-    "linesOfCode" : 2183,
+    "filesCount" : 38,
+    "linesOfCode" : 1994,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
-      "name" : "  *.jsx",
-      "value" : 22,
+      "name" : "  *.css",
+      "value" : 11,
       "description" : [ ]
     }, {
-      "name" : "  *.css",
-      "value" : 13,
+      "name" : "  *.jsx",
+      "value" : 20,
       "description" : [ ]
     }, {
       "name" : "  *.js",
@@ -38,12 +38,12 @@
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
-      "name" : "  *.jsx",
-      "value" : 1105,
+      "name" : "  *.css",
+      "value" : 951,
       "description" : [ ]
     }, {
-      "name" : "  *.css",
-      "value" : 961,
+      "name" : "  *.jsx",
+      "value" : 926,
       "description" : [ ]
     }, {
       "name" : "  *.js",
@@ -106,20 +106,20 @@
   },
   "fileCountPerComponent" : [ {
     "name" : "backend",
-    "value" : 9,
+    "value" : 10,
     "description" : [ ]
   }, {
     "name" : "frontend",
-    "value" : 42,
+    "value" : 38,
     "description" : [ ]
   } ],
   "linesOfCodePerComponent" : [ {
     "name" : "backend",
-    "value" : 391,
+    "value" : 346,
     "description" : [ ]
   }, {
     "name" : "frontend",
-    "value" : 2183,
+    "value" : 1994,
     "description" : [ ]
   } ]
 } ]

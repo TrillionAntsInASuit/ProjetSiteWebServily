@@ -1,4 +1,4 @@
-.signup-container {
+.signup-container, .login-form {
   display: flex;
   flex-direction: column;
   justify-content: center;

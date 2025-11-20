@@ -12,87 +12,20 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
-<h3 style="margin-bottom: 0">frontend/src/components/User/subscribe/Subscribe.jsx (<b>74</b> lines of code) (<a href="Subscribe.jsx">raw</a>):</h3>
-<div id="editor">import { useEffect, useState } from &quot;react&quot;;
-import { supabase } from &quot;../../../../../backend/util/supabaseClient&quot;;
-import &quot;./Subscribe.css&quot;;
+<h3 style="margin-bottom: 0">frontend/src/components/User/subscribe/Subscribe.jsx (<b>9</b> lines of code) (<a href="Subscribe.jsx">raw</a>):</h3>
+<div id="editor">import SubscribeCard from &quot;../../../containers/SubscribeCard&quot;;
 
-const SubscribeClient = () =&gt; {
-  const [user, setUser] = useState(null);
-  const plans = [
-    {
-      name: &quot;Membership&quot;,
-      price: &quot;$9.99&quot;,
-      priceId: &quot;price_1SLTFyE9u0y3XuLvracqlHZ6&quot;,
-      features: [&quot;Join unlimited jobs&quot;, &quot;Priority customer support&quot;],
-    },
-  ];
 
-  useEffect(() =&gt; {
-    const getUser = async () =&gt; {
-      const { data } = await supabase
-        .from(&quot;users&quot;)
-        .select(&quot;*&quot;)
-        .eq(&quot;id&quot;, localStorage.getItem(&quot;userId&quot;))
-        .single();
-      setUser(data);
-    };
-    getUser();
-  }, []);
-
-  const handleSubscribe = async (priceId) =&gt; {
-    console.log(&quot;1. Starting subscribe with priceId:&quot;, priceId);
-    try {
-      const response = await fetch(
-                &quot;http://localhost:5000/create-checkout-session&quot;,
-        {
-          method: &quot;POST&quot;,
-          headers: {
-            &quot;Content-Type&quot;: &quot;application/json&quot;,
-          },
-          body: JSON.stringify({
-            priceId,
-            userId: localStorage.getItem(&quot;userId&quot;),
-          }),
-        }
-      );
-      console.log(&quot;2. Response received:&quot;, response);
-      console.log(&quot;3. Response status:&quot;, response.status);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const session = await response.json();
-      console.log(&quot;4. Session data:&quot;, session);
-      if (!session.url) {
-        console.error(&quot;No URL in session:&quot;, session);
-        alert(&quot;Error: No checkout URL received&quot;);
-        return;
-      }
-      console.log(&quot;5. Redirecting to:&quot;, session.url);
-      window.location.href = session.url;
-    } catch (error) {
-      console.error(&quot;Error creating checkout session:&quot;, error);
-      alert(&quot;Error: &quot; + error.message);
-    }
-  };
-
-  return (
-    &lt;div className=&quot;subscribe&quot;&gt;
-      &lt;h1&gt;Subscribe&lt;/h1&gt;
-      &lt;div className=&quot;subscribe-box&quot;&gt;
-        &lt;h2&gt;{plans[0].name}&lt;/h2&gt;
-        &lt;p className=&quot;price&quot;&gt;{plans[0].price}&lt;/p&gt;
-        &lt;p className=&quot;price-period&quot;&gt;per month&lt;/p&gt;
-        &lt;button onClick={() =&gt; handleSubscribe(plans[0].priceId)}&gt;
-          Subscribe Now
-        &lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  );
+const plan = {
+  name: &quot;Membership&quot;,
+  price: &quot;$9.99&quot;,
+  priceId: &quot;price_1SLTFyE9u0y3XuLvracqlHZ6&quot;,
+  features: [&quot;Join unlimited jobs&quot;, &quot;Priority customer support&quot;],
 };
 
-export default SubscribeClient;
-</div>
+const SubscribeClient = () =&gt; &lt;SubscribeCard plan={plan} /&gt;;
+
+export default SubscribeClient;</div>
 <script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");
