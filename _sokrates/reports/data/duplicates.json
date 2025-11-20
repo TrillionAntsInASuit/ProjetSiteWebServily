@@ -1,5 +1,6 @@
 {
   "title" : "Duplication",
+<<<<<<< Updated upstream
   "timestamp" : "2025-11-20 14:00:35",
   "duplicates" : [ {
     "blockSize" : 48,
@@ -103,10 +104,29 @@
       "endLine" : 37,
       "cleanedStartLine" : 18,
       "cleanedEndLine" : 31
+=======
+  "timestamp" : "2025-11-20 14:54:34",
+  "duplicates" : [ {
+    "blockSize" : 11,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 48,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 45,
+      "startLine" : 20,
+      "endLine" : 33,
+      "cleanedStartLine" : 18,
+      "cleanedEndLine" : 28
+>>>>>>> Stashed changes
     }, {
       "file" : {
         "relativePath" : "frontend/src/components/Services/Services.jsx",
         "extension" : "jsx",
+<<<<<<< Updated upstream
         "linesOfCode" : 94,
         "components" : [ "primary::frontend" ],
         "concerns" : [ "::Unclassified" ]
@@ -348,6 +368,17 @@
       "endLine" : 10,
       "cleanedStartLine" : 1,
       "cleanedEndLine" : 8
+=======
+        "linesOfCode" : 47,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 44,
+      "startLine" : 21,
+      "endLine" : 34,
+      "cleanedStartLine" : 18,
+      "cleanedEndLine" : 28
+>>>>>>> Stashed changes
     } ]
   }, {
     "blockSize" : 7,
@@ -355,6 +386,7 @@
       "file" : {
         "relativePath" : "frontend/src/components/Services/Services.jsx",
         "extension" : "jsx",
+<<<<<<< Updated upstream
         "linesOfCode" : 94,
         "components" : [ "primary::frontend" ],
         "concerns" : [ "::Unclassified" ]
@@ -389,6 +421,13 @@
         "concerns" : [ "::Unclassified" ]
       },
       "sourceFileCleanedLinesOfCode" : 85,
+=======
+        "linesOfCode" : 47,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 44,
+>>>>>>> Stashed changes
       "startLine" : 15,
       "endLine" : 21,
       "cleanedStartLine" : 12,
@@ -408,6 +447,7 @@
       "cleanedEndLine" : 38
     } ]
   }, {
+<<<<<<< Updated upstream
     "blockSize" : 7,
     "duplicatedFileBlocks" : [ {
       "file" : {
@@ -466,11 +506,14 @@
       "cleanedEndLine" : 10
     } ]
   }, {
+=======
+>>>>>>> Stashed changes
     "blockSize" : 6,
     "duplicatedFileBlocks" : [ {
       "file" : {
         "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
         "extension" : "jsx",
+<<<<<<< Updated upstream
         "linesOfCode" : 73,
         "components" : [ "primary::frontend" ],
         "concerns" : [ "::Unclassified" ]
@@ -478,17 +521,34 @@
       "sourceFileCleanedLinesOfCode" : 66,
       "startLine" : 7,
       "endLine" : 14,
+=======
+        "linesOfCode" : 48,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 45,
+      "startLine" : 6,
+      "endLine" : 13,
+>>>>>>> Stashed changes
       "cleanedStartLine" : 6,
       "cleanedEndLine" : 11
     }, {
       "file" : {
         "relativePath" : "frontend/src/components/Services/Services.jsx",
         "extension" : "jsx",
+<<<<<<< Updated upstream
         "linesOfCode" : 94,
         "components" : [ "primary::frontend" ],
         "concerns" : [ "::Unclassified" ]
       },
       "sourceFileCleanedLinesOfCode" : 85,
+=======
+        "linesOfCode" : 47,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 44,
+>>>>>>> Stashed changes
       "startLine" : 6,
       "endLine" : 13,
       "cleanedStartLine" : 5,
@@ -498,6 +558,7 @@
     "blockSize" : 6,
     "duplicatedFileBlocks" : [ {
       "file" : {
+<<<<<<< Updated upstream
         "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
         "extension" : "jsx",
         "linesOfCode" : 103,
@@ -580,6 +641,32 @@
       "endLine" : 83,
       "cleanedStartLine" : 69,
       "cleanedEndLine" : 74
+=======
+        "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 85,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 79,
+      "startLine" : 77,
+      "endLine" : 86,
+      "cleanedStartLine" : 63,
+      "cleanedEndLine" : 68
+    }, {
+      "file" : {
+        "relativePath" : "frontend/src/containers/ServiceCard.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 29,
+        "components" : [ "primary::frontend" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 25,
+      "startLine" : 10,
+      "endLine" : 19,
+      "cleanedStartLine" : 8,
+      "cleanedEndLine" : 13
+>>>>>>> Stashed changes
     } ]
   } ],
   "overallDuplication" : null

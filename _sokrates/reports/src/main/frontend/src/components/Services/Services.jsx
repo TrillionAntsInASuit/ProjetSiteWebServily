@@ -1,6 +1,10 @@
 import { supabase } from "../../../util/supabaseClient";
 import { useState, useEffect } from "react";
+<<<<<<< Updated upstream
 import "./Services.css";
+=======
+import ServiceCard from "../../containers/ServiceCard";
+>>>>>>> Stashed changes
 
 export default function Services() {
   const [services, setServices] = useState([]);
@@ -32,6 +36,7 @@ export default function Services() {
     <div className="services-container">
       <h1>Available Services</h1>
       <div className="services-list">
+<<<<<<< Updated upstream
         {services.map((service) => {
           const percentage = (service.nb_membres / service.maxMembres) * 100;
           const isFull = service.nb_membres >= service.maxMembres;
@@ -101,6 +106,24 @@ export default function Services() {
             </div>
           );
         })}
+=======
+        import ServiceCard from "./ServiceCard";
+
+{services.map((service) => {
+  const handleJoin = async () => {
+    // your existing join logic
+  };
+
+  return (
+    <ServiceCard
+      key={service.id}
+      service={service}
+      userType={localStorage.getItem("userType")}
+      onJoin={handleJoin}
+    />
+  );
+})}
+>>>>>>> Stashed changes
       </div>
     </div>
   );

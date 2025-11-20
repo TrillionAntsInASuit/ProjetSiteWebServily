@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 frontend/src/components/Employeur/dashboard/Dashboard.jsx [54:75]:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                 }
@@ -22,10 +23,23 @@ frontend/src/components/Employeur/dashboard/Dashboard.jsx [54:75]:
                   </div>
     
                   {isFull && <span className="full-badge">Full</span>}
+=======
+frontend/src/components/Employeur/dashboard/Dashboard.jsx [6:13]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  const [services, setServices] = useState([]);
+      const [loading, setLoading] = useState(true);
+    
+      useEffect(() => {
+        getServices();
+      }, []);
+    
+      const getServices = async () => {
+>>>>>>> Stashed changes
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
+<<<<<<< Updated upstream
 frontend/src/components/User/dashboard/Dashboard.jsx [72:93]:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
               }
@@ -50,6 +64,18 @@ frontend/src/components/User/dashboard/Dashboard.jsx [72:93]:
                   </div>
     
                   {isFull && <span className="full-badge">Full</span>}
+=======
+frontend/src/components/Services/Services.jsx [6:13]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    getServices();
+  }, []);
+
+  const getServices = async () => {
+>>>>>>> Stashed changes
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 

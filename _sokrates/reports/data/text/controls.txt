@@ -2,14 +2,24 @@ goal: Keep the system simple and easy to change
 control metric: LINES_OF_CODE_MAIN
 status: OK
 desired range: [0 - 200000] ±20000
+<<<<<<< Updated upstream
 value: 2574
+=======
+value: 2340
+>>>>>>> Stashed changes
 description: Total number of lines of main code
 
 goal: Keep the system simple and easy to change
 control metric: DUPLICATION_PERCENTAGE
+<<<<<<< Updated upstream
 status: FAILED
 desired range: [0 - 5] ±1
 value: 14.486754966887418
+=======
+status: OK
+desired range: [0 - 5] ±1
+value: 2.684258416742493
+>>>>>>> Stashed changes
 description: System duplication
 
 goal: Keep the system simple and easy to change

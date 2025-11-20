@@ -2,21 +2,35 @@
   "key" : "primary",
   "components" : [ {
     "name" : "backend",
+<<<<<<< Updated upstream
     "filesCount" : 9,
     "linesOfCode" : 391,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
       "name" : "  *.js",
       "value" : 9,
+=======
+    "filesCount" : 10,
+    "linesOfCode" : 346,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.js",
+      "value" : 10,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
       "name" : "  *.js",
+<<<<<<< Updated upstream
       "value" : 391,
+=======
+      "value" : 346,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ]
   }, {
     "name" : "frontend",
+<<<<<<< Updated upstream
     "filesCount" : 42,
     "linesOfCode" : 2183,
     "numberOfRegexLineMatches" : 0,
@@ -27,6 +41,18 @@
     }, {
       "name" : "  *.css",
       "value" : 13,
+=======
+    "filesCount" : 38,
+    "linesOfCode" : 1994,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.css",
+      "value" : 11,
+      "description" : [ ]
+    }, {
+      "name" : "  *.jsx",
+      "value" : 20,
+>>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.js",
@@ -38,12 +64,21 @@
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
+<<<<<<< Updated upstream
       "name" : "  *.jsx",
       "value" : 1105,
       "description" : [ ]
     }, {
       "name" : "  *.css",
       "value" : 961,
+=======
+      "name" : "  *.css",
+      "value" : 951,
+      "description" : [ ]
+    }, {
+      "name" : "  *.jsx",
+      "value" : 926,
+>>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.js",
@@ -106,20 +141,36 @@
   },
   "fileCountPerComponent" : [ {
     "name" : "backend",
+<<<<<<< Updated upstream
     "value" : 9,
     "description" : [ ]
   }, {
     "name" : "frontend",
     "value" : 42,
+=======
+    "value" : 10,
+    "description" : [ ]
+  }, {
+    "name" : "frontend",
+    "value" : 38,
+>>>>>>> Stashed changes
     "description" : [ ]
   } ],
   "linesOfCodePerComponent" : [ {
     "name" : "backend",
+<<<<<<< Updated upstream
     "value" : 391,
     "description" : [ ]
   }, {
     "name" : "frontend",
     "value" : 2183,
+=======
+    "value" : 346,
+    "description" : [ ]
+  }, {
+    "name" : "frontend",
+    "value" : 1994,
+>>>>>>> Stashed changes
     "description" : [ ]
   } ]
 } ]

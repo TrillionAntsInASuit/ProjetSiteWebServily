@@ -21,7 +21,10 @@ const Header = () => {
               <NavLink to="/services">Services</NavLink>
               <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
+<<<<<<< Updated upstream
               <NavLink to="/help">Help</NavLink>
+=======
+>>>>>>> Stashed changes
               <button onClick={handleLogout}>Disconnect</button>
             </>
           )}
@@ -32,7 +35,10 @@ const Header = () => {
               <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/subscribe">Subscribe</NavLink>
               <NavLink to="/create">Create</NavLink>
+<<<<<<< Updated upstream
               <NavLink to="/help">Help</NavLink>
+=======
+>>>>>>> Stashed changes
               <button onClick={handleLogout}>Disconnect</button>
             </>
           )}
@@ -40,7 +46,10 @@ const Header = () => {
             <>
               <NavLink to="/login">Login</NavLink>
               <NavLink to="/register">Register</NavLink>
+<<<<<<< Updated upstream
               <NavLink to="/help">Help</NavLink>
+=======
+>>>>>>> Stashed changes
 
             </>
           )}

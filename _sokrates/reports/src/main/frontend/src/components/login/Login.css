@@ -1,14 +1,5 @@
-.login-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
-  padding: 20px;
-  position: relative;
-  overflow: hidden;
 
-}
+
 
 .login-form::before {
   content: '';

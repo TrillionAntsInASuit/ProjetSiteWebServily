@@ -12,10 +12,17 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<<<<<<< Updated upstream
 <h3 style="margin-bottom: 0">frontend/src/components/Services/Services.jsx (<b>94</b> lines of code) (<a href="Services.jsx">raw</a>):</h3>
 <div id="editor">import { supabase } from &quot;../../../util/supabaseClient&quot;;
 import { useState, useEffect } from &quot;react&quot;;
 import &quot;./Services.css&quot;;
+=======
+<h3 style="margin-bottom: 0">frontend/src/components/Services/Services.jsx (<b>47</b> lines of code) (<a href="Services.jsx">raw</a>):</h3>
+<div id="editor">import { supabase } from &quot;../../../util/supabaseClient&quot;;
+import { useState, useEffect } from &quot;react&quot;;
+import ServiceCard from &quot;../../containers/ServiceCard&quot;;
+>>>>>>> Stashed changes
 
 export default function Services() {
   const [services, setServices] = useState([]);
@@ -47,6 +54,7 @@ export default function Services() {
     &lt;div className=&quot;services-container&quot;&gt;
       &lt;h1&gt;Available Services&lt;/h1&gt;
       &lt;div className=&quot;services-list&quot;&gt;
+<<<<<<< Updated upstream
         {services.map((service) =&gt; {
           const percentage = (service.nb_membres / service.maxMembres) * 100;
           const isFull = service.nb_membres &gt;= service.maxMembres;
@@ -116,6 +124,24 @@ export default function Services() {
             &lt;/div&gt;
           );
         })}
+=======
+        import ServiceCard from &quot;./ServiceCard&quot;;
+
+{services.map((service) =&gt; {
+  const handleJoin = async () =&gt; {
+    // your existing join logic
+  };
+
+  return (
+    &lt;ServiceCard
+      key={service.id}
+      service={service}
+      userType={localStorage.getItem(&quot;userType&quot;)}
+      onJoin={handleJoin}
+    /&gt;
+  );
+})}
+>>>>>>> Stashed changes
       &lt;/div&gt;
     &lt;/div&gt;
   );

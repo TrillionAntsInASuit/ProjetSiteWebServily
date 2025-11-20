@@ -1,4 +1,5 @@
 duplicated block id: 1
+<<<<<<< Updated upstream
 size: 48 cleaned lines of code
 in 2 files:
  - frontend/src/components/Employeur/subscribe/Subscribe.jsx (18:71)
@@ -77,11 +78,20 @@ in 2 files:
  - frontend/src/components/User/dashboard/Dashboard.jsx (50:56)
 
 duplicated block id: 14
+=======
+size: 11 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (20:33)
+ - frontend/src/components/Services/Services.jsx (21:34)
+
+duplicated block id: 2
+>>>>>>> Stashed changes
 size: 7 cleaned lines of code
 in 2 files:
  - frontend/src/components/Services/Services.jsx (15:21)
  - frontend/src/components/User/dashboard/Dashboard.jsx (41:48)
 
+<<<<<<< Updated upstream
 duplicated block id: 15
 size: 7 cleaned lines of code
 in 2 files:
@@ -117,4 +127,17 @@ size: 6 cleaned lines of code
 in 2 files:
  - frontend/src/components/Employeur/subscribe/Subscribe.jsx (37:42)
  - frontend/src/components/Employeur/subscribe/Subscribe.jsx (78:83)
+=======
+duplicated block id: 3
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/Employeur/dashboard/Dashboard.jsx (6:13)
+ - frontend/src/components/Services/Services.jsx (6:13)
+
+duplicated block id: 4
+size: 6 cleaned lines of code
+in 2 files:
+ - frontend/src/components/User/dashboard/Dashboard.jsx (77:86)
+ - frontend/src/containers/ServiceCard.jsx (10:19)
+>>>>>>> Stashed changes
 

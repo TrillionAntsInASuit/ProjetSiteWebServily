@@ -9,6 +9,7 @@
   "metricsList" : {
     "metrics" : [ {
       "id" : "TOTAL_NUMBER_OF_FILES",
+<<<<<<< Updated upstream
       "value" : 27750,
       "description" : "Total number of files in the source folder"
     }, {
@@ -42,6 +43,41 @@
     }, {
       "id" : "LINES_OF_CODE_MAIN_EXT_JS",
       "value" : 495,
+=======
+      "value" : 27747,
+      "description" : "Total number of files in the source folder"
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN",
+      "value" : 48,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN",
+      "value" : 2340,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_CSS",
+      "value" : 11,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_CSS",
+      "value" : 951,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JSX",
+      "value" : 20,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JSX",
+      "value" : 926,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JS",
+      "value" : 16,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JS",
+      "value" : 450,
+>>>>>>> Stashed changes
       "description" : null
     }, {
       "id" : "NUMBER_OF_FILES_MAIN_EXT_HTML",
@@ -113,6 +149,7 @@
       "description" : null
     }, {
       "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_BACKEND",
+<<<<<<< Updated upstream
       "value" : 9,
       "description" : null
     }, {
@@ -150,6 +187,45 @@
     }, {
       "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_CSS",
       "value" : 961,
+=======
+      "value" : 10,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_BACKEND",
+      "value" : 346,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_BACKEND_EXT_JS",
+      "value" : 10,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_BACKEND_EXT_JS",
+      "value" : 346,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND",
+      "value" : 38,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND",
+      "value" : 1994,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_CSS",
+      "value" : 11,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_CSS",
+      "value" : 951,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JSX",
+      "value" : 20,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JSX",
+      "value" : 926,
+>>>>>>> Stashed changes
       "description" : null
     }, {
       "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_FRONTEND_EXT_JS",
@@ -189,6 +265,7 @@
       "description" : null
     }, {
       "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED",
+<<<<<<< Updated upstream
       "value" : 51,
       "description" : null
     }, {
@@ -218,6 +295,37 @@
     }, {
       "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
       "value" : 495,
+=======
+      "value" : 48,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED",
+      "value" : 2340,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 11,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 951,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 20,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 926,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 16,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 450,
+>>>>>>> Stashed changes
       "description" : null
     }, {
       "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_HTML",
@@ -229,11 +337,19 @@
       "description" : null
     }, {
       "id" : "NEGLIGIBLE_RISK_FILE_SIZE_COUNT",
+<<<<<<< Updated upstream
       "value" : 45,
       "description" : "Number of  files with 100 or less lines of code"
     }, {
       "id" : "LOW_RISK_FILE_SIZE_COUNT",
       "value" : 5,
+=======
+      "value" : 44,
+      "description" : "Number of  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_COUNT",
+      "value" : 3,
+>>>>>>> Stashed changes
       "description" : "Number of  files with 100 to 200 lines of code"
     }, {
       "id" : "MEDIUM_RISK_FILE_SIZE_COUNT",
@@ -249,6 +365,7 @@
       "description" : "Number of  files with more than 1000 lines of code"
     }, {
       "id" : "NEGLIGIBLE_RISK_FILE_SIZE_LOC",
+<<<<<<< Updated upstream
       "value" : 1693,
       "description" : "Lines of code in  files with 100 or less lines of code"
     }, {
@@ -258,6 +375,17 @@
     }, {
       "id" : "MEDIUM_RISK_FILE_SIZE_LOC",
       "value" : 230,
+=======
+      "value" : 1721,
+      "description" : "Lines of code in  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_LOC",
+      "value" : 399,
+      "description" : "Lines of code in  files with 100 to 200 lines of code"
+    }, {
+      "id" : "MEDIUM_RISK_FILE_SIZE_LOC",
+      "value" : 220,
+>>>>>>> Stashed changes
       "description" : "Lines of code in  files with 200 to 500 lines of code"
     }, {
       "id" : "HIGH_RISK_FILE_SIZE_LOC",
@@ -277,7 +405,11 @@
       "description" : "Lines of code in units"
     }, {
       "id" : "LINES_OF_CODE_OUTSIDE_UNITS",
+<<<<<<< Updated upstream
       "value" : 2533,
+=======
+      "value" : 2299,
+>>>>>>> Stashed changes
       "description" : "Lines of code in units"
     }, {
       "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_LOC",
@@ -769,6 +901,7 @@
       "description" : null
     }, {
       "id" : "DUPLICATION_NUMBER_OF_DUPLICATES",
+<<<<<<< Updated upstream
       "value" : 20,
       "description" : "Number of duplicates"
     }, {
@@ -786,6 +919,25 @@
     }, {
       "id" : "DUPLICATION_PERCENTAGE",
       "value" : 14.486754966887418,
+=======
+      "value" : 4,
+      "description" : "Number of duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_FILES_WITH_DUPLICATES",
+      "value" : 4,
+      "description" : "Number of files with duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES",
+      "value" : 59,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES",
+      "value" : 2198,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE",
+      "value" : 2.684258416742493,
+>>>>>>> Stashed changes
       "description" : "Duplication percentage"
     }, {
       "id" : "UNIT_DUPLICATES_COUNT",
@@ -793,11 +945,19 @@
       "description" : "Unit duplicates"
     }, {
       "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_PRIMARY_FRONTEND",
+<<<<<<< Updated upstream
       "value" : 280,
       "description" : "Number of duplicated lines"
     }, {
       "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_FRONTEND",
       "value" : 280,
+=======
+      "value" : 59,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_FRONTEND",
+      "value" : 59,
+>>>>>>> Stashed changes
       "description" : "Number of lines after cleaning for duplication calculations"
     }, {
       "id" : "DUPLICATION_PERCENTAGE_PRIMARY_FRONTEND",
@@ -805,6 +965,7 @@
       "description" : "Duplication percentage"
     }, {
       "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_PRIMARY_BACKEND",
+<<<<<<< Updated upstream
       "value" : 70,
       "description" : "Number of duplicated lines"
     }, {
@@ -854,6 +1015,33 @@
     }, {
       "id" : "TOTAL_ANALYSIS_TIME_IN_MILLIS",
       "value" : 6116,
+=======
+      "value" : 0,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_BACKEND",
+      "value" : 0,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_PRIMARY_BACKEND",
+      "value" : "NaN",
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_JSX",
+      "value" : 59,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_JSX",
+      "value" : 857,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_JSX",
+      "value" : 6.884480746791132,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "TOTAL_ANALYSIS_TIME_IN_MILLIS",
+      "value" : 6376,
+>>>>>>> Stashed changes
       "description" : "Total analysis time in milliseconds"
     } ]
   },
@@ -908,7 +1096,11 @@
         },
         "metric" : {
           "id" : "LINES_OF_CODE_MAIN",
+<<<<<<< Updated upstream
           "value" : 2574,
+=======
+          "value" : 2340,
+>>>>>>> Stashed changes
           "description" : null
         },
         "status" : "OK"
@@ -924,10 +1116,17 @@
         },
         "metric" : {
           "id" : "DUPLICATION_PERCENTAGE",
+<<<<<<< Updated upstream
           "value" : 14.486754966887418,
           "description" : "Duplication percentage"
         },
         "status" : "FAILED"
+=======
+          "value" : 2.684258416742493,
+          "description" : "Duplication percentage"
+        },
+        "status" : "OK"
+>>>>>>> Stashed changes
       }, {
         "control" : {
           "metric" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
@@ -963,6 +1162,7 @@
       } ]
     } ]
   },
+<<<<<<< Updated upstream
   "totalNumberOfFilesInScope" : 27750,
   "mainAspectAnalysisResults" : {
     "name" : null,
@@ -980,6 +1180,25 @@
     }, {
       "name" : "  *.js",
       "value" : 15,
+=======
+  "totalNumberOfFilesInScope" : 27747,
+  "mainAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 48,
+    "linesOfCode" : 2340,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.css",
+      "value" : 11,
+      "description" : [ ]
+    }, {
+      "name" : "  *.jsx",
+      "value" : 20,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 16,
+>>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.html",
@@ -987,6 +1206,7 @@
       "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
+<<<<<<< Updated upstream
       "name" : "  *.jsx",
       "value" : 1105,
       "description" : [ ]
@@ -997,6 +1217,18 @@
     }, {
       "name" : "  *.js",
       "value" : 495,
+=======
+      "name" : "  *.css",
+      "value" : 951,
+      "description" : [ ]
+    }, {
+      "name" : "  *.jsx",
+      "value" : 926,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 450,
+>>>>>>> Stashed changes
       "description" : [ ]
     }, {
       "name" : "  *.html",
@@ -1064,21 +1296,35 @@
     "key" : "primary",
     "components" : [ {
       "name" : "backend",
+<<<<<<< Updated upstream
       "filesCount" : 9,
       "linesOfCode" : 391,
       "numberOfRegexLineMatches" : 0,
       "fileCountPerExtension" : [ {
         "name" : "  *.js",
         "value" : 9,
+=======
+      "filesCount" : 10,
+      "linesOfCode" : 346,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.js",
+        "value" : 10,
+>>>>>>> Stashed changes
         "description" : [ ]
       } ],
       "linesOfCodePerExtension" : [ {
         "name" : "  *.js",
+<<<<<<< Updated upstream
         "value" : 391,
+=======
+        "value" : 346,
+>>>>>>> Stashed changes
         "description" : [ ]
       } ]
     }, {
       "name" : "frontend",
+<<<<<<< Updated upstream
       "filesCount" : 42,
       "linesOfCode" : 2183,
       "numberOfRegexLineMatches" : 0,
@@ -1089,6 +1335,18 @@
       }, {
         "name" : "  *.css",
         "value" : 13,
+=======
+      "filesCount" : 38,
+      "linesOfCode" : 1994,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.css",
+        "value" : 11,
+        "description" : [ ]
+      }, {
+        "name" : "  *.jsx",
+        "value" : 20,
+>>>>>>> Stashed changes
         "description" : [ ]
       }, {
         "name" : "  *.js",
@@ -1100,12 +1358,21 @@
         "description" : [ ]
       } ],
       "linesOfCodePerExtension" : [ {
+<<<<<<< Updated upstream
         "name" : "  *.jsx",
         "value" : 1105,
         "description" : [ ]
       }, {
         "name" : "  *.css",
         "value" : 961,
+=======
+        "name" : "  *.css",
+        "value" : 951,
+        "description" : [ ]
+      }, {
+        "name" : "  *.jsx",
+        "value" : 926,
+>>>>>>> Stashed changes
         "description" : [ ]
       }, {
         "name" : "  *.js",
@@ -1168,20 +1435,36 @@
     },
     "fileCountPerComponent" : [ {
       "name" : "backend",
+<<<<<<< Updated upstream
       "value" : 9,
       "description" : [ ]
     }, {
       "name" : "frontend",
       "value" : 42,
+=======
+      "value" : 10,
+      "description" : [ ]
+    }, {
+      "name" : "frontend",
+      "value" : 38,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ],
     "linesOfCodePerComponent" : [ {
       "name" : "backend",
+<<<<<<< Updated upstream
       "value" : 391,
       "description" : [ ]
     }, {
       "name" : "frontend",
       "value" : 2183,
+=======
+      "value" : 346,
+      "description" : [ ]
+    }, {
+      "name" : "frontend",
+      "value" : 1994,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ]
   } ],
@@ -1196,6 +1479,7 @@
       "linesOfCodePerExtension" : [ ]
     }, {
       "name" : "Unclassified",
+<<<<<<< Updated upstream
       "filesCount" : 51,
       "linesOfCode" : 2574,
       "numberOfRegexLineMatches" : 0,
@@ -1210,6 +1494,22 @@
       }, {
         "name" : "  *.js",
         "value" : 15,
+=======
+      "filesCount" : 48,
+      "linesOfCode" : 2340,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.css",
+        "value" : 11,
+        "description" : [ ]
+      }, {
+        "name" : "  *.jsx",
+        "value" : 20,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 16,
+>>>>>>> Stashed changes
         "description" : [ ]
       }, {
         "name" : "  *.html",
@@ -1217,6 +1517,7 @@
         "description" : [ ]
       } ],
       "linesOfCodePerExtension" : [ {
+<<<<<<< Updated upstream
         "name" : "  *.jsx",
         "value" : 1105,
         "description" : [ ]
@@ -1227,6 +1528,18 @@
       }, {
         "name" : "  *.js",
         "value" : 495,
+=======
+        "name" : "  *.css",
+        "value" : 951,
+        "description" : [ ]
+      }, {
+        "name" : "  *.jsx",
+        "value" : 926,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 450,
+>>>>>>> Stashed changes
         "description" : [ ]
       }, {
         "name" : "  *.html",
@@ -1241,7 +1554,11 @@
       "description" : [ ]
     }, {
       "name" : "Unclassified",
+<<<<<<< Updated upstream
       "value" : 51,
+=======
+      "value" : 48,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ],
     "linesOfCodePerConcern" : [ {
@@ -1250,7 +1567,11 @@
       "description" : [ ]
     }, {
       "name" : "Unclassified",
+<<<<<<< Updated upstream
       "value" : 2574,
+=======
+      "value" : 2340,
+>>>>>>> Stashed changes
       "description" : [ ]
     } ]
   } ],
@@ -1318,6 +1639,7 @@
       "mediumRiskThreshold" : 200,
       "highRiskThreshold" : 500,
       "veryHighRiskThreshold" : 1000,
+<<<<<<< Updated upstream
       "negligibleRiskValue" : 1693,
       "lowRiskValue" : 651,
       "mediumRiskValue" : 230,
@@ -1325,6 +1647,15 @@
       "veryHighRiskValue" : 0,
       "lowRiskCount" : 5,
       "negligibleRiskCount" : 45,
+=======
+      "negligibleRiskValue" : 1721,
+      "lowRiskValue" : 399,
+      "mediumRiskValue" : 220,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 3,
+      "negligibleRiskCount" : 44,
+>>>>>>> Stashed changes
       "mediumRiskCount" : 1,
       "highRiskCount" : 0,
       "veryHighRiskCount" : 0,
@@ -1333,6 +1664,7 @@
       "mediumRiskLabel" : "201-500",
       "highRiskLabel" : "501-1000",
       "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 25.291375291375292,
       "mediumRiskPercentage" : 8.935508935508935,
@@ -1340,6 +1672,15 @@
       "negligibleRiskPercentage" : 65.77311577311578,
       "totalCount" : 51,
       "totalValue" : 2574
+=======
+      "mediumRiskPercentage" : 9.401709401709402,
+      "lowRiskPercentage" : 17.05128205128205,
+      "veryHighRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 73.54700854700855,
+      "totalCount" : 48,
+      "totalValue" : 2340
+>>>>>>> Stashed changes
     },
     "fileSizeDistributionPerExtension" : [ {
       "key" : "js",
@@ -1347,6 +1688,7 @@
       "mediumRiskThreshold" : 200,
       "highRiskThreshold" : 500,
       "veryHighRiskThreshold" : 1000,
+<<<<<<< Updated upstream
       "negligibleRiskValue" : 350,
       "lowRiskValue" : 145,
       "mediumRiskValue" : 0,
@@ -1354,6 +1696,15 @@
       "veryHighRiskValue" : 0,
       "lowRiskCount" : 1,
       "negligibleRiskCount" : 14,
+=======
+      "negligibleRiskValue" : 450,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 16,
+>>>>>>> Stashed changes
       "mediumRiskCount" : 0,
       "highRiskCount" : 0,
       "veryHighRiskCount" : 0,
@@ -1362,6 +1713,7 @@
       "mediumRiskLabel" : "201-500",
       "highRiskLabel" : "501-1000",
       "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 29.292929292929294,
       "mediumRiskPercentage" : 0.0,
@@ -1369,6 +1721,15 @@
       "negligibleRiskPercentage" : 70.70707070707071,
       "totalCount" : 15,
       "totalValue" : 495
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0,
+      "totalCount" : 16,
+      "totalValue" : 450
+>>>>>>> Stashed changes
     }, {
       "key" : "html",
       "lowRiskThreshold" : 100,
@@ -1390,9 +1751,15 @@
       "mediumRiskLabel" : "201-500",
       "highRiskLabel" : "501-1000",
       "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 1,
@@ -1405,11 +1772,19 @@
       "veryHighRiskThreshold" : 1000,
       "negligibleRiskValue" : 439,
       "lowRiskValue" : 292,
+<<<<<<< Updated upstream
       "mediumRiskValue" : 230,
       "highRiskValue" : 0,
       "veryHighRiskValue" : 0,
       "lowRiskCount" : 2,
       "negligibleRiskCount" : 10,
+=======
+      "mediumRiskValue" : 220,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 2,
+      "negligibleRiskCount" : 8,
+>>>>>>> Stashed changes
       "mediumRiskCount" : 1,
       "highRiskCount" : 0,
       "veryHighRiskCount" : 0,
@@ -1418,6 +1793,7 @@
       "mediumRiskLabel" : "201-500",
       "highRiskLabel" : "501-1000",
       "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 30.385015608740893,
       "mediumRiskPercentage" : 23.93340270551509,
@@ -1425,12 +1801,22 @@
       "negligibleRiskPercentage" : 45.681581685744014,
       "totalCount" : 13,
       "totalValue" : 961
+=======
+      "mediumRiskPercentage" : 23.133543638275498,
+      "lowRiskPercentage" : 30.704521556256573,
+      "veryHighRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 46.16193480546793,
+      "totalCount" : 11,
+      "totalValue" : 951
+>>>>>>> Stashed changes
     }, {
       "key" : "jsx",
       "lowRiskThreshold" : 100,
       "mediumRiskThreshold" : 200,
       "highRiskThreshold" : 500,
       "veryHighRiskThreshold" : 1000,
+<<<<<<< Updated upstream
       "negligibleRiskValue" : 891,
       "lowRiskValue" : 214,
       "mediumRiskValue" : 0,
@@ -1438,6 +1824,15 @@
       "veryHighRiskValue" : 0,
       "lowRiskCount" : 2,
       "negligibleRiskCount" : 20,
+=======
+      "negligibleRiskValue" : 819,
+      "lowRiskValue" : 107,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 1,
+      "negligibleRiskCount" : 19,
+>>>>>>> Stashed changes
       "mediumRiskCount" : 0,
       "highRiskCount" : 0,
       "veryHighRiskCount" : 0,
@@ -1446,6 +1841,7 @@
       "mediumRiskLabel" : "201-500",
       "highRiskLabel" : "501-1000",
       "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 19.36651583710407,
       "mediumRiskPercentage" : 0.0,
@@ -1453,6 +1849,15 @@
       "negligibleRiskPercentage" : 80.63348416289593,
       "totalCount" : 22,
       "totalValue" : 1105
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 11.555075593952484,
+      "veryHighRiskPercentage" : 0.0,
+      "highRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 88.44492440604752,
+      "totalCount" : 20,
+      "totalValue" : 926
+>>>>>>> Stashed changes
     } ],
     "fileSizeDistributionPerLogicalDecomposition" : [ {
       "name" : "primary",
@@ -1462,6 +1867,7 @@
         "mediumRiskThreshold" : 200,
         "highRiskThreshold" : 500,
         "veryHighRiskThreshold" : 1000,
+<<<<<<< Updated upstream
         "negligibleRiskValue" : 246,
         "lowRiskValue" : 145,
         "mediumRiskValue" : 0,
@@ -1469,6 +1875,15 @@
         "veryHighRiskValue" : 0,
         "lowRiskCount" : 1,
         "negligibleRiskCount" : 8,
+=======
+        "negligibleRiskValue" : 346,
+        "lowRiskValue" : 0,
+        "mediumRiskValue" : 0,
+        "highRiskValue" : 0,
+        "veryHighRiskValue" : 0,
+        "lowRiskCount" : 0,
+        "negligibleRiskCount" : 10,
+>>>>>>> Stashed changes
         "mediumRiskCount" : 0,
         "highRiskCount" : 0,
         "veryHighRiskCount" : 0,
@@ -1477,6 +1892,7 @@
         "mediumRiskLabel" : "201-500",
         "highRiskLabel" : "501-1000",
         "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
         "veryHighRiskPercentage" : 0.0,
         "lowRiskPercentage" : 37.084398976982094,
         "mediumRiskPercentage" : 0.0,
@@ -1484,12 +1900,22 @@
         "negligibleRiskPercentage" : 62.915601023017906,
         "totalCount" : 9,
         "totalValue" : 391
+=======
+        "mediumRiskPercentage" : 0.0,
+        "lowRiskPercentage" : 0.0,
+        "veryHighRiskPercentage" : 0.0,
+        "highRiskPercentage" : 0.0,
+        "negligibleRiskPercentage" : 100.0,
+        "totalCount" : 10,
+        "totalValue" : 346
+>>>>>>> Stashed changes
       }, {
         "key" : "frontend",
         "lowRiskThreshold" : 100,
         "mediumRiskThreshold" : 200,
         "highRiskThreshold" : 500,
         "veryHighRiskThreshold" : 1000,
+<<<<<<< Updated upstream
         "negligibleRiskValue" : 1447,
         "lowRiskValue" : 506,
         "mediumRiskValue" : 230,
@@ -1497,6 +1923,15 @@
         "veryHighRiskValue" : 0,
         "lowRiskCount" : 4,
         "negligibleRiskCount" : 37,
+=======
+        "negligibleRiskValue" : 1375,
+        "lowRiskValue" : 399,
+        "mediumRiskValue" : 220,
+        "highRiskValue" : 0,
+        "veryHighRiskValue" : 0,
+        "lowRiskCount" : 3,
+        "negligibleRiskCount" : 34,
+>>>>>>> Stashed changes
         "mediumRiskCount" : 1,
         "highRiskCount" : 0,
         "veryHighRiskCount" : 0,
@@ -1505,6 +1940,7 @@
         "mediumRiskLabel" : "201-500",
         "highRiskLabel" : "501-1000",
         "veryHighRiskLabel" : "1001+",
+<<<<<<< Updated upstream
         "veryHighRiskPercentage" : 0.0,
         "lowRiskPercentage" : 23.179111314704535,
         "mediumRiskPercentage" : 10.53595968850206,
@@ -1512,12 +1948,25 @@
         "negligibleRiskPercentage" : 66.2849289967934,
         "totalCount" : 42,
         "totalValue" : 2183
+=======
+        "mediumRiskPercentage" : 11.033099297893681,
+        "lowRiskPercentage" : 20.010030090270813,
+        "veryHighRiskPercentage" : 0.0,
+        "highRiskPercentage" : 0.0,
+        "negligibleRiskPercentage" : 68.95687061183551,
+        "totalCount" : 38,
+        "totalValue" : 1994
+>>>>>>> Stashed changes
       } ]
     } ],
     "longestFiles" : [ {
       "relativePath" : "frontend/src/components/login/Login.css",
       "extension" : "css",
+<<<<<<< Updated upstream
       "linesOfCode" : 230,
+=======
+      "linesOfCode" : 220,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1529,6 +1978,7 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "backend/controllers/services-controller.js",
       "extension" : "js",
       "linesOfCode" : 145,
@@ -1536,6 +1986,8 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+=======
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/components/home/home.css",
       "extension" : "css",
       "linesOfCode" : 123,
@@ -1545,6 +1997,7 @@
     }, {
       "relativePath" : "frontend/src/App.jsx",
       "extension" : "jsx",
+<<<<<<< Updated upstream
       "linesOfCode" : 111,
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
@@ -1553,6 +2006,9 @@
       "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
       "extension" : "jsx",
       "linesOfCode" : 103,
+=======
+      "linesOfCode" : 107,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1564,6 +2020,16 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
+=======
+      "relativePath" : "frontend/src/containers/Services.css",
+      "extension" : "css",
+      "linesOfCode" : 100,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/components/login/Login.jsx",
       "extension" : "jsx",
       "linesOfCode" : 99,
@@ -1571,6 +2037,7 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Services/Services.jsx",
       "extension" : "jsx",
       "linesOfCode" : 94,
@@ -1578,6 +2045,8 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+=======
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/components/signup/Signup.jsx",
       "extension" : "jsx",
       "linesOfCode" : 94,
@@ -1585,16 +2054,28 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Services/Services.css",
       "extension" : "css",
       "linesOfCode" : 92,
+=======
+      "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 85,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
       "extension" : "jsx",
       "linesOfCode" : 85,
+=======
+      "relativePath" : "backend/controllers/services-controller.js",
+      "extension" : "js",
+      "linesOfCode" : 79,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1620,13 +2101,19 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
       "extension" : "jsx",
+=======
+      "relativePath" : "frontend/src/containers/Subscribe.css",
+      "extension" : "css",
+>>>>>>> Stashed changes
       "linesOfCode" : 74,
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
       "extension" : "jsx",
       "linesOfCode" : 73,
@@ -1634,6 +2121,8 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+=======
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/components/Employeur/edit/Edit.jsx",
       "extension" : "jsx",
       "linesOfCode" : 64,
@@ -1648,9 +2137,15 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.css",
       "extension" : "css",
       "linesOfCode" : 59,
+=======
+      "relativePath" : "frontend/src/containers/SubscribeCard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 61,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1662,9 +2157,15 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/header/header.jsx",
       "extension" : "jsx",
       "linesOfCode" : 49,
+=======
+      "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 48,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1676,6 +2177,16 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
+=======
+      "relativePath" : "frontend/src/components/Services/Services.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 47,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/containers/ServiceTypeList.jsx",
       "extension" : "jsx",
       "linesOfCode" : 47,
@@ -1683,6 +2194,16 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
+=======
+      "relativePath" : "frontend/src/components/header/header.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 46,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/App.css",
       "extension" : "css",
       "linesOfCode" : 37,
@@ -1697,6 +2218,16 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
+=======
+      "relativePath" : "frontend/src/containers/ServiceCard.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 29,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+>>>>>>> Stashed changes
       "relativePath" : "frontend/eslint.config.js",
       "extension" : "js",
       "linesOfCode" : 28,
@@ -1725,6 +2256,16 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
+=======
+      "relativePath" : "backend/util/service-utils.js",
+      "extension" : "js",
+      "linesOfCode" : 21,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/data/data.js",
       "extension" : "js",
       "linesOfCode" : 17,
@@ -1739,9 +2280,15 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/User/subscribe/Subscribe.css",
       "extension" : "css",
       "linesOfCode" : 15,
+=======
+      "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 14,
+>>>>>>> Stashed changes
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
@@ -1774,6 +2321,7 @@
       "unitsMcCabeIndexSum" : 1,
       "linesOfCodeInUnits" : 8
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Employeur/help/Help.jsx",
       "extension" : "jsx",
       "linesOfCode" : 9,
@@ -1796,6 +2344,9 @@
       "linesOfCodeInUnits" : 0
     }, {
       "relativePath" : "frontend/src/components/User/profile/Profile.jsx",
+=======
+      "relativePath" : "frontend/src/components/User/subscribe/Subscribe.jsx",
+>>>>>>> Stashed changes
       "extension" : "jsx",
       "linesOfCode" : 9,
       "unitsCount" : 0,
@@ -1816,6 +2367,7 @@
       "unitsMcCabeIndexSum" : 4,
       "linesOfCodeInUnits" : 7
     }, {
+<<<<<<< Updated upstream
       "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.css",
       "extension" : "css",
       "linesOfCode" : 8,
@@ -1823,6 +2375,8 @@
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
     }, {
+=======
+>>>>>>> Stashed changes
       "relativePath" : "frontend/src/context/auth-context.js",
       "extension" : "js",
       "linesOfCode" : 8,
@@ -1864,6 +2418,16 @@
       "unitsCount" : 0,
       "unitsMcCabeIndexSum" : 0,
       "linesOfCodeInUnits" : 0
+<<<<<<< Updated upstream
+=======
+    }, {
+      "relativePath" : "frontend/src/components/navigation/MainNavigation.css",
+      "extension" : "css",
+      "linesOfCode" : 1,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+>>>>>>> Stashed changes
     } ],
     "filesWithMostUnits" : [ {
       "relativePath" : "backend/handler/error-handler.js",
@@ -1948,9 +2512,15 @@
       "mediumRiskLabel" : "21-50",
       "highRiskLabel" : "51-100",
       "veryHighRiskLabel" : "101+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 53.65853658536585,
+=======
+      "mediumRiskPercentage" : 53.65853658536585,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 46.34146341463415,
       "totalCount" : 4,
@@ -1977,9 +2547,15 @@
       "mediumRiskLabel" : "11-25",
       "highRiskLabel" : "26-50",
       "veryHighRiskLabel" : "51+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 4,
@@ -2006,9 +2582,15 @@
       "mediumRiskLabel" : "21-50",
       "highRiskLabel" : "51-100",
       "veryHighRiskLabel" : "101+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 53.65853658536585,
+=======
+      "mediumRiskPercentage" : 53.65853658536585,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 46.34146341463415,
       "totalCount" : 4,
@@ -2035,9 +2617,15 @@
       "mediumRiskLabel" : "21-50",
       "highRiskLabel" : "51-100",
       "veryHighRiskLabel" : "101+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 2,
@@ -2063,9 +2651,15 @@
       "mediumRiskLabel" : "21-50",
       "highRiskLabel" : "51-100",
       "veryHighRiskLabel" : "101+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 73.33333333333333,
+=======
+      "mediumRiskPercentage" : 73.33333333333333,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 26.666666666666668,
       "totalCount" : 2,
@@ -2173,9 +2767,15 @@
       "mediumRiskLabel" : "11-25",
       "highRiskLabel" : "26-50",
       "veryHighRiskLabel" : "51+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 4,
@@ -2202,9 +2802,15 @@
       "mediumRiskLabel" : "11-25",
       "highRiskLabel" : "26-50",
       "veryHighRiskLabel" : "51+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 2,
@@ -2230,9 +2836,15 @@
       "mediumRiskLabel" : "11-25",
       "highRiskLabel" : "26-50",
       "veryHighRiskLabel" : "51+",
+<<<<<<< Updated upstream
       "veryHighRiskPercentage" : 0.0,
       "lowRiskPercentage" : 0.0,
       "mediumRiskPercentage" : 0.0,
+=======
+      "mediumRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "veryHighRiskPercentage" : 0.0,
+>>>>>>> Stashed changes
       "highRiskPercentage" : 0.0,
       "negligibleRiskPercentage" : 100.0,
       "totalCount" : 2,
@@ -2323,15 +2935,24 @@
   "duplicationAnalysisResults" : {
     "overallDuplication" : {
       "key" : "system",
+<<<<<<< Updated upstream
       "numberOfDuplicates" : 20,
       "cleanedLinesOfCode" : 2416,
       "duplicatedLinesOfCode" : 350,
       "numberOfFilesWithDuplicates" : 13,
       "duplicationPercentage" : 14.486754966887418
+=======
+      "numberOfDuplicates" : 4,
+      "cleanedLinesOfCode" : 2198,
+      "duplicatedLinesOfCode" : 59,
+      "numberOfFilesWithDuplicates" : 4,
+      "duplicationPercentage" : 2.684258416742493
+>>>>>>> Stashed changes
     },
     "duplicationPerComponent" : [ [ {
       "key" : "frontend",
       "numberOfDuplicates" : 0,
+<<<<<<< Updated upstream
       "cleanedLinesOfCode" : 2082,
       "duplicatedLinesOfCode" : 280,
       "numberOfFilesWithDuplicates" : 0,
@@ -2343,11 +2964,25 @@
       "duplicatedLinesOfCode" : 70,
       "numberOfFilesWithDuplicates" : 0,
       "duplicationPercentage" : 20.95808383233533
+=======
+      "cleanedLinesOfCode" : 1907,
+      "duplicatedLinesOfCode" : 59,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 3.0938647089669638
+    }, {
+      "key" : "backend",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 291,
+      "duplicatedLinesOfCode" : 0,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 0.0
+>>>>>>> Stashed changes
     } ] ],
     "duplicationPerConcern" : [ ],
     "duplicationPerExtension" : [ {
       "key" : "jsx",
       "numberOfDuplicates" : 0,
+<<<<<<< Updated upstream
       "cleanedLinesOfCode" : 1022,
       "duplicatedLinesOfCode" : 262,
       "numberOfFilesWithDuplicates" : 0,
@@ -2366,18 +3001,31 @@
       "duplicatedLinesOfCode" : 70,
       "numberOfFilesWithDuplicates" : 0,
       "duplicationPercentage" : 16.548463356973997
+=======
+      "cleanedLinesOfCode" : 857,
+      "duplicatedLinesOfCode" : 59,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 6.884480746791132
+>>>>>>> Stashed changes
     } ],
     "longestDuplicates" : [ {
       "displayContent" : "",
       "duplicatedFileBlocks" : [ {
         "sourceFile" : {
+<<<<<<< Updated upstream
           "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
           "extension" : "jsx",
           "linesOfCode" : 103,
+=======
+          "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 48,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 100,
         "startLine" : 18,
         "endLine" : 71,
@@ -2493,15 +3141,29 @@
         "cleanedEndLine" : 31,
         "percentage" : 21.21212121212121,
         "blockSize" : 14
+=======
+        "sourceFileCleanedLinesOfCode" : 45,
+        "startLine" : 20,
+        "endLine" : 33,
+        "cleanedStartLine" : 18,
+        "cleanedEndLine" : 28,
+        "percentage" : 24.444444444444443,
+        "blockSize" : 11
+>>>>>>> Stashed changes
       }, {
         "sourceFile" : {
           "relativePath" : "frontend/src/components/Services/Services.jsx",
           "extension" : "jsx",
+<<<<<<< Updated upstream
           "linesOfCode" : 94,
+=======
+          "linesOfCode" : 47,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 85,
         "startLine" : 21,
         "endLine" : 37,
@@ -2619,17 +3281,33 @@
         "blockSize" : 9
       } ],
       "blockSize" : 9
+=======
+        "sourceFileCleanedLinesOfCode" : 44,
+        "startLine" : 21,
+        "endLine" : 34,
+        "cleanedStartLine" : 18,
+        "cleanedEndLine" : 28,
+        "percentage" : 25.0,
+        "blockSize" : 11
+      } ],
+      "blockSize" : 11
+>>>>>>> Stashed changes
     }, {
       "displayContent" : "",
       "duplicatedFileBlocks" : [ {
         "sourceFile" : {
           "relativePath" : "frontend/src/components/Services/Services.jsx",
           "extension" : "jsx",
+<<<<<<< Updated upstream
           "linesOfCode" : 94,
+=======
+          "linesOfCode" : 47,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 85,
         "startLine" : 73,
         "endLine" : 85,
@@ -2847,11 +3525,18 @@
           "linesOfCodeInUnits" : 0
         },
         "sourceFileCleanedLinesOfCode" : 85,
+=======
+        "sourceFileCleanedLinesOfCode" : 44,
+>>>>>>> Stashed changes
         "startLine" : 15,
         "endLine" : 21,
         "cleanedStartLine" : 12,
         "cleanedEndLine" : 18,
+<<<<<<< Updated upstream
         "percentage" : 8.235294117647058,
+=======
+        "percentage" : 15.909090909090908,
+>>>>>>> Stashed changes
         "blockSize" : 7
       }, {
         "sourceFile" : {
@@ -2877,11 +3562,16 @@
         "sourceFile" : {
           "relativePath" : "frontend/src/components/Employeur/dashboard/Dashboard.jsx",
           "extension" : "jsx",
+<<<<<<< Updated upstream
           "linesOfCode" : 73,
+=======
+          "linesOfCode" : 48,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 66,
         "startLine" : 31,
         "endLine" : 37,
@@ -2960,22 +3650,42 @@
         "cleanedStartLine" : 6,
         "cleanedEndLine" : 11,
         "percentage" : 9.090909090909092,
+=======
+        "sourceFileCleanedLinesOfCode" : 45,
+        "startLine" : 6,
+        "endLine" : 13,
+        "cleanedStartLine" : 6,
+        "cleanedEndLine" : 11,
+        "percentage" : 13.333333333333334,
+>>>>>>> Stashed changes
         "blockSize" : 6
       }, {
         "sourceFile" : {
           "relativePath" : "frontend/src/components/Services/Services.jsx",
           "extension" : "jsx",
+<<<<<<< Updated upstream
           "linesOfCode" : 94,
+=======
+          "linesOfCode" : 47,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 85,
+=======
+        "sourceFileCleanedLinesOfCode" : 44,
+>>>>>>> Stashed changes
         "startLine" : 6,
         "endLine" : 13,
         "cleanedStartLine" : 5,
         "cleanedEndLine" : 10,
+<<<<<<< Updated upstream
         "percentage" : 7.0588235294117645,
+=======
+        "percentage" : 13.636363636363637,
+>>>>>>> Stashed changes
         "blockSize" : 6
       } ],
       "blockSize" : 6
@@ -2983,6 +3693,7 @@
       "displayContent" : "",
       "duplicatedFileBlocks" : [ {
         "sourceFile" : {
+<<<<<<< Updated upstream
           "relativePath" : "frontend/src/components/Employeur/subscribe/Subscribe.jsx",
           "extension" : "jsx",
           "linesOfCode" : 103,
@@ -3124,6 +3835,8 @@
         "blockSize" : 6
       }, {
         "sourceFile" : {
+=======
+>>>>>>> Stashed changes
           "relativePath" : "frontend/src/components/User/dashboard/Dashboard.jsx",
           "extension" : "jsx",
           "linesOfCode" : 85,
@@ -3138,6 +3851,7 @@
         "cleanedEndLine" : 68,
         "percentage" : 7.594936708860759,
         "blockSize" : 6
+<<<<<<< Updated upstream
       } ],
       "blockSize" : 6
     }, {
@@ -3163,10 +3877,18 @@
           "relativePath" : "backend/controllers/services-controller.js",
           "extension" : "js",
           "linesOfCode" : 145,
+=======
+      }, {
+        "sourceFile" : {
+          "relativePath" : "frontend/src/containers/ServiceCard.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 29,
+>>>>>>> Stashed changes
           "unitsCount" : 0,
           "unitsMcCabeIndexSum" : 0,
           "linesOfCodeInUnits" : 0
         },
+<<<<<<< Updated upstream
         "sourceFileCleanedLinesOfCode" : 126,
         "startLine" : 96,
         "endLine" : 102,
@@ -3193,6 +3915,19 @@
       } ],
       "blockSize" : 6
     } ]
+=======
+        "sourceFileCleanedLinesOfCode" : 25,
+        "startLine" : 10,
+        "endLine" : 19,
+        "cleanedStartLine" : 8,
+        "cleanedEndLine" : 13,
+        "percentage" : 24.0,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    } ],
+    "mostFrequentDuplicates" : [ ]
+>>>>>>> Stashed changes
   },
   "contributorsAnalysisResults" : {
     "latestCommitDate" : "",
@@ -3280,7 +4015,12 @@
     "ts" : 4328,
     "prettierignore" : 1
   },
+<<<<<<< Updated upstream
   "analysisStartTimeMs" : 1763665228946,
   "maxFileCount" : 51,
+=======
+  "analysisStartTimeMs" : 1763668467720,
+  "maxFileCount" : 48,
+>>>>>>> Stashed changes
   "maxLinesOfCode" : 3513
 }

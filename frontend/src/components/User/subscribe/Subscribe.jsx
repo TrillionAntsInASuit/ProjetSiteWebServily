@@ -1,18 +1,7 @@
-import { useEffect, useState } from "react";
-import { supabase } from "../../../../../backend/util/supabaseClient";
-import "./Subscribe.css";
+import SubscribeCard from "../../../containers/SubscribeCard";
 
-const SubscribeClient = () => {
-  const [user, setUser] = useState(null);
-  const plans = [
-    {
-      name: "Membership",
-      price: "$9.99",
-      priceId: "price_1SLTFyE9u0y3XuLvracqlHZ6",
-      features: ["Join unlimited jobs", "Priority customer support"],
-    },
-  ];
 
+<<<<<<< Updated upstream
   useEffect(() => {
     const getUser = async () => {
       const { data } = await supabase
@@ -74,6 +63,15 @@ const SubscribeClient = () => {
       </div>
     </div>
   );
+=======
+const plan = {
+  name: "Membership",
+  price: "$9.99",
+  priceId: "price_1SLTFyE9u0y3XuLvracqlHZ6",
+  features: ["Join unlimited jobs", "Priority customer support"],
+>>>>>>> Stashed changes
 };
+
+const SubscribeClient = () => <SubscribeCard plan={plan} />;
 
 export default SubscribeClient;

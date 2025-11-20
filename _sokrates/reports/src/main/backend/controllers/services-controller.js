@@ -1,5 +1,9 @@
 import { supabase } from "../util/supabaseClient";
 import HttpError from "../util/http-error.js";
+<<<<<<< Updated upstream
+=======
+import { validateServicePayload, checkServiceExists } from "../util/service-utils.js";
+>>>>>>> Stashed changes
 
 const getServices = async (req, res, next) => {
   try {
@@ -18,6 +22,7 @@ const getServices = async (req, res, next) => {
 
 const createService = async (req, res, next) => {
   try {
+<<<<<<< Updated upstream
     const { name, nbMembres, maxMembres, description, creatorId, type } =
       req.body;
 
@@ -104,10 +109,34 @@ const updateService = async (req, res, next) => {
 
     if (!serviceExiste) {
       return next(new HttpError("Un service avec ce nom n'existe pas.", 422));
+=======
+    const payload = validateServicePayload(req.body);
+    const existing = await checkServiceExists(payload.name);
+    if (existing) throw new HttpError("Un service avec ce nom existe déjà.", 422);
+
+    const { error } = await supabase.from("services").insert([{ ...payload, nbMembres: 0 }]).single();
+    if (error) throw new HttpError("Enregistrement échoué, veuillez réessayer plus tard", 500);
+
+    res.status(201).json({ message: "Service created successfully." });
+  } catch (err) {
+    next(err);
+  }
+};
+
+
+const updateService = async (req, res, next) => {
+  try {
+    const payload = validateServicePayload(req.body);
+    const existing = await checkServiceExists(payload.name);
+
+    if (!existing) {
+      throw new HttpError("Un service avec ce nom n'existe pas.", 422);
+>>>>>>> Stashed changes
     }
 
     const { error } = await supabase
       .from("services")
+<<<<<<< Updated upstream
       .update({
         name,
         nbMembres,
@@ -128,6 +157,22 @@ const updateService = async (req, res, next) => {
     return next(new HttpError("Updating service failed.", 500));
   }
 };
+=======
+      .update(payload)
+      .eq("name", payload.name);
+
+    if (error) {
+      console.error("Supabase update error:", error);
+      throw new HttpError("Mise à jour échouée, veuillez réessayer plus tard", 500);
+    }
+
+    res.status(200).json({ message: "Service updated successfully." });
+  } catch (err) {
+    next(err);
+  }
+};
+
+>>>>>>> Stashed changes
 const deleteService = async (req, res, next) => {
   try {
     const { name } = req.body;

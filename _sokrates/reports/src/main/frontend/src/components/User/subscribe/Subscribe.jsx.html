@@ -12,6 +12,7 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<<<<<<< Updated upstream
 <h3 style="margin-bottom: 0">frontend/src/components/User/subscribe/Subscribe.jsx (<b>74</b> lines of code) (<a href="Subscribe.jsx">raw</a>):</h3>
 <div id="editor">import { useEffect, useState } from &quot;react&quot;;
 import { supabase } from &quot;../../../../../backend/util/supabaseClient&quot;;
@@ -93,6 +94,22 @@ const SubscribeClient = () =&gt; {
 
 export default SubscribeClient;
 </div>
+=======
+<h3 style="margin-bottom: 0">frontend/src/components/User/subscribe/Subscribe.jsx (<b>9</b> lines of code) (<a href="Subscribe.jsx">raw</a>):</h3>
+<div id="editor">import SubscribeCard from &quot;../../../containers/SubscribeCard&quot;;
+
+
+const plan = {
+  name: &quot;Membership&quot;,
+  price: &quot;$9.99&quot;,
+  priceId: &quot;price_1SLTFyE9u0y3XuLvracqlHZ6&quot;,
+  features: [&quot;Join unlimited jobs&quot;, &quot;Priority customer support&quot;],
+};
+
+const SubscribeClient = () =&gt; &lt;SubscribeCard plan={plan} /&gt;;
+
+export default SubscribeClient;</div>
+>>>>>>> Stashed changes
 <script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");

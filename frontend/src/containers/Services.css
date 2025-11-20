@@ -18,6 +18,14 @@
   margin: 0 auto;
 }
 
+.editBtn{
+    background-color: orange;
+    margin-right: 45px;
+}
+.deleteBtn{
+    background-color: red;
+    margin-right: 10px;
+}
 .service-card {
   background: white;
   border-radius: 12px;

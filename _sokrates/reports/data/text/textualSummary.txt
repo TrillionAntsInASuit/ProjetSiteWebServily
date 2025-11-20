@@ -1,9 +1,17 @@
 Start of analysis
+<<<<<<< Updated upstream
 Found 27750 files
 51 are in the main's scope  (2574 lines of code)
   *.jsx: 22 files, (1105 lines of code)
   *.css: 13 files, (961 lines of code)
   *.js: 15 files, (495 lines of code)
+=======
+Found 27747 files
+48 are in the main's scope  (2340 lines of code)
+  *.css: 11 files, (951 lines of code)
+  *.jsx: 20 files, (926 lines of code)
+  *.js: 16 files, (450 lines of code)
+>>>>>>> Stashed changes
   *.html: 1 files, (13 lines of code)
 0 are in the test's scope  (0 lines of code)
 2 are in the generated's scope  (3425 lines of code)
@@ -14,19 +22,34 @@ Found 27750 files
   *.md: 2 files, (8 lines of code)
 Excluded from analyses 27690 files
 Analysing dependencies...
+<<<<<<< Updated upstream
 9 are in the DECOMPOSITION_primary\backend's scope  (391 lines of code)
   *.js: 9 files, (391 lines of code)
 42 are in the DECOMPOSITION_primary\frontend's scope  (2183 lines of code)
   *.jsx: 22 files, (1105 lines of code)
   *.css: 13 files, (961 lines of code)
+=======
+10 are in the DECOMPOSITION_primary\backend's scope  (346 lines of code)
+  *.js: 10 files, (346 lines of code)
+38 are in the DECOMPOSITION_primary\frontend's scope  (1994 lines of code)
+  *.css: 11 files, (951 lines of code)
+  *.jsx: 20 files, (926 lines of code)
+>>>>>>> Stashed changes
   *.js: 6 files, (104 lines of code)
   *.html: 1 files, (13 lines of code)
   - "primary", found 0 dependencies (0 component dependencies)
 0 are in the CONCERN_general\TODOs's scope  (0 lines of code)
+<<<<<<< Updated upstream
 51 are in the CONCERN_general\Unclassified's scope  (2574 lines of code)
   *.jsx: 22 files, (1105 lines of code)
   *.css: 13 files, (961 lines of code)
   *.js: 15 files, (495 lines of code)
+=======
+48 are in the CONCERN_general\Unclassified's scope  (2340 lines of code)
+  *.css: 11 files, (951 lines of code)
+  *.jsx: 20 files, (926 lines of code)
+  *.js: 16 files, (450 lines of code)
+>>>>>>> Stashed changes
   *.html: 1 files, (13 lines of code)
 Analysing units...
 Basic unit metrics...
@@ -44,6 +67,7 @@ Conditional Complexity Component frontend 30 / 0 / 0 / 0 / 0
 Conditional complexity per extension:
 Conditional Complexity Component js: 41 / 0 / 0 / 0 / 0
 Analysing duplication...
+<<<<<<< Updated upstream
   - found 20 duplicates (350 duplicated lines vs. 2416 cleaned lines) in 13 files
   - per component:primary
      - "frontend": 280 duplicated lines vs. 2082 total lines
@@ -53,4 +77,13 @@ Analysing duplication...
      - "css": 18 duplicated lines vs. 961 total lines
      - "js": 70 duplicated lines vs. 423 total lines
 Total analysis time: 6.11s
+=======
+  - found 4 duplicates (59 duplicated lines vs. 2198 cleaned lines) in 4 files
+  - per component:primary
+     - "frontend": 59 duplicated lines vs. 1907 total lines
+     - "backend": 0 duplicated lines vs. 291 total lines
+  - per extension:
+     - "jsx": 59 duplicated lines vs. 857 total lines
+Total analysis time: 6.37s
+>>>>>>> Stashed changes
 
