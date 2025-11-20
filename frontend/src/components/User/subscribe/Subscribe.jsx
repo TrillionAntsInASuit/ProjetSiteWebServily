@@ -1,7 +1,6 @@
 import SubscribeCard from "../../../containers/SubscribeCard";
 
 
-const SubscribeClient = () => <SubscribeCard plan={plan} />;
 const plan = {
   name: "Membership",
   price: "$9.99",
@@ -9,6 +8,9 @@ const plan = {
   features: ["Join unlimited jobs", "Priority customer support"],
 };
 
+
+
+const SubscribeClient = () => <SubscribeCard plan={plan} />;
 
 
 export default SubscribeClient;

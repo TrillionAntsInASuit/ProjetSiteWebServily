@@ -1,4 +1,5 @@
 import SubscribeCard from "../../../containers/SubscribeCard";
+
 const plan = {
   name: "Membership",
   price: "$9.99",
