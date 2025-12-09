@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "create-next-app": "^16.0.8",
     "i18n": "^0.15.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^5.1.2",
+    "jsdom": "^27.3.0",
+    "vitest": "^4.0.15"
   }
 }
