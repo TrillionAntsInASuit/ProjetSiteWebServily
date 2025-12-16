@@ -1,1 +1,3 @@
 Path	Lines of Code
+next-vitest-app/src/__tests__/Login.test.jsx	86
+next-vitest-app/src/__tests__/Signup.test.jsx	76

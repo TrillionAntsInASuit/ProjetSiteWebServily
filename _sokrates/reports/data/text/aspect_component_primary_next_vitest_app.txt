@@ -1,0 +1,12 @@
+Path	Lines of Code
+next-vitest-app/eslint.config.mjs	16
+next-vitest-app/next.config.ts	5
+next-vitest-app/public/file.svg	1
+next-vitest-app/public/vercel.svg	1
+next-vitest-app/public/window.svg	1
+next-vitest-app/src/app/globals.css	22
+next-vitest-app/src/app/layout.tsx	30
+next-vitest-app/src/app/page.tsx	64
+next-vitest-app/src/setupTests.ts	3
+next-vitest-app/vitest.config.js	35
+next-vitest-app/vitest.config.ts	28

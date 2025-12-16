@@ -5,11 +5,11 @@ import { AuthContext } from "../../context/auth-context.js";
 import { useEffect } from "react";
 import { useHttpClient } from "../../hooks/http-hook.js";
 import { supabase } from "../../../util/supabaseClient.js";
-import USERS from "../../data/data.js";
 //import Spinner from "../UIElements/LoadingSpinner";
 import ModalMessageErreur from "../UIElements/ModalMessageErreur";
 //import { useTranslation } from "react-i18next";
 //import LanguageSwitcher from "../../containers/changeLanguage.jsx";
+import React from "react";
 
 export default function Login() {
   //const { t } = useTranslation();

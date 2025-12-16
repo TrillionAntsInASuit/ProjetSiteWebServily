@@ -33,7 +33,6 @@ export default function Services() {
       <h1>Available Services</h1>
       <div className="services-list">
 
-
 {services.map((service) => {
   const handleJoin = async () => {
     // your existing join logic

@@ -1,54 +1,77 @@
 Start of analysis
-Found 27748 files
-48 are in the main's scope  (2337 lines of code)
-  *.css: 11 files, (951 lines of code)
-  *.jsx: 20 files, (923 lines of code)
-  *.js: 16 files, (450 lines of code)
+Found 29678 files
+59 are in the main's scope  (2545 lines of code)
+  *.css: 12 files, (973 lines of code)
+  *.jsx: 20 files, (925 lines of code)
+  *.js: 17 files, (485 lines of code)
+  *.tsx: 2 files, (94 lines of code)
+  *.ts: 3 files, (36 lines of code)
+  *.mjs: 1 files, (16 lines of code)
   *.html: 1 files, (13 lines of code)
-0 are in the test's scope  (0 lines of code)
-2 are in the generated's scope  (3425 lines of code)
-  *.json: 2 files, (3425 lines of code)
+  *.svg: 3 files, (3 lines of code)
+2 are in the test's scope  (162 lines of code)
+  *.jsx: 2 files, (162 lines of code)
+1 are in the generated's scope  (5622 lines of code)
+  *.json: 1 files, (5622 lines of code)
 0 are in the build and deployment's scope  (0 lines of code)
-9 are in the other's scope  (3513 lines of code)
-  *.json: 7 files, (3505 lines of code)
-  *.md: 2 files, (8 lines of code)
-Excluded from analyses 27691 files
+11 are in the other's scope  (5822 lines of code)
+  *.json: 8 files, (5791 lines of code)
+  *.md: 3 files, (31 lines of code)
+Excluded from analyses 29606 files
 Analysing dependencies...
 10 are in the DECOMPOSITION_primary\backend's scope  (346 lines of code)
   *.js: 10 files, (346 lines of code)
-38 are in the DECOMPOSITION_primary\frontend's scope  (1991 lines of code)
+38 are in the DECOMPOSITION_primary\frontend's scope  (1993 lines of code)
   *.css: 11 files, (951 lines of code)
-  *.jsx: 20 files, (923 lines of code)
+  *.jsx: 20 files, (925 lines of code)
   *.js: 6 files, (104 lines of code)
   *.html: 1 files, (13 lines of code)
+11 are in the DECOMPOSITION_primary\next-vitest-app's scope  (206 lines of code)
+  *.tsx: 2 files, (94 lines of code)
+  *.ts: 3 files, (36 lines of code)
+  *.js: 1 files, (35 lines of code)
+  *.css: 1 files, (22 lines of code)
+  *.mjs: 1 files, (16 lines of code)
+  *.svg: 3 files, (3 lines of code)
   - "primary", found 0 dependencies (0 component dependencies)
 0 are in the CONCERN_general\TODOs's scope  (0 lines of code)
-48 are in the CONCERN_general\Unclassified's scope  (2337 lines of code)
-  *.css: 11 files, (951 lines of code)
-  *.jsx: 20 files, (923 lines of code)
-  *.js: 16 files, (450 lines of code)
+59 are in the CONCERN_general\Unclassified's scope  (2545 lines of code)
+  *.css: 12 files, (973 lines of code)
+  *.jsx: 20 files, (925 lines of code)
+  *.js: 17 files, (485 lines of code)
+  *.tsx: 2 files, (94 lines of code)
+  *.ts: 3 files, (36 lines of code)
+  *.mjs: 1 files, (16 lines of code)
   *.html: 1 files, (13 lines of code)
+  *.svg: 3 files, (3 lines of code)
 Analysing units...
 Basic unit metrics...
-  - found 4 units (41 lines of code in units)
-Unit size 19 / 0 / 22 / 0 / 0
+  - found 8 units (178 lines of code in units)
+Unit size 19 / 15 / 81 / 63 / 0
 Unit size per component:
 Unit Size Component backend: 11 / 0 / 0 / 0 / 0
 Unit Size Component frontend: 8 / 0 / 22 / 0 / 0
+Unit Size Component next-vitest-app: 0 / 15 / 59 / 63 / 0
 Unit size per extension:
-Unit Size Extension js: 19 / 0 / 22 / 0 / 0
-Conditional complexity: 41 / 0 / 0 / 0 / 0
+Unit Size Extension js: 19 / 0 / 55 / 0 / 0
+Unit Size Extension tsx: 0 / 15 / 0 / 63 / 0
+Unit Size Extension ts: 0 / 0 / 26 / 0 / 0
+Conditional complexity: 178 / 0 / 0 / 0 / 0
 Conditional complexity per component:
 Conditional Complexity Component backend 11 / 0 / 0 / 0 / 0
 Conditional Complexity Component frontend 30 / 0 / 0 / 0 / 0
+Conditional Complexity Component next-vitest-app 137 / 0 / 0 / 0 / 0
 Conditional complexity per extension:
-Conditional Complexity Component js: 41 / 0 / 0 / 0 / 0
+Conditional Complexity Component js: 74 / 0 / 0 / 0 / 0
+Conditional Complexity Component tsx: 78 / 0 / 0 / 0 / 0
+Conditional Complexity Component ts: 26 / 0 / 0 / 0 / 0
 Analysing duplication...
-  - found 4 duplicates (61 duplicated lines vs. 2195 cleaned lines) in 4 files
+  - found 4 duplicates (61 duplicated lines vs. 2390 cleaned lines) in 4 files
   - per component:primary
-     - "frontend": 61 duplicated lines vs. 1904 total lines
+     - "frontend": 61 duplicated lines vs. 1906 total lines
      - "backend": 0 duplicated lines vs. 291 total lines
+     - "next-vitest-app": 0 duplicated lines vs. 193 total lines
   - per extension:
-     - "jsx": 61 duplicated lines vs. 854 total lines
-Total analysis time: 5.61s
+     - "jsx": 61 duplicated lines vs. 856 total lines
+Total analysis time: 8.98s
 

@@ -19,7 +19,7 @@ frontend/src/components/Employeur/dashboard/Dashboard.jsx [20:34]:
 
 
 
-frontend/src/components/Services/Services.jsx [21:37]:
+frontend/src/components/Services/Services.jsx [21:36]:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   };
 
@@ -35,7 +35,6 @@ frontend/src/components/Services/Services.jsx [21:37]:
     <div className="services-container">
       <h1>Available Services</h1>
       <div className="services-list">
-
 
 {services.map((service) => {
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

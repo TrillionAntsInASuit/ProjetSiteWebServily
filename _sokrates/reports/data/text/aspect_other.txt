@@ -3,8 +3,10 @@ README.md	1
 backend/package.json	29
 backend/vercel.json	5
 frontend/README.md	7
-frontend/package-lock.json	3281
 frontend/package.json	36
 frontend/vercel.json	5
-package-lock.json	144
-package.json	5
+next-vitest-app/README.md	23
+next-vitest-app/package.json	35
+next-vitest-app/tsconfig.json	34
+package-lock.json	5622
+package.json	25

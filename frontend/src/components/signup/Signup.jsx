@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { supabase } from "../../../util/supabaseClient.js";
 import { AuthContext } from "../../context/auth-context.js";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 export default function Signup() {
   const [error, setError] = useState(null);
@@ -13,11 +14,13 @@ export default function Signup() {
   async function handleSubmit(e) {
     e.preventDefault();
     setPasswordAreNotEqual(false);
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const password = e.target.password.value;
-    const confirmPassword = e.target.confirmPassword.value;
-    const status = e.target.status.value;
+const form = e.currentTarget;
+const name = form.elements.name.value;
+const email = form.elements.email.value;
+const password = form.elements.password.value;
+const confirmPassword = form.elements.confirmPassword.value;
+const status = form.elements.status.value;
+
     const estAbonne = false;
     if (password !== confirmPassword) {
       setPasswordAreNotEqual(true);
@@ -36,9 +39,10 @@ export default function Signup() {
       ]);
       const userId = data?.user?.id;
       if (error) {
-        setError("Signup failed. Please try again later.");
-        return;
-      }
+  setError(error.message); // affiche directement le message Supabase
+  return;
+}
+
 
       auth.login(userId, "dummy-token", status);
       localStorage.setItem("userType", status);

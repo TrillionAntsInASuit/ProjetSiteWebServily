@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>next-vitest-app/eslint.config.mjs</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">next-vitest-app/eslint.config.mjs (<b>16</b> lines of code) (<a href="eslint.config.mjs">raw</a>):</h3>
+<div id="editor">import { defineConfig, globalIgnores } from &quot;eslint/config&quot;;
+import nextVitals from &quot;eslint-config-next/core-web-vitals&quot;;
+import nextTs from &quot;eslint-config-next/typescript&quot;;
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    &quot;.next/**&quot;,
+    &quot;out/**&quot;,
+    &quot;build/**&quot;,
+    &quot;next-env.d.ts&quot;,
+  ]),
+]);
+
+export default eslintConfig;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/mjs");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

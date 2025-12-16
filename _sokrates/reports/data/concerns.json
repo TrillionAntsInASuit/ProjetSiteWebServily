@@ -9,12 +9,12 @@
     "linesOfCodePerExtension" : [ ]
   }, {
     "name" : "Unclassified",
-    "filesCount" : 48,
-    "linesOfCode" : 2337,
+    "filesCount" : 59,
+    "linesOfCode" : 2545,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
       "name" : "  *.css",
-      "value" : 11,
+      "value" : 12,
       "description" : [ ]
     }, {
       "name" : "  *.jsx",
@@ -22,28 +22,60 @@
       "description" : [ ]
     }, {
       "name" : "  *.js",
-      "value" : 16,
+      "value" : 17,
+      "description" : [ ]
+    }, {
+      "name" : "  *.tsx",
+      "value" : 2,
+      "description" : [ ]
+    }, {
+      "name" : "  *.ts",
+      "value" : 3,
+      "description" : [ ]
+    }, {
+      "name" : "  *.mjs",
+      "value" : 1,
       "description" : [ ]
     }, {
       "name" : "  *.html",
       "value" : 1,
       "description" : [ ]
+    }, {
+      "name" : "  *.svg",
+      "value" : 3,
+      "description" : [ ]
     } ],
     "linesOfCodePerExtension" : [ {
       "name" : "  *.css",
-      "value" : 951,
+      "value" : 973,
       "description" : [ ]
     }, {
       "name" : "  *.jsx",
-      "value" : 923,
+      "value" : 925,
       "description" : [ ]
     }, {
       "name" : "  *.js",
-      "value" : 450,
+      "value" : 485,
+      "description" : [ ]
+    }, {
+      "name" : "  *.tsx",
+      "value" : 94,
+      "description" : [ ]
+    }, {
+      "name" : "  *.ts",
+      "value" : 36,
+      "description" : [ ]
+    }, {
+      "name" : "  *.mjs",
+      "value" : 16,
       "description" : [ ]
     }, {
       "name" : "  *.html",
       "value" : 13,
+      "description" : [ ]
+    }, {
+      "name" : "  *.svg",
+      "value" : 3,
       "description" : [ ]
     } ]
   } ],
@@ -54,7 +86,7 @@
     "description" : [ ]
   }, {
     "name" : "Unclassified",
-    "value" : 48,
+    "value" : 59,
     "description" : [ ]
   } ],
   "linesOfCodePerConcern" : [ {
@@ -63,7 +95,7 @@
     "description" : [ ]
   }, {
     "name" : "Unclassified",
-    "value" : 2337,
+    "value" : 2545,
     "description" : [ ]
   } ]
 } ]
