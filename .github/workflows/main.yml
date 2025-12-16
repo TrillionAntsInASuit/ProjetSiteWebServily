@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install
-      - run: npm run test:unit
+      - run: cd next-vitest-app && npx vitest
 
   integration-tests:
     runs-on: ubuntu-latest
