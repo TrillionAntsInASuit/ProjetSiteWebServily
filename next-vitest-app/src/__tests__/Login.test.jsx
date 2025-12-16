@@ -5,16 +5,21 @@ import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { vi } from 'vitest';
 
-vi.mock('@hooks/http-hook.js', () => ({
-  useHttpClient: () => ({
-    isLoading: false,
-    error: null, 
-    sendRequest: vi.fn(() =>
-      Promise.resolve({ userId: '123', token: 'abc' })
-    ),
-    clearError: vi.fn(),
-  }),
+vi.mock('@util/supabaseClient.js', () => ({
+  supabase: {
+    from: () => ({
+      select: () => ({
+        eq: () => ({
+          eq: () => ({
+            data: [{ id: '123', status: 'active' }],
+            error: null,
+          }),
+        }),
+      }),
+    }),
+  },
 }));
+
 
 
 describe('Login.jsx', () => {
@@ -61,9 +66,13 @@ describe('Login.jsx', () => {
     });
     fireEvent.click(screen.getByRole('button', { name: /Login/i }));
 
-  await waitFor(() => {
-  expect(loginMock).toHaveBeenCalled();
-});
+await waitFor(() => {
+  expect(loginMock).toHaveBeenCalledWith(
+    '123',         
+    'dummy-token',  
+    'active'        
+ )});
+
   });
 
 
