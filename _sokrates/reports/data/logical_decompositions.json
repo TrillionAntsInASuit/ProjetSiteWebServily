@@ -18,7 +18,7 @@
   }, {
     "name" : "frontend",
     "filesCount" : 38,
-    "linesOfCode" : 1991,
+    "linesOfCode" : 1993,
     "numberOfRegexLineMatches" : 0,
     "fileCountPerExtension" : [ {
       "name" : "  *.css",
@@ -43,7 +43,7 @@
       "description" : [ ]
     }, {
       "name" : "  *.jsx",
-      "value" : 923,
+      "value" : 925,
       "description" : [ ]
     }, {
       "name" : "  *.js",
@@ -52,6 +52,61 @@
     }, {
       "name" : "  *.html",
       "value" : 13,
+      "description" : [ ]
+    } ]
+  }, {
+    "name" : "next-vitest-app",
+    "filesCount" : 11,
+    "linesOfCode" : 206,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.tsx",
+      "value" : 2,
+      "description" : [ ]
+    }, {
+      "name" : "  *.ts",
+      "value" : 3,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 1,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 1,
+      "description" : [ ]
+    }, {
+      "name" : "  *.mjs",
+      "value" : 1,
+      "description" : [ ]
+    }, {
+      "name" : "  *.svg",
+      "value" : 3,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.tsx",
+      "value" : 94,
+      "description" : [ ]
+    }, {
+      "name" : "  *.ts",
+      "value" : 36,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 35,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 22,
+      "description" : [ ]
+    }, {
+      "name" : "  *.mjs",
+      "value" : 16,
+      "description" : [ ]
+    }, {
+      "name" : "  *.svg",
+      "value" : 3,
       "description" : [ ]
     } ]
   } ],
@@ -81,6 +136,15 @@
         "note" : ""
       } ],
       "files" : [ ]
+    }, {
+      "name" : "next-vitest-app",
+      "sourceFileFilters" : [ {
+        "pathPattern" : "./next-vitest-app/.*",
+        "contentPattern" : "",
+        "exception" : false,
+        "note" : ""
+      } ],
+      "files" : [ ]
     } ],
     "metaComponents" : [ ],
     "groups" : [ ],
@@ -104,15 +168,6 @@
     "temporalLinkThreshold" : 1,
     "maxSearchDepthLines" : 200
   },
-  "linesOfCodePerComponent" : [ {
-    "name" : "backend",
-    "value" : 346,
-    "description" : [ ]
-  }, {
-    "name" : "frontend",
-    "value" : 1991,
-    "description" : [ ]
-  } ],
   "fileCountPerComponent" : [ {
     "name" : "backend",
     "value" : 10,
@@ -120,6 +175,23 @@
   }, {
     "name" : "frontend",
     "value" : 38,
+    "description" : [ ]
+  }, {
+    "name" : "next-vitest-app",
+    "value" : 11,
+    "description" : [ ]
+  } ],
+  "linesOfCodePerComponent" : [ {
+    "name" : "backend",
+    "value" : 346,
+    "description" : [ ]
+  }, {
+    "name" : "frontend",
+    "value" : 1993,
+    "description" : [ ]
+  }, {
+    "name" : "next-vitest-app",
+    "value" : 206,
     "description" : [ ]
   } ]
 } ]

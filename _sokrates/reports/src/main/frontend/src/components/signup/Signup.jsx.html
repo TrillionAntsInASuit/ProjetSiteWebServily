@@ -12,12 +12,13 @@
     </style>
 </head>
 <body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
-<h3 style="margin-bottom: 0">frontend/src/components/signup/Signup.jsx (<b>94</b> lines of code) (<a href="Signup.jsx">raw</a>):</h3>
+<h3 style="margin-bottom: 0">frontend/src/components/signup/Signup.jsx (<b>96</b> lines of code) (<a href="Signup.jsx">raw</a>):</h3>
 <div id="editor">import &quot;./Signup.css&quot;;
 import { useContext, useState } from &quot;react&quot;;
 import { supabase } from &quot;../../../util/supabaseClient.js&quot;;
 import { AuthContext } from &quot;../../context/auth-context.js&quot;;
 import { useNavigate } from &quot;react-router-dom&quot;;
+import React from &quot;react&quot;;
 
 export default function Signup() {
   const [error, setError] = useState(null);
@@ -28,11 +29,13 @@ export default function Signup() {
   async function handleSubmit(e) {
     e.preventDefault();
     setPasswordAreNotEqual(false);
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const password = e.target.password.value;
-    const confirmPassword = e.target.confirmPassword.value;
-    const status = e.target.status.value;
+const form = e.currentTarget;
+const name = form.elements.name.value;
+const email = form.elements.email.value;
+const password = form.elements.password.value;
+const confirmPassword = form.elements.confirmPassword.value;
+const status = form.elements.status.value;
+
     const estAbonne = false;
     if (password !== confirmPassword) {
       setPasswordAreNotEqual(true);

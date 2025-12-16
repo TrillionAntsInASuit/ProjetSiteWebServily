@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>export default defineConfig()</title>
+    <link rel="stylesheet" charset="UTF-8" href="https://d2bb1mtyn3kglb.cloudfront.net/lib/highlight/styles/docco.min.css">
+    <script charset="UTF-8" type="application/javascript" src="https://d2bb1mtyn3kglb.cloudfront.net/lib/highlight/highlight.min.js"></script>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">export default defineConfig()</h3>
+<p style="margin-top: 4px">in <i>next-vitest-app/vitest.config.ts [4:29]</i></p>
+<ul>
+    <li><b>26</b> lines of code</li>
+    <li><b>1</b> McCabe index (conditional complexity)</li>
+</ul>
+<pre>
+<code class="ts">
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@components': path.resolve(__dirname, '../frontend/src/components'),
+      '@context': path.resolve(__dirname, '../frontend/src/context'),
+      '@hooks': path.resolve(__dirname, '../frontend/src/hooks'),
+      '@util': path.resolve(__dirname, '../frontend/util'),
+    },
+  },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './src/setupTests.ts',
+    css: false,
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'html'],
+      thresholds: {
+        lines: 75,
+        branches: 75,
+        functions: 75,
+        statements: 75,
+      },
+    },
+  },
+});
+
+</code>
+</pre>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>

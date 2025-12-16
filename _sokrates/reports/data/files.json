@@ -181,7 +181,7 @@
 }, {
   "relativePath" : "frontend/src/components/signup/Signup.jsx",
   "extension" : "jsx",
-  "linesOfCode" : 94,
+  "linesOfCode" : 96,
   "components" : [ "primary::frontend" ],
   "concerns" : [ "::Unclassified" ]
 }, {
@@ -285,5 +285,71 @@
   "extension" : "js",
   "linesOfCode" : 10,
   "components" : [ "primary::frontend" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/eslint.config.mjs",
+  "extension" : "mjs",
+  "linesOfCode" : 16,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/next.config.ts",
+  "extension" : "ts",
+  "linesOfCode" : 5,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/public/file.svg",
+  "extension" : "svg",
+  "linesOfCode" : 1,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/public/vercel.svg",
+  "extension" : "svg",
+  "linesOfCode" : 1,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/public/window.svg",
+  "extension" : "svg",
+  "linesOfCode" : 1,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/src/app/globals.css",
+  "extension" : "css",
+  "linesOfCode" : 22,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/src/app/layout.tsx",
+  "extension" : "tsx",
+  "linesOfCode" : 30,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/src/app/page.tsx",
+  "extension" : "tsx",
+  "linesOfCode" : 64,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/src/setupTests.ts",
+  "extension" : "ts",
+  "linesOfCode" : 3,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/vitest.config.js",
+  "extension" : "js",
+  "linesOfCode" : 35,
+  "components" : [ "primary::next-vitest-app" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "next-vitest-app/vitest.config.ts",
+  "extension" : "ts",
+  "linesOfCode" : 28,
+  "components" : [ "primary::next-vitest-app" ],
   "concerns" : [ "::Unclassified" ]
 } ]

@@ -1,6 +1,7 @@
     import { supabase } from "../../../../util/supabaseClient.js";
     import { useState, useEffect } from "react";
     import { Link } from "react-router-dom";
+    import React from "react";
 
 const DashboardClient = () => {
   const [services, setServices] = useState([]);

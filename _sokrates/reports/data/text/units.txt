@@ -1,4 +1,31 @@
 id: 1
+unit: export default function Home()
+file: next-vitest-app/src/app/page.tsx
+start line: 3
+end line: 65
+size: 63 LOC
+McCabe index: 2
+number of parameters: 0
+
+id: 2
+unit: export default defineConfig()
+file: next-vitest-app/vitest.config.js
+start line: 3
+end line: 37
+size: 33 LOC
+McCabe index: 1
+number of parameters: 5
+
+id: 3
+unit: export default defineConfig()
+file: next-vitest-app/vitest.config.ts
+start line: 4
+end line: 29
+size: 26 LOC
+McCabe index: 1
+number of parameters: 2
+
+id: 4
 unit: export default defineConfig()
 file: frontend/eslint.config.js
 start line: 7
@@ -7,7 +34,16 @@ size: 22 LOC
 McCabe index: 1
 number of parameters: 1
 
-id: 2
+id: 5
+unit: export default function RootLayout()
+file: next-vitest-app/src/app/layout.tsx
+start line: 20
+end line: 34
+size: 15 LOC
+McCabe index: 1
+number of parameters: 2
+
+id: 6
 unit: export default defineConfig()
 file: frontend/vite.config.js
 start line: 5
@@ -16,7 +52,7 @@ size: 8 LOC
 McCabe index: 1
 number of parameters: 1
 
-id: 3
+id: 7
 unit: function errorHandler()
 file: backend/handler/error-handler.js
 start line: 1
@@ -25,7 +61,7 @@ size: 7 LOC
 McCabe index: 4
 number of parameters: 4
 
-id: 4
+id: 8
 unit: constructor()
 file: backend/util/http-error.js
 start line: 2

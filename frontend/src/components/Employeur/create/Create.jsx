@@ -3,6 +3,7 @@ import "./Create.css";
 import { supabase } from "../../../../util/supabaseClient.js";
 import { useNavigate } from "react-router-dom";
 import ServiceTypeList from "../../../containers/ServiceTypeList.jsx";
+import React from "react";
 
 const Create = () => {
   const [error, setError] = useState(null);
@@ -10,10 +11,10 @@ const Create = () => {
   const navigate = useNavigate();
   async function handleSubmit(e) {
     e.preventDefault();
-    const name = e.target.name.value;
+    const name = e.target.elements.name.value;
     const nb_membres = 0;
-    const maxMembres = e.target.maxMembres.value;
-    const description = e.target.description.value;
+    const maxMembres = e.target.elements.maxMembres.value;
+    const description = e.target.elements.description.value;
     const type = serviceType;
 
     const creatorId = localStorage.getItem("userId");

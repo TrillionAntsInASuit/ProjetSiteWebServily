@@ -1,6 +1,6 @@
 {
   "title" : "Duplication",
-  "timestamp" : "2025-11-20 15:42:15",
+  "timestamp" : "2025-12-16 15:59:54",
   "duplicates" : [ {
     "blockSize" : 12,
     "duplicatedFileBlocks" : [ {
@@ -26,7 +26,7 @@
       },
       "sourceFileCleanedLinesOfCode" : 43,
       "startLine" : 21,
-      "endLine" : 37,
+      "endLine" : 36,
       "cleanedStartLine" : 18,
       "cleanedEndLine" : 29
     } ]

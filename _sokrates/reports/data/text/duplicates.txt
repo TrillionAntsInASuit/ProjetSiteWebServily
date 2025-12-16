@@ -2,7 +2,7 @@ duplicated block id: 1
 size: 12 cleaned lines of code
 in 2 files:
  - frontend/src/components/Employeur/dashboard/Dashboard.jsx (20:34)
- - frontend/src/components/Services/Services.jsx (21:37)
+ - frontend/src/components/Services/Services.jsx (21:36)
 
 duplicated block id: 2
 size: 7 cleaned lines of code
