@@ -3,23 +3,9 @@ name: Unit Integration E2E Tests
 on: [push, pull_request]
 
 jobs:
-  unit-tests:
+  all-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: npm install
       - run: cd next-vitest-app && npx vitest
-
-  integration-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: npm install
-      - run: npm run test:integration
-
-  e2e-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: npm install
-      - run: npm run test:e2e
