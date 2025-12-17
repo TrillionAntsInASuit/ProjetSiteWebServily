@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Create.css";
-import { supabase } from "../../../../util/supabaseClient.js";
+import { supabase } from "@backendUtil/supabaseClient.js";
 import { useNavigate } from "react-router-dom";
 import ServiceTypeList from "../../../containers/ServiceTypeList.jsx";
 
